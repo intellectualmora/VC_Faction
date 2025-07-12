@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<JobDef>
+    <defName>TalkWithPawn</defName>
+    <driverClass>VC_Faction.JobDriver_TalkWithPawn</driverClass>
+    <reportString>Talk with TargetA.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>VC_UseRadio</defName>
+    <driverClass>VC_Faction.JobDriver_UseRadio</driverClass>
+    <reportString>using Radio.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <JobDef>
+    <defName>FillRagniteReactor</defName>
+    <driverClass>VC_Faction.JobDriver_FillRagniteReactor</driverClass>
+    <reportString>filling TargetA.</reportString>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
+    <defName>FillRagniteReactorBulk</defName>
+    <driverClass>VC_Faction.JobDriver_FillRagniteReactorBulk</driverClass>
+    <reportString>filling TargetA.</reportString>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
+    <defName>TakeLiquidRagniteOutOfReactor</defName>
+    <driverClass>VC_Faction.JobDriver_TakeLiquidRagniteOutOfReactor</driverClass>
+    <reportString>taking Liquid Ragnite out of TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+    <JobDef>
+    <defName>VC_ManTurret</defName>
+    <driverClass>VC_Faction.JobDriver_ManTurret</driverClass>
+    <reportString>operating turret.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+</Defs>

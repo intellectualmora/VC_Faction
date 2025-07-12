@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<GeneDef>
+    <defName>Valkyria</defName>
+    <label>Valkyria</label>
+    <description>Female carrier can awake the power of Valkyrur after equipping the Valkyria lance.</description>
+    <iconPath>UI/Genes/Valkyria</iconPath>
+    <displayCategory>Archite</displayCategory>
+    <geneClass>Valkyria.Gene_Valkyria</geneClass>
+    <abilities>
+      <li>Valkyria</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>Valkyria</AbilityDef>
+    </descriptionHyperlinks>
+    <biostatMet>4</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>Valkyria</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>Valkyria</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+</GeneDef>
+
+</Defs>

@@ -1,0 +1,201 @@
+<Defs>
+    <SoundDef>
+		<defName>VC_Imca_Attack</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack1</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack2</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack3</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack4</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack5</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack6</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack7</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Attack/Attack8</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>VC_Imca_Select</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select1</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select2</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select3</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select4</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select5</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select6</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select7</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select8</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select9</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select10</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select11</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select12</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select13</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select14</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select15</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select16</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select17</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select18</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select19</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select20</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select21</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select22</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Select/Select23</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>VC_Imca_Move</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Move/Move</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Move/Move1</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Move/Move2</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Move/Move3</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Move/Move4</clipPath>
+					</li>
+	
+				</grains>
+			</li>
+		</subSounds>
+		
+	</SoundDef>
+	<SoundDef>
+		<defName>VC_Imca_Death</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Death/Death</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+		
+	</SoundDef>
+	<SoundDef>
+		<defName>VC_Imca_Downed</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Downed/Downed</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Downed/Downed1</clipPath>
+					</li>	
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Downed/Downed2</clipPath>
+					</li>	
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Downed/Downed3</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Downed/Downed4</clipPath>
+					</li>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Voices/Female/Imca/Downed/Downed5</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+		
+	</SoundDef>
+</Defs>

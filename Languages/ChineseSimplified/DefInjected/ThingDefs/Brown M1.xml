@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Brown M1 bullet -->
+  <Bullet_BrownA.label>布朗步枪M1型弹药</Bullet_BrownA.label>
+  
+  <!-- EN: Brown M1 -->
+  <VC_BrownA.label>布朗步枪M1型</VC_BrownA.label>
+  <!-- EN: A rifle developed by the Wester Kelvin Company, made to maximize firepower. An offshoot model of the Lenfield, it has more powerful recoil, and uses a larger bullet. However, its increased weight loses the vaunted portability of the original Lenfield schematics. - Circa 1935 -->
+  <VC_BrownA.description>一款由韦斯特·凯尔文公司开发的步枪，使步枪火力最大化。它是李恩菲尔德步枪的一款改进型号，有更强大的后坐力，使用更大威力的步枪弹。然而，由于增加过多重量使它失去了最初李恩菲尔德原型所拥有的可拓展。——大约1935年</VC_BrownA.description>
+  <!-- EN: stock -->
+  <VC_BrownA.tools.stock.label>枪托</VC_BrownA.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_BrownA.tools.barrel.label>枪管</VC_BrownA.tools.barrel.label>
+  <!-- EN: Brown M1 -->
+  <VC_BrownA.verbs.Verb_Shoot.label>布朗步枪M1型</VC_BrownA.verbs.Verb_Shoot.label>
+  
+</LanguageData>

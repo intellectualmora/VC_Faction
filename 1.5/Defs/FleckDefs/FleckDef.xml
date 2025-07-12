@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<FleckDef ParentName="FleckBase">
+    <defName>VC_RagnaidFieldActivation</defName>
+    <graphicData>
+      <texPath>Other/ForceField</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(0.6, 1, 0.8)</color>
+    </graphicData>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <solidTime>0.1</solidTime>
+    <fadeOutTime>0.2</fadeOutTime>
+    <growthRate>33</growthRate>
+  </FleckDef>
+</Defs>

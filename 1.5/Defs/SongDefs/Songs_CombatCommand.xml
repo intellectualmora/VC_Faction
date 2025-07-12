@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <SongDef>
+    <defName>CombatCommand</defName>
+    <clipPath>Songs/Command/DirectCommand</clipPath>
+    <volume>0.65</volume>
+    <commonality>0</commonality>
+  </SongDef>
+  <SongDef>
+    <defName>Openfire</defName>
+    <clipPath>Songs/Command/OpenFire</clipPath>
+    <volume>0.65</volume>
+    <commonality>0</commonality>
+  </SongDef>
+  <SongDef>
+    <defName>AwakeningofValkyrie</defName>
+    <clipPath>Songs/Command/AwakeningofValkyria</clipPath>
+    <volume>0.65</volume>
+    <commonality>0</commonality>
+  </SongDef>
+</Defs>

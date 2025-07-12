@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 能力定义 -->
+  <AbilityDef>
+  <defName>VC_DeployPortableMortar</defName>
+  <label>deploy portable mortar</label>
+  <description>Deploys a portable mortar turret from your inventory onto the battlefield.</description>
+  <iconPath>UI/Abilities/Portablemortar</iconPath>
+
+  <verbProperties>
+    <verbClass>Verb_CastAbility</verbClass>
+    <targetable>false</targetable>
+    <range>1.0</range>
+  </verbProperties>
+
+  <comps>
+    <li Class="VC_Faction.CompProperties_AbilityEffect_DeployMortar"/>
+  </comps>
+</AbilityDef>
+</Defs>

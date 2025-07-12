@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <OpportunitySite_AncientComplex_Valkyrur.questDescriptionRules.rulesStrings>
+    <li>questDescription->你[discoveryDesc]在附近发现了一处古老遗址，其中保存着女武神的遗骸。\n\n 女武神拥有强大的体力和对战斗的渴望。</li>
+    <li>discoveryDesc(discovered==false)->获悉</li>
+    <li>discoveryDesc(discovered==true)->定位</li>
+  </OpportunitySite_AncientComplex_Valkyrur.questDescriptionRules.rulesStrings>
+
+  <OpportunitySite_AncientComplex_Valkyrur.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj] 瓦尔裘利亚 [complex]</li>
+    <li>questName->瓦尔裘利亚 [complex]</li>
+    <li>complexAdj->神秘</li>
+    <li>complexAdj->古代</li>
+    <li>complexAdj->古老</li>
+    <li>complexAdj->隐秘</li>
+    <li>complexAdj->陈封</li>
+    <li>complexAdj->危险</li>
+    <li>complexAdj->隐秘</li>
+    <li>complex->遗迹</li>
+    <li>complex->实验室</li>
+    <li>complex->基地</li>
+    <li>complex->圣所</li>
+    <li>complex->教堂</li>
+    <li>complex->地下墓穴</li>
+    <li>complex->建筑群</li>
+  </OpportunitySite_AncientComplex_Valkyrur.questNameRules.rulesStrings>
+</LanguageData>

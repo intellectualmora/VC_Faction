@@ -1,0 +1,24 @@
+<Defs>
+    <VAC.VoicePackDef>
+        <defName>VoicePack_Kurt</defName>
+        <label>Kurt</label>
+        <description>description</description>
+        <category>category1</category>
+        <gender>Male</gender>
+        <selectList>
+            <li>VC_Kurt_Select</li>
+        </selectList>
+        <attackList>
+            <li>VC_Kurt_Attack</li>
+        </attackList>
+        <movingList>
+            <li>VC_Kurt_Move</li>
+        </movingList>
+        <deathList>
+            <li>VC_Kurt_Death</li>
+        </deathList>
+        <downList>
+            <li>VC_Kurt_Downed</li>
+        </downList>
+    </VAC.VoicePackDef>
+</Defs>

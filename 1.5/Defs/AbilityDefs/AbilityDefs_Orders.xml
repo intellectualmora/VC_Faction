@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AbilityDef Abstract="True" Name="OrderBase">
+        <writeCombatLog>True</writeCombatLog>
+        <showPsycastEffects>False</showPsycastEffects>
+        <cooldownTicksRange>6000</cooldownTicksRange>
+        <jobDef>CastAbilityOnThing</jobDef>
+        <sendMessageOnCooldownComplete>True</sendMessageOnCooldownComplete>
+        <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+        <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+        <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+        <statBases>
+          <Ability_Duration>60</Ability_Duration>
+        </statBases>
+    </AbilityDef>
+
+    <AbilityDef Abstract="True" Name="AllOrderBase">
+      <writeCombatLog>True</writeCombatLog>
+      <showPsycastEffects>False</showPsycastEffects>
+      <cooldownTicksRange>6000</cooldownTicksRange>
+      <jobDef>CastAbilityOnThing</jobDef>
+      <targetRequired>False</targetRequired>
+      <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+      <stunTargetWhileCasting>True</stunTargetWhileCasting>
+      <sendMessageOnCooldownComplete>True</sendMessageOnCooldownComplete>
+      <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+      <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+      <groupDef>MultiRole</groupDef>
+      <hotKey>Misc12</hotKey>
+      <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+      <statBases>
+        <Ability_Duration>60</Ability_Duration>
+        <Ability_EffectRadius>9.9</Ability_EffectRadius>
+      </statBases>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.5</warmupTime>
+        <range>9.9</range>
+        <drawAimPie>False</drawAimPie>
+        <requireLineOfSight>False</requireLineOfSight>
+        <targetParams>
+          <canTargetSelf>true</canTargetSelf>
+          <canTargetPawns>false</canTargetPawns>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>false</canTargetAnimals>
+          <canTargetHumans>false</canTargetHumans>
+          <canTargetMechs>false</canTargetMechs>
+        </targetParams>
+      </verbProperties>
+  </AbilityDef>
+
+    <AbilityDef ParentName="OrderBase">
+      <defName>VC_Retreat</defName>
+      <label>强制退避</label>
+      <description>选择命令者视线内的一名己方角色立即撤离回到己方的旗帜集合点。</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_a</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_a</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "VC_Faction.CompProperties_Retreat">
+          <compClass>VC_Faction.CompAbilityEffect_Retreat</compClass>
+          <destination>RandomInRange</destination>
+          <requiresLineOfSight>False</requiresLineOfSight>
+          <range>1000</range>
+          <clamorType>Ability</clamorType>
+          <clamorRadius>10</clamorRadius>
+          <destClamorType>Ability</destClamorType>
+          <destClamorRadius>10</destClamorRadius>
+          <stunTicks>18~60</stunTicks>
+          <goodwillImpact>-15</goodwillImpact>
+          <applyGoodwillImpactToLodgers>False</applyGoodwillImpactToLodgers>
+        </li>
+      </comps>
+    </AbilityDef>
+    <AbilityDef ParentName="OrderBase">
+      <defName>VC_Evade_Boost</defName>
+      <label>全力回避</label>
+      <description>指定一名殖民者+60近战回避，持续 1 小时</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_b</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_b</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "CompProperties_AbilityGiveHediff">
+          <compClass>CompAbilityEffect_GiveHediff</compClass>
+          <hediffDef>EvadeBoost</hediffDef>
+          <replaceExisting>True</replaceExisting>
+          <onlyBrain>False</onlyBrain>
+          <psychic>False</psychic>
+        </li>
+      </comps>
+    </AbilityDef>
+    <AbilityDef ParentName="AllOrderBase">
+      <defName>VC_All_Units_Evade</defName>
+      <label>全体回避</label>
+      <description>提高所有殖民者+60近战回避，持续 1 小时</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_c</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_c</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "VC_Faction.CompProperties_AbilityAllGiveHediff">
+          <compClass>VC_Faction.CompAbilityEffect_AllGiveHediff</compClass>
+          <hediffDef>EvadeBoost</hediffDef>
+          <onlyBrain>False</onlyBrain>
+          <replaceExisting>True</replaceExisting>
+          <psychic>False</psychic>
+        </li>
+      </comps>
+    </AbilityDef>
+    <AbilityDef ParentName="OrderBase">
+      <defName>VC_Aim_Boost</defName>
+      <label>全力瞄准</label>
+      <description>指定一名殖民者+30远程命中，持续 1 小时</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_d</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_d</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "CompProperties_AbilityGiveHediff">
+          <compClass>CompAbilityEffect_GiveHediff</compClass>
+          <hediffDef>AimBoost</hediffDef>
+          <onlyBrain>False</onlyBrain>
+          <replaceExisting>True</replaceExisting>
+          <psychic>False</psychic>
+        </li>
+      </comps>
+    </AbilityDef>
+    <AbilityDef ParentName="AllOrderBase">
+      <defName>VC_All_Units_Aim</defName>
+      <label>全员瞄准</label>
+      <description>所有殖民者+30远程命中，持续 1 小时</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_e</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_e</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "VC_Faction.CompProperties_AbilityAllGiveHediff">
+          <compClass>VC_Faction.CompAbilityEffect_AllGiveHediff</compClass>
+          <hediffDef>AimBoost</hediffDef>
+          <onlyBrain>False</onlyBrain>
+          <replaceExisting>True</replaceExisting>
+          <psychic>False</psychic>
+        </li>
+      </comps>
+    </AbilityDef>
+
+    <AbilityDef ParentName="OrderBase">
+      <defName>VC_March_Boost</defName>
+      <label>全力移动</label>
+      <description>指定一名殖民者移动速度+2，持续 1 小时</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_f</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_f</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "CompProperties_AbilityGiveHediff">
+          <compClass>CompAbilityEffect_GiveHediff</compClass>
+          <hediffDef>MarchBoost</hediffDef>
+          <onlyBrain>False</onlyBrain>
+          <replaceExisting>True</replaceExisting>
+          <psychic>False</psychic>
+        </li>
+      </comps>
+    </AbilityDef>
+    <AbilityDef ParentName="AllOrderBase">
+      <defName>VC_All_Units_March</defName>
+      <label>全员进军</label>
+      <description>所有殖民者移动速度+2，持续 1 小时</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_g</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_g</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "VC_Faction.CompProperties_AbilityAllGiveHediff">
+          <compClass>VC_Faction.CompAbilityEffect_AllGiveHediff</compClass>
+          <hediffDef>MarchBoost</hediffDef>
+          <onlyBrain>False</onlyBrain>
+          <replaceExisting>True</replaceExisting>
+          <psychic>False</psychic>
+        </li>
+      </comps>
+    </AbilityDef>
+    <AbilityDef ParentName="OrderBase">
+      <defName>VC_Defense_Boost</defName>
+      <label>全力防御</label>
+      <description>指定一名殖民者承伤*0.5，持续 1 小时</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_h</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_h</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "CompProperties_AbilityGiveHediff">
+          <compClass>CompAbilityEffect_GiveHediff</compClass>
+          <hediffDef>DefenseBoost</hediffDef>
+          <replaceExisting>True</replaceExisting>
+          <onlyBrain>False</onlyBrain>
+          <psychic>False</psychic>
+        </li>
+      </comps>
+    </AbilityDef>
+    <AbilityDef ParentName="AllOrderBase">
+      <defName>VC_All_Units_Defend</defName>
+      <label>全员防御</label>
+      <description>所有殖民者承伤*0.5，持续 1 小时</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_i</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_i</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "VC_Faction.CompProperties_AbilityAllGiveHediff">
+          <compClass>VC_Faction.CompAbilityEffect_AllGiveHediff</compClass>
+          <hediffDef>DefenseBoost</hediffDef>
+          <onlyBrain>False</onlyBrain>
+          <replaceExisting>True</replaceExisting>
+          <psychic>False</psychic>
+        </li>
+      </comps>
+    </AbilityDef>
+    <AbilityDef ParentName="OrderBase">
+      <defName>VC_First_Aid</defName>
+      <label>应急处理</label>
+      <description>立即包扎并将疼痛降至10%，70%包扎效率</description>
+      <verbProperties>
+        <verbClass>Verb_CastAbility</verbClass>
+        <warmupTime>0.25</warmupTime>
+        <range>1000</range>
+        <targetParams>
+          <canTargetSelf>True</canTargetSelf>
+          <onlyTargetColonists>True</onlyTargetColonists>
+          <canTargetAnimals>False</canTargetAnimals>
+          <canTargetItems>False</canTargetItems>
+        </targetParams>
+      </verbProperties>
+      <iconPath>UI/Abilities/Medal_j</iconPath>
+      <warmupMoteSocialSymbol>UI/Abilities/Medal_j</warmupMoteSocialSymbol>
+      <comps>
+        <li Class = "CompProperties_AbilityGiveHediff">
+          <compClass>CompAbilityEffect_GiveHediff</compClass>
+          <hediffDef>PsychicAnesthesia</hediffDef>
+          <psychic>True</psychic>
+          <applicableToMechs>False</applicableToMechs>
+        </li>
+        <li Class="CompProperties_AbilityCoagulate">
+          <tendQualityRange>0.5~0.7</tendQualityRange>
+        </li>
+      </comps>
+    </AbilityDef>
+</Defs>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <XenotypeDef>
+    <defName>Darcsen</defName>
+    <label>达鲁库斯人</label>
+    <description>达鲁库斯人是欧罗巴最古老的土著民族，据说自古以来就生活在欧洲大陆上。他们的特点是深蓝黑色的头发和披肩或带有传统达鲁库斯图案的各种配饰。他们是一个在历史上备受歧视的族群，被认为普遍不诚实和容易犯罪。</description>
+    <descriptionShort>一个饱经苦难、擅长机械的族群，特征为蓝黑色头发。</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Darscen</iconPath>
+    <inheritable>true</inheritable>
+    <nameMaker>NamerPersonDarcsen_Male</nameMaker>
+    <nameMakerFemale>NamerPersonDarcsen_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Hair_Blueviolet</li>
+      <li>AptitudeStrong_Crafting</li>
+      <li>Mood_Pessimist</li>
+      <li>Skin_SheerWhite</li>
+      <li>Body_Thin</li>
+      <li>Body_Standard</li>
+      <li>Robust</li>
+    </genes>
+  </XenotypeDef>
+
+  <RulePackDef>
+    <defName>NamerPersonDarcsen_Female</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+  
+        <li>firstName(p=0.5)->[SylD]</li>
+        <li>firstName(p=2)->[SylD][nameEnd]</li>
+        <li>firstName->[SylD][SylD][nameEnd]</li>
+  
+        <li>lastName(p=2)->[SylD][nameEnd]</li>
+        <li>lastName->[SylD][nameEnd]</li>
+        <li>lastName->[SylD][SylD][nameEnd]</li>
+  
+        <li>nameEnd->娜</li>
+        <li>nameEnd->琳</li>
+        <li>nameEnd->莎</li>
+        <li>nameEnd->莉</li>
+        <li>nameEnd->缇</li>
+        <li>nameEnd->妮</li>
+        <li>nameEnd->丝</li>
+        <li>nameEnd->雅</li>
+        <li>nameEnd->薇</li>
+        <li>nameEnd->芙</li>
+        <li>nameEnd->希</li>
+        <li>nameEnd->艾</li>
+        <li>nameEnd->茜</li>
+        <li>nameEnd->卡</li>
+        <li>nameEnd->姆</li>
+        <li>nameEnd->尔</li>
+        <li>nameEnd->伊</li>
+        <li>nameEnd->拉</li>
+        <li>nameEnd->米</li>
+        <li>nameEnd->洛</li>
+        <li>nameEnd->菲</li>
+        <li>nameEnd->维</li>
+        
+        <li>SylD->艾</li>
+        <li>SylD->希</li>
+        <li>SylD->缇</li>
+        <li>SylD->洛</li>
+        <li>SylD->莉</li>
+        <li>SylD->娜</li>
+        <li>SylD->姆</li>
+        <li>SylD->米</li>
+        <li>SylD->芙</li>
+        <li>SylD->卡</li>
+        <li>SylD->蕾</li>
+        <li>SylD->薇</li>
+        <li>SylD->艾尔</li>
+        <li>SylD->妮</li>
+        <li>SylD->维</li>
+        <li>SylD->琳</li>
+        <li>SylD->伊</li>
+        <li>SylD->瑟</li>
+        <li>SylD->茜</li>
+        <li>SylD->蕊</li>
+        <li>SylD->露</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerPersonDarcsen_Male</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+  
+        <li>firstName(p=0.5)->[SylM]</li>
+        <li>firstName(p=2)->[SylM][nameEnd]</li>
+        <li>firstName->[SylM][SylM][nameEnd]</li>
+  
+        <li>lastName(p=2)->[SylM][nameEnd]</li>
+        <li>lastName->[SylM][nameEnd]</li>
+        <li>lastName->[SylM][SylM][nameEnd]</li>
+  
+        <li>nameEnd->尔</li>
+        <li>nameEnd->安</li>
+        <li>nameEnd->斯</li>
+        <li>nameEnd->特</li>
+        <li>nameEnd->克</li>
+        <li>nameEnd->夫</li>
+        <li>nameEnd->林</li>
+        <li>nameEnd->瓦</li>
+        <li>nameEnd->洛</li>
+        <li>nameEnd->托</li>
+        <li>nameEnd->利</li>
+        <li>nameEnd->达</li>
+        <li>nameEnd->温</li>
+        <li>nameEnd->鲁</li>
+        <li>nameEnd->奇</li>
+        <li>nameEnd->霍</li>
+        <li>nameEnd->赫</li>
+        <li>nameEnd->诺</li>
+        <li>nameEnd->曼</li>
+        <li>nameEnd->卡</li>
+        <li>SylM->阿</li>
+        <li>SylM->达</li>
+        <li>SylM->科</li>
+        <li>SylM->维</li>
+        <li>SylM->拉</li>
+        <li>SylM->鲁</li>
+        <li>SylM->格</li>
+        <li>SylM->尼</li>
+        <li>SylM->哈</li>
+        <li>SylM->瓦</li>
+        <li>SylM->托</li>
+        <li>SylM->马</li>
+        <li>SylM->卡</li>
+        <li>SylM->希</li>
+        <li>SylM->泽</li>
+        <li>SylM->弗</li>
+        <li>SylM->里</li>
+        <li>SylM->米</li>
+        <li>SylM->亚</li>
+        <li>SylM->布</li>
+
+      </rulesStrings>
+
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase" Abstract="true" Name="VC_StairBase">
+    <size>(2,2)</size>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <canOverlapZones>false</canOverlapZones>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Impassable</passability>
+    <holdsRoof>true</holdsRoof>
+    <destroyable>false</destroyable>
+    <building>
+      <isEdifice>true</isEdifice>
+      <deconstructible>false</deconstructible>
+      <isTargetable>false</isTargetable>
+      <isInert>true</isInert>
+      <claimable>false</claimable>
+      <expandHomeArea>false</expandHomeArea>
+    </building>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+
+  </ThingDef>
+  <ThingDef ParentName="VC_StairBase">
+    <defName>VC_Stair_Down</defName>
+    <thingClass>VC_Faction.Building_Stair_Down</thingClass>
+    <label>VC Stair Down</label>
+    <description>A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below.</description>
+    
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Buildings/Stair/stair_down</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+
+  </ThingDef>
+
+  <ThingDef ParentName="VC_StairBase">
+    <defName>VC_Stair_Up</defName>
+    <label>VC Stair Up</label>
+    <thingClass>VC_Faction.Building_Stair_Up</thingClass>
+    <description>A massive, foreboding hole that connects the surface with a dark network of underground caves. It is possible to climb down into the caverns below.</description>
+    
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Buildings/Stair/stair_up</texPath>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+
+  </ThingDef>
+</Defs>

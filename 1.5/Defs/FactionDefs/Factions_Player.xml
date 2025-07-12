@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>VC_Nameless</defName>
+    <label>Squad 422</label>
+    <description>Squad 422, also known as "The Nameless", is a unit of the Gallian Army.</description>
+    <isPlayer>true</isPlayer>
+    <pawnSingular>soldier</pawnSingular>
+    <pawnsPlural>soldiers</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <basicMemberKind>VC_Nameless</basicMemberKind>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <allowedCultures><li>Yggdism</li></allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categoriesChildhood>
+          <li>Offworld</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
+          <li>Researcher</li>
+        </categoriesAdulthood>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>UI/Icons/Factions/Nameless</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

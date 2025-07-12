@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>RimWorld &#x6218;&#x573a;&#x5973;&#x6b66;&#x795e;&#x6d3e;&#x7cfb;&#x6a21;&#x7ec4;&#x5f00;&#x53d1;&#x8ba1;&#x5212;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="rimworld-战场女武神派系模组开发计划">RimWorld 战场女武神派系模组开发计划</h1>
+<h2 id="开发计划">开发计划</h2>
+<h3 id="语音包">语音包</h3>
+<ul>
+<li>艾莉西亚、维尔金的语音包</li>
+</ul>
+<h3 id="衣服">衣服</h3>
+<ul>
+<li><s>联邦游骑兵制服abc材质</s></li>
+<li><s>联邦步兵制服abc材质</s></li>
+<li><s>联邦士官制服abc材质</s></li>
+<li><s>灾厄渡鸦制服修改abc材质</s></li>
+<li><s>帝国士兵制服修改abc材质</s></li>
+<li><s>加利亚士兵制服abc材质</s></li>
+<li>无名制服修改abc材质</li>
+<li>平民衣服还有护甲携行具</li>
+<li>拉格奈特外骨骼装甲</li>
+</ul>
+<h3 id="科技树">科技树</h3>
+<ul>
+<li>拉格奈特提炼</li>
+<li>拉格奈特药物</li>
+<li>拉格奈特武器制作</li>
+<li>拉格奈特工程学</li>
+</ul>
+<h3 id="建筑">建筑</h3>
+<ul>
+<li>
+<p><strong>电报台</strong>：</p>
+<ul>
+<li>前期简易通讯设备，不可以用来和商人交易。</li>
+</ul>
+</li>
+<li>
+<p><strong>旗帜</strong>：</p>
+<ul>
+<li><s>作为文化建筑，可以作为集合点，执行仪式</s></li>
+<li><s>建筑位置不能有屋顶</s></li>
+<li><s>周围单位获得 +5 心情 和 20% 疼痛减免</s></li>
+<li><s>被破坏后全体殖民者 -10 心情，持续 3 天</s></li>
+<li>仇恨与小机枪同级</li>
+<li>制作材料折叠的国旗，军衔任务获得</li>
+</ul>
+</li>
+<li>
+<p><strong>拉格奈特精炼台</strong>：</p>
+<ul>
+<li>精炼拉格奈特矿石</li>
+<li>制作拉格奈特装备、药物</li>
+<li>燃烧拉格奈特矿石工作</li>
+</ul>
+</li>
+<li>
+<p><strong>拉格奈特发电机</strong>：</p>
+<ul>
+<li>燃烧拉格奈特浓缩液</li>
+<li>提供 3500W 电力</li>
+<li>可拆卸，容易爆炸</li>
+</ul>
+</li>
+<li>
+<p><strong>拉格奈特灯</strong>：</p>
+<ul>
+<li>小范围蓝色光照</li>
+<li>燃烧拉格奈特浓缩液</li>
+<li>光照强度为太阳光级别</li>
+<li>农作物生长效率 50%</li>
+<li>附近生物获得少量治疗加成</li>
+</ul>
+</li>
+<li>
+<p><strong>拉格奈特治疗箱 / 治疗瓶</strong>：</p>
+<ul>
+<li>快速包扎流血，治疗效果为 15%–30%</li>
+</ul>
+</li>
+</ul>
+<h3 id="武器">武器</h3>
+<ul>
+<li>喷火器</li>
+<li>瓦尔的 Open Fire 技能</li>
+</ul>
+<h3 id="女武神性能强化">女武神性能强化</h3>
+<ul>
+<li>财富值计算：1 女武神 = 5 个近卫甲速射14级殖民者</li>
+<li>基因不可遗传</li>
+<li>预计殖民地财富值 ≥10 万时可获得</li>
+</ul>
+<hr>
+<h2 id="任务系统">任务系统</h2>
+<h3 id="军衔任务">军衔任务</h3>
+<ul>
+<li>突袭帝国营地（破坏所有帝国旗帜）</li>
+<li>牵制帝国进攻（帝国将袭击殖民地）</li>
+<li>建造蓝图任务</li>
+<li>生产任务（帝国将袭击殖民地）</li>
+<li>借人任务（帝国将袭击殖民地）</li>
+<li>看护高官任务</li>
+<li>上交俘虏任务</li>
+</ul>
+<h3 id="随机事件任务">随机事件任务</h3>
+<ul>
+<li>游骑兵营地：不定期劫掠殖民地</li>
+<li>拉格奈特矿场：可占领并获取矿石资源</li>
+</ul>
+<h3 id="任务链">任务链</h3>
+<ul>
+<li><s>Bruhl镇保卫战</s></li>
+</ul>
+<h4 id="帝国指挥室">帝国指挥室</h4>
+<ul>
+<li>财富 &gt; 10 万，与联邦或加利亚为同盟</li>
+<li>接收突袭帝国营地任务，获取神秘研究情报</li>
+<li>可在科研台破解获取“帝国的秘密研究”任务</li>
+</ul>
+<h4 id="帝国的秘密研究">帝国的秘密研究</h4>
+<ul>
+<li>秘密实验室三种结果：
+<ol>
+<li>儿童女武神请求加入（无武器）</li>
+<li>女武神胚胎（无武器）</li>
+<li>成年女武神（逮捕会敌对）——使用女武神捕获枪可击倒</li>
+</ol>
+</li>
+</ul>
+<h4 id="瓦尔裴利亚遗迹">瓦尔裴利亚遗迹</h4>
+<ul>
+<li>完成帝国秘密研究后有概率触发</li>
+<li>可获得女武神长矛</li>
+</ul>
+<h3 id="结局任务">结局任务</h3>
+<ul>
+<li>
+<p><strong>北十字星作战（联邦结局）</strong>：<br>
+联邦军衔达标后袭击帝国首都（高难）</p>
+</li>
+<li>
+<p><strong>女王保卫战（加利亚结局）</strong>：<br>
+加利亚军衔达标后守卫女王（高难）</p>
+</li>
+</ul>
+<hr>
+<h2 id="勋章-order-系统">勋章 Order 系统</h2>
+<ul>
+<li><s>装备栏新增“勋章层”</s></li>
+<li><s>佩戴勋章获得特殊 Order以及常驻buff</s></li>
+<li>特殊敌人掉落</li>
+</ul>
+<h3 id="order-列表暂定">Order 列表（暂定）</h3>
+<ol>
+<li><s><strong>强制退避</strong>：选择命令者视线内的一名己方角色立即撤离回到己方的旗帜集合点。</s></li>
+<li><s><strong>全力回避</strong>：指定一名殖民者+60近战回避，持续 1 小时</s></li>
+<li><s><strong>全员回避</strong>：所有殖民者+60近战回避，持续 1 小时</s></li>
+<li><s><strong>全力瞄准</strong>：指定一名殖民者+30远程命中，持续 1 小时</s></li>
+<li><s><strong>全员瞄准</strong>：所有殖民者+30远程命中，持续 1 小时</s></li>
+<li><s><strong>全力防御</strong>：指定一名殖民者承伤*0.5，持续 1 小时</s></li>
+<li><s><strong>全员防御</strong>：所有殖民者承伤*0.5，持续 1 小时</s></li>
+<li><s><strong>全力移动</strong>：指定一名殖民者移动速度+2，持续 1 小时</s></li>
+<li><s><strong>全员进军</strong>：所有殖民者移动速度+2，持续 1 小时</s></li>
+<li><s><strong>应急处理</strong>：立即包扎并将疼痛降至 10%，70% 效率，1 小时</s></li>
+</ol>
+<hr>
+<h2 id="人物特性部分参考自链接">人物特性（部分参考自：<a href="https://gl.ali213.net/html/2014-12/56631_2.html">链接</a>）</h2>
+<h3 id="正面特性">正面特性</h3>
+<ol>
+<li><strong>英才</strong>：+3 射击等级、近战回避</li>
+<li><strong>浴火重生</strong>：失血变严重时有 1/5 概率自愈</li>
+<li><strong>孤高</strong>：人数 &lt;5，承伤 ×0.5</li>
+<li><strong>喜欢自然</strong>：户外 +10 心情</li>
+<li><strong>领袖气质</strong></li>
+<li><strong>乡下长大</strong>：财富越少，心情加成越多（+20/+15/+10/+5）</li>
+<li><strong>关心同伴</strong>：聊天让别人 +3 心情，不受模因影响</li>
+<li><strong>平稳之心</strong>：敌人存在时不会崩溃</li>
+<li><strong>不踩地雷</strong>：不会触发陷阱</li>
+<li><strong>据点死守</strong>：受旗帜增益翻倍</li>
+</ol>
+<h3 id="负面特性">负面特性</h3>
+<ol>
+<li><strong>狡辩者</strong>：承伤 ×1.15</li>
+<li><strong>死神</strong>：-15% 命中</li>
+<li><strong>挑食</strong>：吃简单食物类 -5 心情</li>
+<li><strong>悲观主义</strong>：失血严重时，1/5 概率 -50% 攻击力</li>
+<li><strong>喜欢干净</strong>：肮脏环境心情 -5/-10/-15/-20</li>
+<li><strong>急性子</strong>（未设定）</li>
+<li><strong>犯迷糊</strong>（未设定）</li>
+<li><strong>优柔寡断</strong>（未设定）</li>
+</ol>
+<hr>
+<h2 id="文化模因">文化模因</h2>
+<ul>
+<li>添加 <strong>厌恶达尔库斯族</strong> 模因</li>
+<li>添加 <strong>讨厌帝国人</strong> 模因</li>
+</ul>
+<hr>
+<h2 id="种族设定">种族设定</h2>
+<h3 id="达克森族">达克森族</h3>
+<ul>
+<li><s>特征：深蓝色头发，手工技艺出众</s></li>
+</ul>
+
+            
+            
+        </body>
+        </html>

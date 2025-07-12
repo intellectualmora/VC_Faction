@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <SitePartDef>
+    <defName>AncientComplex_Valkyria</defName>
+    <label>ancient Valkyria complex</label>
+    <description>An ancient complex containing the corpse of a Valkyria.</description>
+    <workerClass>SitePartWorker_AncientComplex</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/AncientMechanitorComplex</expandingIconTexture>
+    <approachOrderString>Investigate {0}</approachOrderString>
+    <approachingReportString>Investigate {0}</approachingReportString>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <minMapSize>(200, 1, 200)</minMapSize>
+    <tags>
+      <li>AncientComplex_Valkyria</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>AncientComplex_Valkyria</defName>
+    <linkWithSite>AncientComplex_Valkyria</linkWithSite>
+    <order>310</order>
+    <genStep Class="GenStep_AncientComplex_Valkyria" />
+  </GenStepDef>
+</Defs>

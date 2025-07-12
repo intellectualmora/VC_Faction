@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <SongDef>
+        <defName>VC_Raven_Attack</defName>
+        <clipPath>Songs/Empire/VC_Raven_Attack</clipPath>
+        <volume>0.6</volume>
+        <commonality>0</commonality>
+      </SongDef>
+      <SongDef>
+        <defName>VC_Troops_Attack</defName>
+        <clipPath>Songs/Empire/VC_Troops_Attack</clipPath>
+        <volume>0.6</volume>
+        <commonality>0</commonality>
+      </SongDef>
+      <SongDef>
+        <defName>VC_Empire_Boss_Attack</defName>
+        <clipPath>Songs/Empire/VC_Empire_Boss_Attack</clipPath>
+        <volume>0.6</volume>
+        <commonality>0</commonality>
+      </SongDef>
+      <SongDef>
+        <defName>VC_Advantage</defName>
+        <clipPath>Songs/Advantage/Advantage</clipPath>
+        <volume>0.6</volume>
+        <commonality>0</commonality>
+      </SongDef>
+</Defs>    

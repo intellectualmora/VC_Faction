@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <Private.label>列兵</Private.label>
+  <Private.description>列兵</Private.description>
+  <Corporal.label>下士</Corporal.label>
+  <Corporal.description>下士</Corporal.description>
+  <Sergeant.label>中士</Sergeant.label>
+  <Sergeant.description>中士</Sergeant.description>
+  <Sergeant.label>中士</Sergeant.label>
+  <Staff_Sergeant.description>中士</Staff_Sergeant.description>
+  <Staff_Sergeant.label>上士</Staff_Sergeant.label>
+  <Staff_Sergeant.description>上士</Staff_Sergeant.description>
+  <First_Sergeant.label>准尉</First_Sergeant.label>
+  <First_Sergeant.description>准尉</First_Sergeant.description>
+  <First_Sergeant.label>准尉</First_Sergeant.label>
+  <First_Sergeant.description>准尉</First_Sergeant.description>
+  <Second_Lieutenant.label>少尉</Second_Lieutenant.label>
+  <Second_Lieutenant.description>少尉</Second_Lieutenant.description>
+  <First_Lieutenant.label>中尉</First_Lieutenant.label>
+  <First_Lieutenant.description>中尉</First_Lieutenant.description>
+  <Captain.label>上尉</Captain.label>
+  <Captain.description>上尉</Captain.description>
+  <Major.label>少校</Major.label>
+  <Major.description>少校</Major.description>
+  <Lieutenant_Colonel.label>中校</Lieutenant_Colonel.label>
+  <Lieutenant_Colonel.description>中校</Lieutenant_Colonel.description>
+  <Colonel.label>上校</Colonel.label>
+  <Colonel.description>上校</Colonel.description>
+  <major_general.label>少将</major_general.label>
+  <major_general.description>少将</major_general.description>
+  <Lieutenant_General.label>中将</Lieutenant_General.label>
+  <Lieutenant_General.description>中将</Lieutenant_General.description>
+  <General.label>上将</General.label>
+  <General.description>上将</General.description>
+  <Admiral.label>元帅</Admiral.label>
+  <Admiral.description>元帅</Admiral.description>
+</LanguageData>

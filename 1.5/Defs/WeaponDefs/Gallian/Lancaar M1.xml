@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+  <ThingDef ParentName="BaseGun">
+    <defName>VC_LancaarMA</defName>
+    <label>Lancaar M1</label>
+    <description>TODO.</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <smeltable>false</smeltable>
+    <graphicData>
+      <texPath>Things/Weapon/Gallian/Gallia_ATR(Lancaar M1)</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>970</MarketValue>
+      <Mass>16.2</Mass>
+      <RangedWeapon_Cooldown>3.67</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+        <li>VC_Gallia_ATR_Weapons</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>WeaponRanged</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <relicChance>0</relicChance>
+    <verbs>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12.5</power>
+        <cooldownTime>4</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.2</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+      <li Class="CompProperties_Biocodable"/>
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>VC_LancaarMA_Rocket</abilityDef>
+        <maxCharges>3</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>枚</chargeNoun>
+        <ammoDef>VC_LiquidRagnite</ammoDef>
+        <ammoCountPerCharge>15</ammoCountPerCharge>
+        <baseReloadTicks>2500</baseReloadTicks>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_LancaarMA</defName>
+    <label>LancaarM1 rocket</label>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_DoomsdayRocket</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>43.0</damageAmountBase>
+        <stoppingPower>3.5</stoppingPower>
+    <armorPenetrationBase>0.5</armorPenetrationBase>
+      <explosionRadius>3.6</explosionRadius>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

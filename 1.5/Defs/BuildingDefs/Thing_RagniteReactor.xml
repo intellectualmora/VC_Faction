@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <canOverlapZones>false</canOverlapZones>
+        <blockWind>true</blockWind>
+        <defName>VC_RagniteReactor</defName>
+        <label>拉格奈特反应釜</label>
+        <thingClass>VC_Faction.Building_RagniteReactor</thingClass>
+        <description>拉格奈特反应釜</description>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>70</pathCost>
+        <statBases>
+          <MaxHitPoints>400</MaxHitPoints>
+          <WorkToBuild>2000</WorkToBuild>
+          <Flammability>1.0</Flammability>
+        </statBases>
+        <size>(3,3)</size>
+        <costList>
+          <Steel>150</Steel>
+          <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <comps>
+          <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <basePowerConsumption>450</basePowerConsumption>
+            <shortCircuitInRain>false</shortCircuitInRain>
+          </li>
+          <li Class="CompProperties_Flickable"/>
+          <li Class="CompProperties_Breakdownable"/>
+          <li Class="CompProperties_Glower">
+            <overlightRadius>2.0</overlightRadius>
+            <glowRadius>10</glowRadius>
+            <glowColor>(42, 137, 183)</glowColor>
+          </li>
+          <li Class="CompProperties_HeatPusher">
+            <compClass>CompHeatPusherPowered</compClass>
+            <heatPerSecond>2</heatPerSecond>
+          </li>
+        </comps>
+        <tickerType>Normal</tickerType>
+        <castEdgeShadows>false</castEdgeShadows>
+        <staticSunShadowHeight>0</staticSunShadowHeight>
+        <rotatable>false</rotatable>
+        <graphicData>
+          <texPath>Things/Buildings/RagniteReactor/RagniteReactor</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+          <drawSize>(5,5)</drawSize>
+          <shadowData>
+            <volume>(2.22, 0.8, 0.62)</volume>
+            <offset>(0, 0, -0.13)</offset>
+          </shadowData>
+          <damageData>
+            <rect>(0.3,0.1,2.4,1.8)</rect>
+          </damageData>
+        </graphicData>
+        <recipes>
+          <li>FillRagniteReactor</li>
+          <li>FillRagniteReactorBulk</li>
+        </recipes>
+        <inspectorTabs>
+          <li>ITab_Bills</li>
+        </inspectorTabs>
+
+        <fillPercent>0.9</fillPercent>
+        <hasInteractionCell>false</hasInteractionCell>
+        <!-- <interactionCellOffset>(0,0,-2)</interactionCellOffset> -->
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <designationCategory>Production</designationCategory>
+        <surfaceType>Item</surfaceType>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <placeWorkers>
+          <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <researchPrerequisites>
+          <li>RagniteRefining</li>
+        </researchPrerequisites>
+        <building>
+          <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+          <buildingTags>
+            <li>Production</li>
+          </buildingTags>
+        </building>
+      </ThingDef>
+</Defs>

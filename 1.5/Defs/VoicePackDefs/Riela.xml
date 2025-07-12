@@ -1,0 +1,24 @@
+<Defs>
+    <VAC.VoicePackDef>
+        <defName>VoicePack_Riela</defName>
+        <label>Riela</label>
+        <description>description</description>
+        <category>category1</category>
+        <gender>Female</gender>
+        <selectList>
+            <li>VC_Riela_Select</li>
+        </selectList>
+        <attackList>
+            <li>VC_Riela_Attack</li>
+        </attackList>
+        <movingList>
+            <li>VC_Riela_Move</li>
+        </movingList>
+        <deathList>
+            <li>VC_Riela_Death</li>
+        </deathList>
+        <downList>
+            <li>VC_Riela_Downed</li>
+        </downList>
+    </VAC.VoicePackDef>
+</Defs>

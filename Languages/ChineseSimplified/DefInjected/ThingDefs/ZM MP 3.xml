@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ZM MP 3 bullet -->
+  <Bullet_ZMMPC.label>ZM-MP冲锋枪3型子弹</Bullet_ZMMPC.label>
+  
+  <!-- EN: ZM MP 3 -->
+  <VC_ZMMPC.label>ZM-MP冲锋枪3型</VC_ZMMPC.label>
+  <!-- EN: The ZM MP boasts a degree of refinement so high it was lauded as Zechmeister's ultimate masterpiece. Excelling in firepower, accuracy, and portability, it represents the pinnacle of everything required of a machine gun. Further sweetening the deal is the high concentration of pressed parts, easily manufactured at low cost. With these guns in hand, Imperial forces crossed Europa unchecked by the Federation and other nations. - Circa 1935 -->
+  <VC_ZMMPC.description>ZM-MP冲锋枪的优秀程度如此之高，被誉为Zechmeister的终极杰作。它在火力、精确度和便携性方面都非常出色，满足了冲锋枪的所有要求。更令人满意的是该枪的冲压零件高度集中，易于以低成本制造。正是拿着这些枪，帝国军队越过了欧罗巴，没有受到联邦和其他国家的制止。——大约1935年</VC_ZMMPC.description>
+  <!-- EN: grip -->
+  <VC_ZMMPC.tools.grip.label>握把</VC_ZMMPC.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_ZMMPC.tools.barrel.label>枪管</VC_ZMMPC.tools.barrel.label>
+  <!-- EN: ZM MP 3 -->
+  <VC_ZMMPC.verbs.Verb_Shoot.label>ZM-MP冲锋枪3型</VC_ZMMPC.verbs.Verb_Shoot.label>
+  
+</LanguageData>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>VC_ZMMPA</defName>
+		<label>ZM MP 1</label>
+		<description>The ZM MP boasts a degree of refinement so high it was lauded as Zechmeister's ultimate masterpiece. Excelling in firepower, accuracy, and portability, it represents the pinnacle of everything required of a machine gun. Further sweetening the deal is the high concentration of pressed parts, easily manufactured at low cost. With these guns in hand, Imperial forces crossed Europa unchecked by the Federation and other nations. - Circa 1935</description>
+		<graphicData>
+			<texPath>Things/Weapon/Imperial/Imperial_SMG_1(ZM MP1)</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>VC_Empire_SMG_Weapons</li>
+    </weaponTags>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>2.76</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+      <MarketValue>130</MarketValue>
+		</statBases>
+		<costList>
+				<Steel>50</Steel>
+        <Chemfuel>10</Chemfuel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_ZMMPA</defaultProjectile>
+				<warmupTime>0.7</warmupTime>
+				<range>17.9</range>
+				<burstShotCount>12</burstShotCount>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<soundCast>Shot_HeavySMG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ZMMPA</defName>
+    <label>ZM MP 1 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <armorPenetrationBase>0.07</armorPenetrationBase>
+     <stoppingPower>0.7</stoppingPower>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+
+
+</Defs>

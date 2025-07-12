@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffDef Name="MedalHediffBase" Abstract = "True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+        <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>True</showRemainingTime>
+        </li>
+        <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    </HediffDef>
+
+<HediffDef ParentName = "MedalHediffBase">
+    <defName>EvadeBoost</defName>
+    <label>回避提升</label>
+    <description>+60近战回避</description>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+            <MeleeDodgeChance>60</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName = "MedalHediffBase">
+    <defName>AimBoost</defName>
+    <label>远程命中率提升</label>
+    <description>+60远程命中</description>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+            <ShootingAccuracyPawn>+60</ShootingAccuracyPawn>        
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName = "MedalHediffBase">
+    <defName>DefenseBoost</defName>
+    <label>防御力提升</label>
+    <description>承伤*0.5</description>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+            <IncomingDamageFactor>0.5</IncomingDamageFactor>      
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName = "MedalHediffBase">
+    <defName>MarchBoost</defName>
+    <label>移速提升</label>
+    <description>移动速度+2</description>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <statOffsets>
+             <MoveSpeed>2</MoveSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

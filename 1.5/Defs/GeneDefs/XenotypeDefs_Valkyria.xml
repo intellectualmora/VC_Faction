@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <XenotypeDef>
+    <defName>Valkyria</defName>
+    <label>瓦尔基里族</label>
+    <description>女武神族（Valkyrur）是一支曾在地球上存在的战士种族，起源地位于欧罗巴大陆北方。尽管这一种族早已消失，但至今仍被某些宗教所崇拜，其中最主要的是“世界树教派（Yggdist）”。如今，那些仍保有古代力量的现代女武神族后裔，被称为“女武神（Valkyria）”。据说她们原是海洋部族，通过北海迁徙至欧罗巴，并可能是穿越了晶海（Crystal Sea）后抵达现今的帝国领地。然而，关于她们真正的历史起源，目前在考古学上仍缺乏确凿证据。传说中，女武神族曾在达鲁库斯人（Darcsens）因拉格奈特（ragnite）武器相互交战、几乎毁灭欧罗巴时，出面调停并带来和平。但事实上，她们才是入侵者——凭借着先进的拉格奈特武器，征服了达鲁库斯土著，并统治了整个欧罗巴。在完成征服后的第二世纪末期，女武神族几乎从欧罗巴彻底消失。普遍认为，她们的基因随着与本地人的不断通婚，逐渐被稀释。奇怪的是，目前所有已知自然觉醒女武神力量的个体都是女性。学界尚不清楚，这是因为女武神族本就只有女性拥有这种力量，还是古代其实也存在男性女武神，只是由于基因变异导致其力量无法显现，抑或女武神族原本就是一个由全女性组成的种族，拥有某种特殊的同族繁殖方式，同时又能与非女武神族个体繁衍后代。</description>
+    <descriptionShort>大多数女武神族人拥有红色的眼睛，头发颜色主要为银白色或纯白色。女性女武神族拥有强大的体能，并具备强烈的战斗欲望。</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Valkyria</iconPath>
+    <inheritable>true</inheritable>
+    <nameMaker>NamerPersonValkyria</nameMaker>
+    <nameMakerFemale>NamerPersonValkyria</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Eyes_Red</li>
+      <li>Skin_SheerWhite</li>
+      <li>Body_Standard</li>
+      <li>Valkyria</li>
+      <li>MeleeDamage_Strong</li>
+      <li>WoundHealing_SuperFast</li>
+      <li>Robust</li>
+      <li>Beauty_Beautiful</li>
+      <li>Aggression_HyperAggressive</li>
+      <li>Unstoppable</li>
+      <li>AptitudeRemarkable_Shooting</li>
+      <li>AptitudeRemarkable_Melee</li>
+      <li>Instability_Major</li>
+      <li>AptitudeTerrible_Plants</li>
+      <li>AptitudeTerrible_Animals</li>
+      <li>AptitudeTerrible_Artistic</li>
+    </genes>
+  </XenotypeDef>
+
+  <RulePackDef>
+    <defName>NamerPersonValkyria</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=0.1)->[prefix][code] [prefix]-[code]([suffix])</li>
+        <li>r_name->[prefix][code] [prefix]-[code]</li>
+        <!-- 实验前缀 -->
+        <li>prefix->VX</li>
+        <li>prefix->EX</li>
+        <li>prefix->UX</li>
+        <li>prefix->实验体</li>
+        <li>prefix->瓦尔基里</li>
+        <li>prefix->残次品</li>
+        <li>prefix->Unit</li>
+        <li>prefix->No.</li>
+  
+        <!-- 编号部分 -->
+        <li>code->000</li>
+        <li>code->001</li>
+        <li>code->002</li>
+        <li>code->003</li>
+        <li>code->004</li>
+        <li>code->005</li>
+        <li>code->006</li>
+        <li>code->007</li>
+        <li>code->008</li>
+        <li>code->009</li>
+        <li>code->010</li>
+        <li>code->011</li>
+        <li>code->012</li>
+        <li>code->013</li>
+        <li>code->014</li>
+        <li>code->015</li>
+        <li>code->016</li>
+        <li>code->017</li>
+        <li>code->018</li>
+        <li>code->019</li>
+        <li>code->XXX</li>
+        <li>code->A13</li>
+        <li>code->A01</li>
+        <li>code->666</li>
+        <li>code->888</li>
+        <li>code->***</li>
+        <li>code->999</li>
+        <li>code->X09</li>
+        <li>code->R11</li>
+        <li>code->Z17</li>
+        <li>code->S22</li>
+        <li>code->K03</li>
+        <li>code->V99</li>
+        <li>code->N84</li>
+        <li>code->L47</li>
+  
+        <!-- 尾缀（提升神秘性或危险性） -->
+        <li>suffix->改造体</li>
+        <li>suffix->危险</li>
+        <li>suffix->备份</li>
+        <li>suffix->异常</li>
+
+
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  </Defs>

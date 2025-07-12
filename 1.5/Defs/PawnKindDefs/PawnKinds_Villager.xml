@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+<PawnKindDef Abstract="True" Name="VC_VillagerBase">
+    <combatPower>45</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>0.2~2.0</gearHealthRange>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <weaponMoney>65~250</weaponMoney>
+    <apparelMoney>200~400</apparelMoney>
+    <apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
+    <techHediffsChance>0.06</techHediffsChance>
+    <techHediffsMoney>50~600</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>10~17</initialResistanceRange>
+    <race>Human</race>
+    <defaultFactionType>VC_Gallia</defaultFactionType>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+        <li>VC_Villager</li>
+      </apparelTags>
+      <backstoryFilters>
+        <li>
+          <categories>
+        <li>VC_Gallia</li>
+          </categories>
+          <exclude>
+            <li>VC_Darcsen</li>
+            <li>VC_Valkyria</li>
+            </exclude>
+        </li>
+      </backstoryFilters>
+  </PawnKindDef>
+
+  <PawnKindDef  ParentName="VC_VillagerBase">
+    <defName>VC_Farmer</defName>
+    <label>农民</label>
+    <apparelRequired>
+    <li>VC_Civilian_Farmer_upper</li>
+    <li>VC_Civilian_Farmer_Pants</li>
+    <li>VC_Civilian_Coat</li>
+    </apparelRequired>
+    <minGenerationAge>14</minGenerationAge>
+  </PawnKindDef>
+
+  <PawnKindDef  ParentName="VC_VillagerBase">
+    <defName>VC_Traveler</defName>
+    <label>旅行者</label>
+    <apparelRequired>
+    <li>VC_Civilian_Traveler_upper</li>
+    <li>VC_Civilian_Traveler_Pants</li>
+    </apparelRequired>
+    <minGenerationAge>14</minGenerationAge>
+  </PawnKindDef>
+
+  <PawnKindDef  ParentName="VC_VillagerBase">
+    <defName>VC_Militia</defName>
+    <label>义勇兵</label>
+    <isFighter Inherit="false">true</isFighter>
+    <weaponMoney Inherit="false">200~300</weaponMoney>
+    <weaponTags Inherit="false">
+      <li>VC_Gallia_Small_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+    <li>VC_Militia_MinuteMan_upper</li>
+    <li>VC_Militia_MinuteMan_pants</li>
+    <li>VC_Militia_Cape</li>
+    </apparelRequired>
+    <minGenerationAge>14</minGenerationAge>
+  </PawnKindDef>
+</Defs>

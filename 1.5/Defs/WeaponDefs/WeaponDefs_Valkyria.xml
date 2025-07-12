@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef Name="BaseValkyriaWeapon" Abstract="True" ParentName="BaseWeapon">
+        <comps Inherit="False">
+          <li Class="CompProperties_BladelinkWeapon">
+            <biocodeOnEquip>true</biocodeOnEquip>
+          </li>
+          <li Class="CompProperties_GeneratedName">
+            <nameMaker>NamerWeaponBladelink</nameMaker>
+          </li>
+          <li>
+            <compClass>CompQuality</compClass>
+          </li>
+        </comps>
+        <relicChance>2</relicChance>
+        <smeltable>false</smeltable>
+        <soundInteract>Interact_BladelinkMonoSword</soundInteract>
+        <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
+        <burnableByRecipe>true</burnableByRecipe>
+        <notifyMapRemoved>true</notifyMapRemoved>
+        <thingCategories>
+          <li>WeaponsMeleeBladelink</li>
+        </thingCategories>
+        <weaponClasses>
+          <li>Ultratech</li>
+        </weaponClasses>
+        <weaponTags>
+          <li>Bladelink</li>
+        </weaponTags>
+        <tradeTags>
+          <li>WeaponMelee</li>
+        </tradeTags>
+        <thingSetMakerTags>
+          <li>WeaponBladelink</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
+
+  <ThingDef ParentName="BaseValkyriaWeapon">
+    <defName>Spear_Valkyria</defName>
+    <label>Valkyria Lance</label>
+    <description>Unearthed from excavation sites across the continent, the lance are thought to have been wielded by the Valkyrur. It take the shape of a spiral shell, made from ragnite more pure than even current refining technology can produce. While some variation exists among the weapons' shapes, all of them follow a design known as the Valkyrur Spiral as a core motif.</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Weapon/Lance_1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2, 1.6)</drawSize>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>false</destroyOnDrop>
+    <relicChance>2</relicChance>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <weaponTags>
+      <li>Valkyria</li>
+    </weaponTags>
+    <verbs>
+    </verbs>
+    <comps Inherit="True">
+      <li Class="CompProperties_EquippableAbility">
+        <abilityDef>ValkyriaCannon</abilityDef>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+    </comps>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>1.4</cooldownTime>
+        <armorPenetration>1.4</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseValkyriaWeapon">
+    <defName>Spear_Valkyria_Rie</defName>
+    <label>Valkyria Lance</label>
+    <description>Unearthed from excavation sites across the continent, the lance are thought to have been wielded by the Valkyrur. It take the shape of a spiral shell, made from ragnite more pure than even current refining technology can produce. While some variation exists among the weapons' shapes, all of them follow a design known as the Valkyrur Spiral as a core motif.</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Weapon/Lance_2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2, 1.6)</drawSize>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>false</destroyOnDrop>
+    <relicChance>2</relicChance>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <weaponTags>
+      <li>Valkyria</li>
+    </weaponTags>
+    <verbs>
+    </verbs>
+    <comps Inherit="True">
+      <li Class="CompProperties_EquippableAbility">
+        <abilityDef>ValkyriaCannon</abilityDef>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+    </comps>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>1.4</cooldownTime>
+        <armorPenetration>1.4</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ValkyriaSpear</defName>
+    <label>Final Fire Shot</label>
+    <thingClass>Projectile_HellsphereCannon</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/HellsphereCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1.5, 3)</drawSize>
+      <color>(0,20,255)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Vaporize</damageDef>
+      <speed>75</speed>
+      <explosionRadius>4.9</explosionRadius>
+      <screenShakeFactor>1.5</screenShakeFactor>
+    </projectile>
+  </ThingDef>
+
+
+</Defs>

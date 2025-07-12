@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThoughtDef>
+        <defName>FlagInspiration</defName>
+        <workerClass>VC_Faction.ThoughtWorker_FlagInspiration</workerClass>
+        <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+        <developmentalStageFilter>Adult</developmentalStageFilter>
+        <stages>
+          <li>
+            <label>士气激励</label>
+            <description>受到国旗的激励，心情舒畅。</description>
+            <baseMoodEffect>3</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+      <ThoughtDef>
+        <defName>FlagDestroyedSad</defName>
+        <durationDays>5</durationDays>
+        <stackLimit>3</stackLimit>
+        <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+        <developmentalStageFilter>Adult</developmentalStageFilter>
+        <stages>
+          <li>
+            <label>destroyed flag sad</label>
+            <description>The sight of our national flag torn apart... it weighs heavily on my heart.</description>
+            <baseMoodEffect>-6</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+      <ThoughtDef>
+        <defName>FlagDestroyedHappy</defName>
+        <durationDays>5</durationDays>
+        <stackLimit>3</stackLimit>
+        <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+        <developmentalStageFilter>Adult</developmentalStageFilter>
+        <stages>
+          <li>
+            <label>destroyed flag happy</label>
+            <description>是时候给敌人一点颜色瞧瞧了！</description>
+            <baseMoodEffect>3</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+</Defs>

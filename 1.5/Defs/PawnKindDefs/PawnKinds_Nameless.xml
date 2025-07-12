@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <PawnKindDef>
+    <defName>VC_Nameless</defName>
+    <label>Nameless</label>
+    <race>Human</race>
+    <combatPower>85</combatPower>
+    <maxGenerationAge>45</maxGenerationAge>
+        <minGenerationAge>14</minGenerationAge>
+
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Valkyria>0.01</Valkyria>
+        <Darcsen>0.1</Darcsen>
+      </xenotypeChances>
+    </xenotypeSet>
+    <defaultFactionType>VC_Gallia</defaultFactionType>
+    <chemicalAddictionChance>0.02</chemicalAddictionChance>
+    <apparelMoney>0~2500</apparelMoney>
+    <apparelColor>(254, 254, 254)</apparelColor>
+    <apparelTags>
+      <li>VC_Nameless_Apparel</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>VC_Nameless_Combat_Uniform</li>
+      <li>VC_Nameless_Pants</li>
+    </apparelRequired>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>6~12</range>
+      </li>
+    </skills>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>0</weaponMoney>
+    <techHediffsMoney>0</techHediffsMoney>
+    <biocodeWeaponChance>0</biocodeWeaponChance>
+    <combatEnhancingDrugsChance>0.5</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+    <initialWillRange>0</initialWillRange>
+    <initialResistanceRange>0</initialResistanceRange>
+    <requiredWorkTags>
+      <li>Firefighting</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </requiredWorkTags>
+    <disallowedTraits>
+      <li>Wimp</li>
+    </disallowedTraits>
+    <disallowedTraitsWithDegree>
+      <PsychicSensitivity>-1</PsychicSensitivity>
+      <PsychicSensitivity>-2</PsychicSensitivity>
+    </disallowedTraitsWithDegree>
+  </PawnKindDef>
+</Defs>

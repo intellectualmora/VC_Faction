@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Lenfield M1 bullet -->
+  <Bullet_LenfieldA.label>李恩菲尔德M1步枪弹</Bullet_LenfieldA.label>
+  
+  <!-- EN: Lenfield M1 -->
+  <VC_LenfieldA.label>李恩菲尔德M1步枪</VC_LenfieldA.label>
+  <!-- EN: A standard-issue rifle developed by Edinburgh's Wester Kelvin Company. A storied model of rifle, initially issued over 40 years ago. Its design has gone through multiple changes and multiple offshoot models since. It remains a favourite of Edinburgh's military and citizenry alike. - Circa 1935 -->
+  <VC_LenfieldA.description>一款由爱丁堡的韦斯特·凯尔文公司开发的标准步枪，最初发行于40多年前。自那以后，它的设计经历了多次变化和多个改装型号。即便如此，它仍然是爱丁堡军队和市民的最爱。——大约1935年</VC_LenfieldA.description>
+  <!-- EN: stock -->
+  <VC_LenfieldA.tools.stock.label>枪托</VC_LenfieldA.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_LenfieldA.tools.barrel.label>枪管</VC_LenfieldA.tools.barrel.label>
+  <!-- EN: Lenfield M1 -->
+  <VC_LenfieldA.verbs.Verb_Shoot.label>李恩菲尔德M1步枪</VC_LenfieldA.verbs.Verb_Shoot.label>
+  
+</LanguageData>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>VC_MagsA</defName>
+		<label>Mags M1</label>
+		<description>EW1 saw a variety of firearms developed to suit a broad spectrum of needs. Among them, the machine gun's stopping power made it exceptionally popular, among arms masters, both within Gallia and abroad. Though models of all shapes and sizes saw use in combat, the Mags machine gun was especially prized on the front lines for its portability. Excelling in rapid-fire speed and ease, it exhibited unparalleled performance in the close quarters of trench and urban operations. - Circa 1935</description>
+		<graphicData>
+			<texPath>Things/Weapon/Gallian/Gallia_SMG_1(Mag1)</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>VC_Gallia_SMG_Weapons</li>
+    </weaponTags>
+		<statBases>
+			<WorkToMake>17200</WorkToMake>
+			<Mass>3.0</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.72</AccuracyShort>
+			<AccuracyMedium>0.43</AccuracyMedium>
+			<AccuracyLong>0.22</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+      <MarketValue>175</MarketValue>
+		</statBases>
+		<costList>
+			<Steel>25</Steel>
+      	<WoodLog>30</WoodLog>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_MagsA</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>19.9</range>
+				<burstShotCount>10</burstShotCount>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<soundCast>Shot_HeavySMG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MagsA</defName>
+    <label>Mags M1 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <armorPenetrationBase>0.07</armorPenetrationBase>
+            <stoppingPower>0.2</stoppingPower>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+
+
+</Defs>

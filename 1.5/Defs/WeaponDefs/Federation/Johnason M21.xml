@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>VC_JohnasonM21A</defName>
+		<label>Johnason M21</label>
+		<description>Johnason M21</description>
+		<graphicData>
+			<texPath>Things/Weapon/Federation/Fedration_semiautorifle_1(Johnason M21)</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <!-- <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker> -->
+    <weaponTags>
+      <li>VC_Federation_Semiautorifle_Weapons</li>
+    </weaponTags>
+		<statBases>
+			<!-- <WorkToMake>40000</WorkToMake> -->
+			<Mass>4.56</Mass>
+			<AccuracyTouch>0.7</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.75</AccuracyLong>
+			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+      <MarketValue>340</MarketValue>
+		</statBases>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_JohnasonM21A</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>39.9</range>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>Shot_Minigun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_JohnasonM21A</defName>
+    <label>JohnasonM21 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.32</armorPenetrationBase>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+
+
+</Defs>

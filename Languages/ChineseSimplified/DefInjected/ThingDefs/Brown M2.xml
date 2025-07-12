@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Brown M2 bullet -->
+  <Bullet_BrownB.label>布朗步枪M2型弹药</Bullet_BrownB.label>
+  
+  <!-- EN: Brown M2 -->
+  <VC_BrownB.label>布朗步枪M2型</VC_BrownB.label>
+  <!-- EN: A rifle developed by the Wester Kelvin Company, made to maximize firepower. An offshoot model of the Lenfield, it has more powerful recoil, and uses a larger bullet. However, its increased weight loses the vaunted portability of the original Lenfield schematics. - Circa 1935 -->
+  <VC_BrownB.description>一款由韦斯特·凯尔文公司开发的步枪，使步枪火力最大化。它是李恩菲尔德步枪的一款改进型号，有更强大的后坐力，使用更大威力的步枪弹。然而，由于增加过多重量使它失去了最初李恩菲尔德原型所拥有的可拓展。——大约1935年</VC_BrownB.description>
+  <!-- EN: stock -->
+  <VC_BrownB.tools.stock.label>枪托</VC_BrownB.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_BrownB.tools.barrel.label>枪管</VC_BrownB.tools.barrel.label>
+  <!-- EN: Brown M2 -->
+  <VC_BrownB.verbs.Verb_Shoot.label>布朗步枪M2型</VC_BrownB.verbs.Verb_Shoot.label>
+  
+</LanguageData>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BaseHumanMakeableGun">
+  <defName>VC_ZMSTGA</defName>
+  <label>ZM STG1</label>
+  <description>标准制式步枪，精度与火力兼具，是现役部队广泛装备的主战枪械。</description>
+  <graphicData>
+    <texPath>Things/Weapon/Imperial/Imperial_autogun_1(ZM STG1)</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>1.5</drawSize>
+  </graphicData>
+  <soundInteract>Interact_Rifle</soundInteract>
+  <recipeMaker>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+  <weaponTags>
+    <li>VC_Empire_AutoGun_Weapons</li>
+  </weaponTags>
+  <statBases>
+    <WorkToMake>170000</WorkToMake>
+    <Mass>2.15</Mass>
+    <AccuracyTouch>1.0</AccuracyTouch>
+    <AccuracyShort>0.95</AccuracyShort>
+    <AccuracyMedium>0.90</AccuracyMedium>
+    <AccuracyLong>0.88</AccuracyLong>
+    <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    <MarketValue>1580</MarketValue>
+  </statBases>
+   <costList>
+      <VC_LiquidRagnite>100</VC_LiquidRagnite>
+      <Chemfuel>100</Chemfuel>
+      <ComponentIndustrial>20</ComponentIndustrial>
+    </costList>
+  <verbs>
+    <li>
+      <verbClass>Verb_Shoot</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>Bullet_ZMSTGA</defaultProjectile>
+      <warmupTime>0.02</warmupTime>
+      <range>29.9</range>
+      <burstShotCount>4</burstShotCount>
+      <ticksBetweenBurstShots>3</ticksBetweenBurstShots> <!-- 360 rpm ≈ 10 ticks -->
+      <soundCast>Shot_Rifle</soundCast>
+      <soundCastTail>GunTail_Rifle</soundCastTail>
+      <muzzleFlashScale>6</muzzleFlashScale>
+    </li>
+  </verbs>
+  <tools>
+    <li>
+      <label>butt</label>
+      <capacities><li>Blunt</li></capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>bayonet</label>
+      <capacities><li>Blunt</li><li>Poke</li></capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+  </tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+  <defName>Bullet_ZMSTGA</defName>
+  <label>ZMSTG1子弹</label>
+  <graphicData>
+    <texPath>Things/Projectile/Bullet_Small</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+  </graphicData>
+  <projectile>
+    <damageDef>Bullet</damageDef>
+    <damageAmountBase>28</damageAmountBase>
+    <stoppingPower>3</stoppingPower>
+    <armorPenetrationBase>0.5</armorPenetrationBase>
+    <speed>48</speed>
+  </projectile>
+</ThingDef>
+
+
+</Defs>

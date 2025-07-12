@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchTabDef>
+		<defName>VC_Ragnite_Tab</defName>
+		<label>Ragnite Engineering</label>
+	</ResearchTabDef>
+
+  <ResearchProjectDef Name="RagniteRese" Abstract="True">
+    <tab>VC_Ragnite_Tab</tab>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef ParentName="RagniteRese">
+    <defName>RagniteRefining</defName>
+    <label>拉格奈特精炼</label>
+    <description>拉格奈特精炼</description>
+    <baseCost>1000</baseCost>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Preservative</li>
+        <li>subject_story->lectured the United Planets about embalming</li>
+        <li>subject_story->was driven out of the Twilight Forest as a quack, for selling a dreadful medicine, and was labeled a "corpse doctor"</li>
+        <li>subject_story->prevented corpse decay through the use of formalin</li>
+        <li>subject_gerund->making preservatives</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="RagniteRese">
+    <defName>RadioCracking</defName>
+    <label>密码学</label>
+    <description>Radio Cracking.</description>
+    <baseCost>1500</baseCost>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Preservative</li>
+        <li>subject_story->lectured the United Planets about embalming</li>
+        <li>subject_story->was driven out of the Twilight Forest as a quack, for selling a dreadful medicine, and was labeled a "corpse doctor"</li>
+        <li>subject_story->prevented corpse decay through the use of formalin</li>
+        <li>subject_gerund->making preservatives</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="RagniteRese">
+    <defName>RagniteMedicine</defName>
+    <label>拉格奈特药物</label>
+    <description>拉格奈特药物</description>
+    <prerequisites>
+      <li>RagniteRefining</li>
+    </prerequisites>
+    <baseCost>2000</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Preservative</li>
+        <li>subject_story->lectured the United Planets about embalming</li>
+        <li>subject_story->was driven out of the Twilight Forest as a quack, for selling a dreadful medicine, and was labeled a "corpse doctor"</li>
+        <li>subject_story->prevented corpse decay through the use of formalin</li>
+        <li>subject_gerund->making preservatives</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="RagniteRese">
+    <defName>RagniteEngineering</defName>
+    <label>拉格奈特工程学</label>
+    <description>拉格奈特工程学</description>
+    <prerequisites>
+      <li>RagniteRefining</li>
+    </prerequisites>
+    <baseCost>3000</baseCost>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Preservative</li>
+        <li>subject_story->lectured the United Planets about embalming</li>
+        <li>subject_story->was driven out of the Twilight Forest as a quack, for selling a dreadful medicine, and was labeled a "corpse doctor"</li>
+        <li>subject_story->prevented corpse decay through the use of formalin</li>
+        <li>subject_gerund->making preservatives</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="RagniteRese">
+    <defName>RagniteWeapon</defName>
+    <label>拉格奈特武器</label>
+    <description>拉格奈特武器</description>
+    <prerequisites>
+      <li>RagniteEngineering</li>
+    </prerequisites>
+    <baseCost>2000</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Preservative</li>
+        <li>subject_story->lectured the United Planets about embalming</li>
+        <li>subject_story->was driven out of the Twilight Forest as a quack, for selling a dreadful medicine, and was labeled a "corpse doctor"</li>
+        <li>subject_story->prevented corpse decay through the use of formalin</li>
+        <li>subject_gerund->making preservatives</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+
+  <ResearchProjectDef ParentName="RagniteRese">
+    <defName>UltraRagniteWeapon</defName>
+    <label>极致拉格奈特武器</label>
+    <description>极致拉格奈特武器</description>
+    <prerequisites>
+      <li>RagniteWeapon</li>
+    </prerequisites>
+    <baseCost>8000</baseCost>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Preservative</li>
+        <li>subject_story->lectured the United Planets about embalming</li>
+        <li>subject_story->was driven out of the Twilight Forest as a quack, for selling a dreadful medicine, and was labeled a "corpse doctor"</li>
+        <li>subject_story->prevented corpse decay through the use of formalin</li>
+        <li>subject_gerund->making preservatives</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="RagniteRese">
+    <defName>ArtificialValkyrurArmament</defName>
+    <label>人造瓦尔裴利亚兵器</label>
+    <description>人造瓦尔裴利亚兵器</description>
+    <prerequisites>
+      <li>RagniteWeapon</li>
+    </prerequisites>
+    <baseCost>10000</baseCost>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.40</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Preservative</li>
+        <li>subject_story->lectured the United Planets about embalming</li>
+        <li>subject_story->was driven out of the Twilight Forest as a quack, for selling a dreadful medicine, and was labeled a "corpse doctor"</li>
+        <li>subject_story->prevented corpse decay through the use of formalin</li>
+        <li>subject_gerund->making preservatives</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+</Defs>

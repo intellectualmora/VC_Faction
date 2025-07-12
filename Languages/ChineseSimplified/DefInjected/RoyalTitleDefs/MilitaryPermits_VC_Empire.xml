@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VC_Empire_FoodDrop.label>食品补给</VC_Empire_FoodDrop.label>
+  <VC_Empire_FoodDrop.description>申请空投20个包装生存食品。</VC_Empire_FoodDrop.description>
+  <VC_Empire_SteelDrop.label>钢铁补给</VC_Empire_SteelDrop.label>
+  <VC_Empire_SteelDrop.description>申请空投250个钢铁。</VC_Empire_SteelDrop.description>
+  <VC_Empire_RagniteDrop.label>拉格奈特补给</VC_Empire_RagniteDrop.label>
+  <VC_Empire_RagniteDrop.description>申请空投75个拉格奈特。</VC_Empire_RagniteDrop.description>
+  <VC_Empire_SilverDrop.label>白银补给</VC_Empire_SilverDrop.label>
+  <VC_Empire_SilverDrop.description>申请空投500个白银。</VC_Empire_SilverDrop.description>
+  <VC_Empire_MedDrop.label>医药补给</VC_Empire_MedDrop.label>
+  <VC_Empire_MedDrop.description>申请空投5个医药。</VC_Empire_MedDrop.description>
+  <VC_Empire_CallMilitaryAidLight.label>轻甲部队支援</VC_Empire_CallMilitaryAidLight.label>
+  <VC_Empire_CallMilitaryAidLight.description>申请8人轻甲部队兵团支援。</VC_Empire_CallMilitaryAidLight.description>
+  <VC_Empire_CallMilitaryAidMedium.label>中甲部队支援</VC_Empire_CallMilitaryAidMedium.label>
+  <VC_Empire_CallMilitaryAidMedium.description>申请8人中甲部队支援。</VC_Empire_CallMilitaryAidMedium.description>
+  <VC_Empire_CallMilitaryAidHeavy.label>重甲部队支援</VC_Empire_CallMilitaryAidHeavy.label>
+  <VC_Empire_CallMilitaryAidHeavy.description>申请8人重甲部队支援。</VC_Empire_CallMilitaryAidHeavy.description>
+  <VC_Empire_CallMilitaryAidHeavy.label>坦克部队支援</VC_Empire_CallMilitaryAidHeavy.label>
+  <VC_Empire_CallMilitaryAidTank.description>申请4辆坦克部队支援。</VC_Empire_CallMilitaryAidTank.description>
+  <VC_Empire_CallMilitaryAidTankLarge.label>大规模坦克部队支援</VC_Empire_CallMilitaryAidTankLarge.label>
+  <VC_Empire_CallMilitaryAidTankLarge.description>申请8辆坦克部队支援。</VC_Empire_CallMilitaryAidTankLarge.description>
+  <VC_Empire_CallArtilleryStrike.label>炮击支援</VC_Empire_CallArtilleryStrike.label>
+  <VC_Empire_CallArtilleryStrike.description>申请一轮火炮轰炸。</VC_Empire_CallArtilleryStrike.description>
+  <VC_Empire_CallArtillerySalvo.label>多轮炮击支援</VC_Empire_CallArtillerySalvo.label>
+  <VC_Empire_CallArtillerySalvo.description>申请多轮火炮轰炸。</VC_Empire_CallArtillerySalvo.description>
+</LanguageData>

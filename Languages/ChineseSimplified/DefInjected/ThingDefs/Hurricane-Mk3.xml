@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Hurricane Mk3 -->
+  <VC_HurricaneC.label>飓风MK3轻机枪</VC_HurricaneC.label>
+  <!-- EN: An old design of Gallian light machine gun dating back to the ned of EW1, the Hurricane LMG finally allowed large water-cooled machineguns to be hand-held for the first time in battle. - Circa 1935 -->
+  <VC_HurricaneC.description>飓风轻机枪是一款老式的加利安轻型机枪，可以追溯到EW1的ned时期，它第一款在战斗中能够手持的水冷机枪。——大约1935年</VC_HurricaneC.description>
+  <!-- EN: grip -->
+  <VC_HurricaneC.tools.grip.label>握把</VC_HurricaneC.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_HurricaneC.tools.barrel.label>枪管</VC_HurricaneC.tools.barrel.label>
+  <!-- EN: Hurricane Mk3 -->
+  <VC_HurricaneC.verbs.Verb_Shoot.label>飓风MK3轻机枪</VC_HurricaneC.verbs.Verb_Shoot.label>
+  
+</LanguageData>

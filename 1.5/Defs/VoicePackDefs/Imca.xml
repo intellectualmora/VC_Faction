@@ -1,0 +1,24 @@
+<Defs>
+    <VAC.VoicePackDef>
+        <defName>VoicePack_Imca</defName>
+        <label>Imca</label>
+        <description>description</description>
+        <category>category1</category>
+        <gender>Female</gender>
+        <selectList>
+            <li>VC_Imca_Select</li>
+        </selectList>
+        <attackList>
+            <li>VC_Imca_Attack</li>
+        </attackList>
+        <movingList>
+            <li>VC_Imca_Move</li>
+        </movingList>
+        <deathList>
+            <li>VC_Imca_Death</li>
+        </deathList>
+        <downList>
+            <li>VC_Imca_Downed</li>
+        </downList>
+    </VAC.VoicePackDef>
+</Defs>

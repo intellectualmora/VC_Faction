@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <ApparelLayerDef>
+    <defName>MedalLayer</defName>
+    <label>徽章层</label>
+    <drawOrder>360</drawOrder>
+  </ApparelLayerDef>
+</Defs>

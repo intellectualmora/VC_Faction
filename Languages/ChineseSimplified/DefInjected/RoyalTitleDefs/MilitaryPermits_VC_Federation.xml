@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VC_Federation_FoodDrop.label>食品补给</VC_Federation_FoodDrop.label>
+  <VC_Federation_FoodDrop.description>申请空投20个包装生存食品。</VC_Federation_FoodDrop.description>
+  <VC_Federation_SteelDrop.label>钢铁补给</VC_Federation_SteelDrop.label>
+  <VC_Federation_SteelDrop.description>申请空投250个钢铁。</VC_Federation_SteelDrop.description>
+  <VC_Federation_RagniteDrop.label>拉格奈特补给</VC_Federation_RagniteDrop.label>
+  <VC_Federation_RagniteDrop.description>申请空投75个拉格奈特。</VC_Federation_RagniteDrop.description>
+  <VC_Federation_SilverDrop.label>白银补给</VC_Federation_SilverDrop.label>
+  <VC_Federation_SilverDrop.description>申请空投500个白银。</VC_Federation_SilverDrop.description>
+  <VC_Federation_MedDrop.label>医药补给</VC_Federation_MedDrop.label>
+  <VC_Federation_MedDrop.description>申请空投5个医药。</VC_Federation_MedDrop.description>
+  <VC_Federation_CallMilitaryAidLight.label>轻甲部队支援</VC_Federation_CallMilitaryAidLight.label>
+  <VC_Federation_CallMilitaryAidLight.description>申请8人轻甲部队兵团支援。</VC_Federation_CallMilitaryAidLight.description>
+  <VC_Federation_CallMilitaryAidMedium.label>中甲部队支援</VC_Federation_CallMilitaryAidMedium.label>
+  <VC_Federation_CallMilitaryAidMedium.description>申请8人中甲部队支援。</VC_Federation_CallMilitaryAidMedium.description>
+  <VC_Federation_CallMilitaryAidHeavy.label>重甲部队支援</VC_Federation_CallMilitaryAidHeavy.label>
+  <VC_Federation_CallMilitaryAidHeavy.description>申请8人重甲部队支援。</VC_Federation_CallMilitaryAidHeavy.description>
+  <VC_Federation_CallMilitaryAidHeavy.label>坦克部队支援</VC_Federation_CallMilitaryAidHeavy.label>
+  <VC_Federation_CallMilitaryAidTank.description>申请4辆坦克部队支援。</VC_Federation_CallMilitaryAidTank.description>
+  <VC_Federation_CallMilitaryAidTankLarge.label>大规模坦克部队支援</VC_Federation_CallMilitaryAidTankLarge.label>
+  <VC_Federation_CallMilitaryAidTankLarge.description>申请8辆坦克部队支援。</VC_Federation_CallMilitaryAidTankLarge.description>
+  <VC_Federation_CallArtilleryStrike.label>炮击支援</VC_Federation_CallArtilleryStrike.label>
+  <VC_Federation_CallArtilleryStrike.description>申请一轮火炮轰炸。</VC_Federation_CallArtilleryStrike.description>
+  <VC_Federation_CallArtillerySalvo.label>多轮炮击支援</VC_Federation_CallArtillerySalvo.label>
+  <VC_Federation_CallArtillerySalvo.description>申请多轮火炮轰炸。</VC_Federation_CallArtillerySalvo.description>
+</LanguageData>

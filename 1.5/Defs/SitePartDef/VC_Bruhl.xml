@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SitePartDef Name="BruhlBase" Abstract="True">
+    <label>{FACTION_name}的布鲁尔镇</label>
+    <description>你收到了一封来自布鲁尔镇的求救电报，布鲁尔镇即将受到帝国军队的入侵。</description>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/DistressCall</expandingIconTexture>
+    <approachOrderString>Investigate {0}</approachOrderString>
+    <approachingReportString>Investigate {0}</approachingReportString>
+    <requiresFaction>true</requiresFaction>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <showFactionInInspectString>true</showFactionInInspectString>
+    <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <considerEnteringAsAttack>false</considerEnteringAsAttack>
+    <tags>
+      <li>Bruhl</li>
+    </tags>
+
+  </SitePartDef>
+
+
+  <SitePartDef ParentName="BruhlBase">
+    <defName>Bruhl_Empire_Troopers</defName>
+    <workerClass>VC_Faction.SitePartWorker_Bruhl_Empire_Troopers</workerClass>
+    <selectionWeight>4</selectionWeight>
+  </SitePartDef>
+
+  <!-- <GenStepDef>
+    <defName>Bruhl_Settlement</defName>
+    <linkWithSite>Bruhl_Empire_Troopers</linkWithSite>
+    <order>454</order>
+    <genStep Class="GenStep_Settlement">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+      <generatePawns>false</generatePawns>
+      <clearBuildingFaction>true</clearBuildingFaction>
+    </genStep>
+  </GenStepDef> -->
+  <!-- <GenStepDef>
+    <defName>Bruhl_Settlement</defName>
+    <linkWithSite>Bruhl_Empire_Troopers</linkWithSite>
+    <order>999</order>
+    <genStep Class="VC_Faction.GenStep_EmpireRefinery">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+      <clearBuildingFaction>false</clearBuildingFaction>
+    </genStep>
+  </GenStepDef> -->
+  <GenStepDef>
+    <defName>Bruhl_Settlement</defName>
+    <linkWithSite>Bruhl_Empire_Troopers</linkWithSite>
+    <order>999</order>
+    <genStep Class="VC_Faction.GenStep_Bruhl">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+      <clearBuildingFaction>false</clearBuildingFaction>
+    </genStep>
+  </GenStepDef>
+</Defs>

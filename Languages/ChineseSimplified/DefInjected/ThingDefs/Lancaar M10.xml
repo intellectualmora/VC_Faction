@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Lancaar M10 Rocket -->
+  <Bullet_LancaarB.label>M10“长矛”火箭弹</Bullet_LancaarB.label>
+  
+  <!-- EN: Lancaar M10 -->
+  <VC_LancaarB.label>M10“长矛”</VC_LancaarB.label>
+  <!-- EN: Gallia's most common anti-tank lance, developed as a way to allow foot soldiers to combat tanks unassisted. An armor-penetrating warhead is loaded into the lance's tip, then fired at the target, detonating on impact. Though its power and effectiveness is indisputable, its considerable weight impedes the mobility of the user. The weapon draws its name from its use as a LANCe-shaped Anti-ArmoR device. - Circa 1935 -->
+  <VC_LancaarB.description>加利亚军队最常见的反坦克武器，是为了让步兵在没有支援的情况下能够与钢铁巨兽们有一搏之力。一枚能够穿透装甲的弹头被装入这把长矛的尖端，可以向目标发射，弹头引信受到撞击后引爆。虽然它的威力和可靠性是无可争议的，但它过沉的重量限制了使用者的移动性。这款武器得名于它长矛一般的外形。——大约1935年</VC_LancaarB.description>
+  <!-- EN: stock -->
+  <VC_LancaarB.tools.stock.label>枪托</VC_LancaarB.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_LancaarB.tools.barrel.label>炮管</VC_LancaarB.tools.barrel.label>
+  <!-- EN: Lancaar M10 -->
+  <VC_LancaarB.verbs.Verb_Shoot.label>M10“长矛”</VC_LancaarB.verbs.Verb_Shoot.label>
+  
+</LanguageData>

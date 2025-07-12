@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseGunWithQuality">
+		<defName>VC_ZMAGA</defName>
+		<label>ZM AG 1</label>
+		<description>Modern, general-purpose machine gun designed by Zechmeister. Has a high firerate for unparalleled suppressive fire. - Circa 1935</description>
+		<graphicData>
+			<texPath>Things/Weapon/Imperial/Imperial_semiautorifle_1(ZM AG1)</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+    <weaponTags>
+        <li>VC_Empire_SemiautoRifle_Weapons</li>
+      </weaponTags>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>5.86</Mass>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.40</AccuracyLong>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+			<MarketValue>520</MarketValue>
+		</statBases>
+
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_ZMAGA</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>31.9</range>
+				<burstShotCount>8</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>Shot_Minigun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+ <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ZMAGA</defName>
+    <label>ZMAG1 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>2</stoppingPower>
+      <armorPenetrationBase>0.30</armorPenetrationBase>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <PawnKindDef Name="VC_ImperialFighterBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>VC_Empire</defaultFactionType>
+    <minTitleRequired>Private</minTitleRequired>
+    <apparelColor>(254,254,254)</apparelColor>
+    <maxGenerationAge>45</maxGenerationAge>
+    <minGenerationAge>20</minGenerationAge>
+    <fixedGender>Male</fixedGender>
+
+    <useFactionXenotypes>true</useFactionXenotypes>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Valkyria MayRequire="Ludeon.RimWorld.Biotech">0.01</Valkyria>
+      </xenotypeChances>
+    </xenotypeSet>
+    <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>VC_Empire</li>
+          <li>Soldier</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <styleItemTags>
+      <li>
+        <tag>Soldier</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+    <chemicalAddictionChance>0.1</chemicalAddictionChance>
+    <combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <weaponMoney>250~500</weaponMoney>
+    <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+    <apparelMoney>0</apparelMoney>
+    <!-- <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags> -->
+    <apparelDisallowTags>
+      <li>Western</li>
+    </apparelDisallowTags>
+    <!-- <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>Torso</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>Cloth</stuff>
+      </li>
+      <li>
+        <bodyPartGroup>Legs</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>Cloth</stuff>
+      </li>
+    </specificApparelRequirements> -->
+    <disallowedTraits>
+      <li>BodyPurist</li>
+    </disallowedTraits>
+  </PawnKindDef>
+
+  <PawnKindDef Name="VC_ImperialScoutBase" Abstract="True" ParentName="VC_ImperialFighterBase">
+    <combatPower>70</combatPower>
+    <weaponMoney>200~500</weaponMoney>
+    <weaponTags>
+      <li>VC_Empire_Small_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>VC_Empire_FlakPants</li>
+      <li>VC_Empire_Combat_Uniform</li>
+      <li>VC_Empire_Helmet</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_ImperialScoutBase">
+    <defName>VC_Empire_Fighter_Scout</defName>
+    <label>scout</label>
+    <apparelColor>(255,255,255)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+    </skills>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_ImperialScoutBase">
+    <defName>VC_Empire_Fighter_Elite_Scout</defName>
+    <minTitleRequired>Sergeant</minTitleRequired>
+    <combatPower>90</combatPower>
+    <apparelMoney>0</apparelMoney>
+    <itemQuality>Excellent</itemQuality>
+    <weaponMoney>400~1000</weaponMoney>
+    <label>elite scout</label>
+    <apparelColor>(68,37,35)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>12~16</range>
+      </li>
+    </skills>
+    <forcedTraits>
+      <SpeedOffset>2</SpeedOffset>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>24~30</initialResistanceRange>
+    </PawnKindDef>
+
+  <PawnKindDef Name="VC_ImperialGunnerBase" Abstract="True" ParentName="VC_ImperialFighterBase">
+    <combatPower>80</combatPower>
+    <weaponMoney>350~600</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <weaponTags>
+      <li>VC_Empire_Medium_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+
+      <li>VC_Empire_FlakPants</li>
+       
+      <li>VC_Empire_Combat_Uniform</li>
+      <li>VC_Empire_Helmet</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_ImperialGunnerBase">
+    <defName>VC_Empire_Fighter_Gunner</defName>
+    <label>gunner</label>
+    <apparelColor>(255,255,255)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+    </skills>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_ImperialGunnerBase">
+    <defName>VC_Empire_Fighter_Elite_Gunner</defName>
+    <minTitleRequired>Sergeant</minTitleRequired>
+    <combatPower>100</combatPower>
+    <weaponMoney>500~1000</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <itemQuality>Excellent</itemQuality>
+    <label>elite gunner</label>
+    <apparelColor>(68,37,35)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>10~14</range>
+      </li>
+    </skills>
+    <forcedTraits>
+      <ShootingAccuracy>-1</ShootingAccuracy>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>24~30</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef Name="VC_ImperialMortarerBase" Abstract="True" ParentName="VC_ImperialFighterBase">
+    <combatPower>90</combatPower>
+    <weaponMoney>800~1000</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <weaponTags>
+    <li>VC_Empire_Heavy_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+
+      <li>VC_Empire_FlakPants</li>
+       
+      <li>VC_Empire_Combat_Uniform</li>
+      <li>VC_Empire_Helmet</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_ImperialMortarerBase">
+    <defName>VC_Empire_Fighter_Mortarer</defName>
+    <label>mortarer</label>
+     <apparelColor>(255, 255, 255)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+    </skills>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_ImperialGunnerBase">
+    <defName>VC_Empire_Fighter_Elite_Mortarer</defName>
+    <minTitleRequired>Staff_Sergeant</minTitleRequired>
+    <combatPower>120</combatPower>
+    <weaponMoney>800~1200</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <itemQuality>Excellent</itemQuality>
+    <label>elite mortarer</label>
+    <apparelColor>(68,37,35)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>10~14</range>
+      </li>
+    </skills>
+    <forcedTraits>
+      <li>Tough</li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>24~30</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef Name="VC_ImperialMeleeBase" Abstract="True" ParentName="VC_ImperialFighterBase">
+    <combatPower>80</combatPower>
+    <weaponMoney>550~600</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <weaponTags>
+      <li>VC_Empire_Melee_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+
+      <li>VC_Empire_FlakPants</li>
+       
+      <li>VC_Empire_Combat_Uniform</li>
+      <li>VC_Empire_Helmet</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_ImperialMeleeBase">
+    <defName>VC_Empire_Fighter_Melee</defName>
+    <label>melee</label>
+     <apparelColor>(255, 255, 255)</apparelColor>
+    <skills>
+      <li>
+        <skill>Melee</skill>
+        <range>8~12</range>
+      </li>
+    </skills>
+    <disallowedTraits>
+    </disallowedTraits>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_ImperialMeleeBase">
+    <defName>VC_Empire_Fighter_Elite_Melee</defName>
+    <minTitleRequired>Staff_Sergeant</minTitleRequired>
+    <combatPower>100</combatPower>
+    <weaponMoney>550~800</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <itemQuality>Excellent</itemQuality>
+    <label>elite melee</label>
+    <apparelColor>(68,37,35)</apparelColor>
+    <skills>
+      <li>
+        <skill>Melee</skill>
+        <range>12~16</range>
+      </li>
+    </skills>
+    <forcedTraits>
+      <li>Brawler</li>
+    </forcedTraits>
+    <disallowedTraits>
+    </disallowedTraits>
+    <initialResistanceRange>24~30</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef Name="VC_RavenFighterBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>VC_Empire</defaultFactionType>
+    <minTitleRequired>Private</minTitleRequired>
+    <apparelColor>(254,254,254)</apparelColor>
+    <maxGenerationAge>45</maxGenerationAge>
+    <useFactionXenotypes>true</useFactionXenotypes>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Darcsen MayRequire="Ludeon.RimWorld.Biotech">1</Darcsen>
+      </xenotypeChances>
+    </xenotypeSet>
+    <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ImperialFighter</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <styleItemTags>
+      <li>
+        <tag>Soldier</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+    <chemicalAddictionChance>0.1</chemicalAddictionChance>
+    <combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <weaponMoney>250~500</weaponMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <apparelMoney>0</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelDisallowTags>
+      <li>Western</li>
+    </apparelDisallowTags>
+    <!-- <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>Torso</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>Cloth</stuff>
+      </li>
+      <li>
+        <bodyPartGroup>Legs</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>Cloth</stuff>
+      </li>
+    </specificApparelRequirements> -->
+    <disallowedTraits>
+      <li>BodyPurist</li>
+    </disallowedTraits>
+  </PawnKindDef>
+
+  <PawnKindDef Name="VC_RavenScoutBase" Abstract="True" ParentName="VC_RavenFighterBase">
+    <combatPower>70</combatPower>
+    <weaponMoney>200~500</weaponMoney>
+    <weaponTags>
+      <li>VC_Empire_Small_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+
+      <li>VC_Raven_FlakPants</li>
+       
+      <li>VC_Raven_Combat_Uniform</li>
+      <li>VC_Raven_Helmet</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_RavenScoutBase">
+    <defName>VC_Raven_Fighter_Scout</defName>
+    <label>scout</label>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+    </skills>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_RavenScoutBase">
+    <defName>VC_Raven_Fighter_Elite_Scout</defName>
+    <minTitleRequired>Sergeant</minTitleRequired>
+    <combatPower>90</combatPower>
+    <apparelMoney>0</apparelMoney>
+    <itemQuality>Excellent</itemQuality>
+    <weaponMoney>400~1000</weaponMoney>
+    <label>elite scout</label>
+    <apparelColor>(68,37,35)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>12~16</range>
+      </li>
+    </skills>
+    <forcedTraits>
+      <SpeedOffset>2</SpeedOffset>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>24~30</initialResistanceRange>
+    </PawnKindDef>
+
+  <PawnKindDef Name="VC_RavenGunnerBase" Abstract="True" ParentName="VC_RavenFighterBase">
+    <combatPower>80</combatPower>
+    <weaponMoney>350~600</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <weaponTags>
+      <li>VC_Empire_Medium_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+
+      <li>VC_Raven_FlakPants</li>
+       
+      <li>VC_Raven_Combat_Uniform</li>
+      <li>VC_Raven_Helmet</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_RavenGunnerBase">
+    <defName>VC_Raven_Fighter_Gunner</defName>
+    <label>gunner</label>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+    </skills>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_RavenGunnerBase">
+    <defName>VC_Raven_Fighter_Elite_Gunner</defName>
+    <minTitleRequired>Sergeant</minTitleRequired>
+    <combatPower>100</combatPower>
+    <weaponMoney>500~1000</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <itemQuality>Excellent</itemQuality>
+    <label>elite gunner</label>
+    <apparelColor>(68,37,35)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>10~14</range>
+      </li>
+    </skills>
+    <forcedTraits>
+      <ShootingAccuracy>-1</ShootingAccuracy>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>24~30</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef Name="VC_RavenMortarerBase" Abstract="True" ParentName="VC_RavenFighterBase">
+    <combatPower>90</combatPower>
+    <weaponMoney>800~1000</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <weaponTags>
+    <li>VC_Empire_Heavy_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+
+      <li>VC_Raven_FlakPants</li>
+       
+      <li>VC_Raven_Combat_Uniform</li>
+      <li>VC_Raven_Helmet</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_RavenMortarerBase">
+    <defName>VC_Raven_Fighter_Mortarer</defName>
+    <label>mortarer</label>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+    </skills>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_RavenGunnerBase">
+    <defName>VC_Raven_Fighter_Elite_Mortarer</defName>
+    <minTitleRequired>Staff_Sergeant</minTitleRequired>
+    <combatPower>120</combatPower>
+    <weaponMoney>800~1200</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <itemQuality>Excellent</itemQuality>
+    <label>elite mortarer</label>
+    <apparelColor>(68,37,35)</apparelColor>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>10~14</range>
+      </li>
+    </skills>
+    <forcedTraits>
+      <li>Tough</li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>24~30</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef Name="VC_RavenMeleeBase" Abstract="True" ParentName="VC_RavenFighterBase">
+    <combatPower>80</combatPower>
+    <weaponMoney>550~600</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <weaponTags>
+      <li>VC_Empire_Melee_Weapons</li>
+    </weaponTags>
+    <apparelRequired>
+
+      <li>VC_Raven_FlakPants</li>
+       
+      <li>VC_Raven_Combat_Uniform</li>
+      <li>VC_Raven_Helmet</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_RavenMeleeBase">
+    <defName>VC_Raven_Fighter_Melee</defName>
+    <label>melee</label>
+    <skills>
+      <li>
+        <skill>Melee</skill>
+        <range>8~12</range>
+      </li>
+    </skills>
+    <disallowedTraits>
+    </disallowedTraits>
+    <initialResistanceRange>15~24</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="VC_RavenMeleeBase">
+    <defName>VC_Raven_Fighter_Elite_Melee</defName>
+    <minTitleRequired>Staff_Sergeant</minTitleRequired>
+    <combatPower>100</combatPower>
+    <weaponMoney>550~800</weaponMoney>
+    <apparelMoney>0</apparelMoney>
+    <itemQuality>Excellent</itemQuality>
+    <label>elite melee</label>
+    <apparelColor>(68,37,35)</apparelColor>
+    <skills>
+      <li>
+        <skill>Melee</skill>
+        <range>12~16</range>
+      </li>
+    </skills>
+    <forcedTraits>
+      <li>Brawler</li>
+    </forcedTraits>
+    <disallowedTraits>
+    </disallowedTraits>
+    <initialResistanceRange>24~30</initialResistanceRange>
+  </PawnKindDef>
+  
+
+</Defs>

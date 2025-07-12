@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>VC_Elite</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>英才</label>
+        <description>{PAWN_nameDef} 被誉为“英才”的个体天资卓越，不论在战场上还是战略布局中都能展现出非凡的才能。 {PAWN_pronoun} 拥有敏锐的直觉、坚定的意志和卓越的领导力，是命运选中的佼佼者。</description>
+        <statOffsets>
+          <li>
+            <stat>GlobalLearningFactor</stat>
+            <value>1.0</value> <!-- 学习速度翻倍 -->
+          </li>
+          <li>
+            <stat>WorkSpeedGlobal</stat>
+            <value>0.15</value> <!-- 全局工作速度提升 -->
+          </li>
+          <li>
+            <stat>ResearchSpeedFactor</stat>
+            <value>0.3</value> <!-- 研究速度额外加成 -->
+          </li>
+        </statOffsets>
+        <skillGains>
+          <li>
+            <skill>Intellectual</skill>
+            <amount>6</amount>
+          </li>
+          <li>
+            <skill>Shooting</skill>
+            <amount>4</amount>
+          </li>
+          <li>
+            <skill>Social</skill>
+            <amount>3</amount>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>SlowLearner</li>
+      <li>Lazy</li>
+      <li>Pyromaniac</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>VC_Phoenix</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>浴火重生</label>
+        <description>{PAWN_nameDef} 曾从死亡边缘挣扎而归，拥有惊人的生存本能。在重伤时， {PAWN_pronoun} 的身体会激发极限状态以求生存。</description>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>Wimp</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>VC_Solitary</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>孤高</label>
+        <description>{PAWN_nameDef} 天生孤傲，习惯独处。他们讨厌被打扰，也不愿依赖他人，哪怕在极端困境中也宁愿独自承受。 {PAWN_pronoun} 对独处时的工作效率提升，但社交能力和情绪波动更容易受人际关系影响。</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>VC_NatureLover</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>喜欢自然</label>
+        <description>{PAWN_nameDef} 热爱自然环境，厌恶被围困在狭小、封闭的空间中。\n {PAWN_pronoun}在户外工作时心情更好，在自然环境中休息能获得额外的心理满足感。</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Reaper</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>死神</label> 
+        <description>{PAWN_nameDef} 每次参战，最终都只剩{PAWN_pronoun}一人从战火中爬出。\n“死神”的称号让旁人避之不及。</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Sophist</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>狡辩者</label> 
+        <description>{PAWN_nameDef} 擅长诡辩和口头花招，总能在争论中占据上风，无论对错。即使面对明摆着的事实，也能曲解为己所用。\n {PAWN_pronoun}往往让同伴感到头疼——他们精于言辞，却也难以信任。\n在谈判和社交时拥有优势，但在团队合作中可能引发摩擦。</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

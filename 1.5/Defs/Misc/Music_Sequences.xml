@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <MusicSequenceDef>
+        <defName>VC_Empire_Attack</defName>
+        <canBeInterrupted>true</canBeInterrupted>
+        <loop>true</loop>
+        <fadeoutLastSongDuration>4</fadeoutLastSongDuration>
+        <fadeInDuration>4</fadeInDuration> <!-- this starts suddenly, so ease it in -->
+        <overrideFadeout>4</overrideFadeout>
+        <song>VC_Troops_Attack</song>
+        <loopFadeout>true</loopFadeout>
+        <pausedVolumeFactor>0.5</pausedVolumeFactor>
+    </MusicSequenceDef>
+    <MusicTransitionDef>
+        <defName>VC_Empire_Attack</defName>
+        <workerType>VC_Faction.EmpireAttackTransition</workerType>
+        <overridesInterruptions>true</overridesInterruptions>
+        <sequence>VC_Empire_Attack</sequence>
+        <priority>200</priority>
+      </MusicTransitionDef>
+
+      <MusicSequenceDef>
+        <defName>VC_Advantage</defName>
+        <canBeInterrupted>true</canBeInterrupted>
+        <loop>true</loop>
+        <fadeoutLastSongDuration>2</fadeoutLastSongDuration>
+        <fadeInDuration>4</fadeInDuration> <!-- this starts suddenly, so ease it in -->
+        <overrideFadeout>4</overrideFadeout>
+        <song>VC_Advantage</song>
+        <loopFadeout>true</loopFadeout>
+        <pausedVolumeFactor>0.5</pausedVolumeFactor>
+    </MusicSequenceDef>
+    <MusicTransitionDef>
+        <defName>VC_Advantage</defName>
+        <workerType>VC_Faction.AdvantageTransition</workerType>
+        <overridesInterruptions>true</overridesInterruptions>
+        <sequence>VC_Advantage</sequence>
+        <priority>210</priority>
+      </MusicTransitionDef>
+
+      <MusicSequenceDef>
+        <defName>VC_Raven_Attack</defName>
+        <canBeInterrupted>true</canBeInterrupted>
+        <loop>true</loop>
+        <fadeoutLastSongDuration>4</fadeoutLastSongDuration>
+        <fadeInDuration>4</fadeInDuration> <!-- this starts suddenly, so ease it in -->
+        <overrideFadeout>4</overrideFadeout>
+        <song>VC_Raven_Attack</song>
+        <loopFadeout>true</loopFadeout>
+        <pausedVolumeFactor>0.5</pausedVolumeFactor>
+    </MusicSequenceDef>
+    <MusicTransitionDef>
+        <defName>VC_Raven_Attack</defName>
+        <workerType>VC_Faction.RavenAttackTransition</workerType>
+        <overridesInterruptions>true</overridesInterruptions>
+        <sequence>VC_Raven_Attack</sequence>
+        <priority>200</priority>
+      </MusicTransitionDef>
+
+      <MusicSequenceDef>
+        <defName>VC_Empire_Boss_Attack</defName>
+        <canBeInterrupted>true</canBeInterrupted>
+        <loop>true</loop>
+        <fadeoutLastSongDuration>4</fadeoutLastSongDuration>
+        <fadeInDuration>4</fadeInDuration> <!-- this starts suddenly, so ease it in -->
+        <overrideFadeout>4</overrideFadeout>
+        <song>VC_Empire_Boss_Attack</song>
+        <loopFadeout>true</loopFadeout>
+        <pausedVolumeFactor>0.5</pausedVolumeFactor>
+    </MusicSequenceDef>
+    <MusicTransitionDef>
+        <defName>VC_Empire_Boss_Attack</defName>
+        <workerType>VC_Faction.BossAttackTransition</workerType>
+        <overridesInterruptions>true</overridesInterruptions>
+        <sequence>VC_Empire_Boss_Attack</sequence>
+        <priority>200</priority>
+      </MusicTransitionDef>
+</Defs>

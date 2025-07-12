@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============== Empire titles - Player  ============================= -->
+
+  <RoyalTitleDef Abstract="True" Name="VC_BaseMilitaryRank" >
+    <tags>
+      <li>VC_MilitaryRank</li>
+    </tags>
+    <permits>
+      <li>TradeSettlement</li>
+      <li>TradeCaravan</li>
+    </permits>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>Private</defName>
+    <label>private</label>
+    <description>private</description>
+    <seniority>0</seniority>
+    <favorCost>1</favorCost>
+    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+    <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+    <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>Corporal</defName>
+    <label>corporal</label>
+    <description>corporal</description>
+    <seniority>100</seniority>
+    <favorCost>3</favorCost>
+    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+    <commonality>1</commonality>
+    <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>Sergeant</defName>
+    <label>sergeant</label>
+    <description>sergeant</description>
+    <seniority>200</seniority>
+    <favorCost>6</favorCost>
+    <changeHeirQuestPoints>1200</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>10</recruitmentResistanceOffset>
+    <commonality>1</commonality>
+    <permitPointsAwarded>1</permitPointsAwarded>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>Staff_Sergeant</defName>
+    <label>staff sergeant</label>
+    <description>staff sergeant</description>
+    <seniority>200</seniority>
+    <favorCost>10</favorCost>
+    <changeHeirQuestPoints>1200</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>10</recruitmentResistanceOffset>
+    <commonality>1</commonality>
+    <permitPointsAwarded>1</permitPointsAwarded>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>First_Sergeant</defName>
+    <label>first sergeant</label>
+    <description>first sergeant</description>
+    <seniority>200</seniority>
+    <favorCost>15</favorCost>
+    <changeHeirQuestPoints>1200</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>10</recruitmentResistanceOffset>
+    <commonality>1</commonality>
+    <permitPointsAwarded>1</permitPointsAwarded>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>Second_Lieutenant</defName>
+    <label>2nd lieutenant</label>
+    <description>2nd lieutenant</description>
+    <seniority>300</seniority>
+    <favorCost>20</favorCost>
+    <minExpectation>Moderate</minExpectation>
+    <changeHeirQuestPoints>1600</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>25</recruitmentResistanceOffset>
+    <commonality>1</commonality>
+    <decreeMtbDays>-1</decreeMtbDays> <!-- disabled -->
+    <decreeMentalBreakCommonality>2</decreeMentalBreakCommonality>
+    <permitPointsAwarded>1</permitPointsAwarded>
+    <decreeTags>
+      <li>All</li>
+    </decreeTags>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>First_Lieutenant</defName>
+    <label>1st lieutenant</label>
+    <description>1st lieutenant</description>
+    <seniority>300</seniority>
+    <favorCost>25</favorCost>
+    <minExpectation>Moderate</minExpectation>
+    <changeHeirQuestPoints>1600</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>25</recruitmentResistanceOffset>
+    <commonality>1</commonality>
+    <decreeMtbDays>-1</decreeMtbDays> <!-- disabled -->
+    <decreeMentalBreakCommonality>2</decreeMentalBreakCommonality>
+    <permitPointsAwarded>1</permitPointsAwarded>
+    <decreeTags>
+      <li>All</li>
+    </decreeTags>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>Captain</defName>
+    <label>captain</label>
+    <description>captain</description>
+    <seniority>400</seniority>
+    <favorCost>35</favorCost>
+    <minExpectation>High</minExpectation>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+    <changeHeirQuestPoints>2200</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>40</recruitmentResistanceOffset>
+    <commonality>1</commonality>
+    <decreeMtbDays>-1</decreeMtbDays> <!-- disabled -->
+    <decreeMentalBreakCommonality>4</decreeMentalBreakCommonality>
+    <permitPointsAwarded>1</permitPointsAwarded>
+    <decreeTags>
+      <li>All</li>
+    </decreeTags>
+    <grantedAbilities><li>Speech</li></grantedAbilities>
+    <speechCooldown>1200000</speechCooldown>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRank">
+    <defName>Major</defName>
+    <label>major</label>
+    <description>major</description>
+    <seniority>500</seniority>
+    <favorCost>45</favorCost>
+    <minExpectation>High</minExpectation>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+    <changeHeirQuestPoints>2800</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>60</recruitmentResistanceOffset>
+    <commonality>1</commonality>
+    <suppressIdleAlert>true</suppressIdleAlert>
+    <decreeMtbDays>-1</decreeMtbDays> <!-- disabled -->
+    <decreeMentalBreakCommonality>8</decreeMentalBreakCommonality>
+    <permitPointsAwarded>1</permitPointsAwarded>
+    <decreeTags>
+      <li>All</li>
+    </decreeTags>
+    <grantedAbilities><li>Speech</li></grantedAbilities>
+    <speechCooldown>900000</speechCooldown>
+  </RoyalTitleDef>
+
+
+
+  <!-- ============== Empire titles - NPC only psycaster ============================= -->
+
+
+  <RoyalTitleDef Abstract="True" Name="VC_BaseMilitaryRankNPC" ParentName="VC_BaseMilitaryRank" >
+    <minExpectation>Royal</minExpectation>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+    <suppressIdleAlert>true</suppressIdleAlert>
+    <disabledJoyKinds>
+      <li>Gaming_Dexterity</li>
+    </disabledJoyKinds>
+    <disabledWorkTags>
+      <li>Commoner</li>
+    </disabledWorkTags>
+    <permits>
+      <li>TradeSettlement</li>
+      <li>TradeCaravan</li>
+      <li>TradeOrbital</li>
+    </permits>
+    <bedroomRequirements>
+      <li Class="RoomRequirement_Area">
+        <area>30</area>
+      </li>
+      <li Class="RoomRequirement_Impressiveness">
+        <impressiveness>80</impressiveness>
+      </li>
+      <li Class="RoomRequirement_TerrainWithTags">
+        <labelKey>RoomRequirementAllFineFloored</labelKey>
+        <tags>
+          <li>FineFloor</li>
+        </tags>
+      </li>
+      <li Class="RoomRequirement_ThingAnyOf">
+        <disablingPrecepts>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
+        </disablingPrecepts>
+        <things>
+          <li>RoyalBed</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">DeathrestCasket</li>
+        </things>
+      </li>
+      <li Class="RoomRequirement_Thing">
+        <thingDef>EndTable</thingDef>
+      </li>
+      <li Class="RoomRequirement_Thing">
+        <thingDef>Dresser</thingDef>
+      </li>
+      <li Class="RoomRequirement_ThingCount">
+        <thingDef>Drape</thingDef>
+        <count>1</count>
+      </li>
+      <li Class="RoomRequirement_ForbiddenBuildings">
+        <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+        <buildingTags><li>Production</li></buildingTags>
+      </li>
+      <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Biotech">
+        <labelKey>RoomRequirementNoBiotechBuildings</labelKey>
+        <buildingTags><li>Biotech</li></buildingTags>
+      </li>
+      <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Anomaly">
+        <labelKey>RoomRequirementNoAnomalyBuildings</labelKey>
+        <buildingTags><li>Anomaly</li></buildingTags>
+      </li>
+    </bedroomRequirements>
+    <foodRequirement>
+      <minQuality>MealLavish</minQuality>
+      <allowedTypes>Processed, Liquor</allowedTypes>
+      <allowedDefs>
+        <li>Ambrosia</li>
+        <li>Milk</li>
+        <li>RawBerries</li>
+        <li>InsectJelly</li>
+      </allowedDefs>
+    </foodRequirement>
+    <grantedAbilities><li>Speech</li></grantedAbilities>
+    <speechCooldown>600000</speechCooldown>
+    <maxPsylinkLevel>6</maxPsylinkLevel>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRankNPC">
+    <defName>Lieutenant_Colonel</defName>
+    <label>lieutenant colonel</label>
+    <description>lieutenant colonel</description>
+    <seniority>600</seniority>
+    <commonality>0.7</commonality>
+    <recruitmentResistanceOffset>100</recruitmentResistanceOffset>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRankNPC">
+    <defName>Colonel</defName>
+    <label>colonel</label>
+    <description>colonel</description>
+    <seniority>700</seniority>
+    <commonality>0.6</commonality>
+    <recruitmentResistanceOffset>125</recruitmentResistanceOffset>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRankNPC">
+    <defName>major_general</defName>
+    <label>major general</label>
+    <description>major general</description>
+    <seniority>800</seniority>
+    <commonality>0.3</commonality>
+    <recruitmentResistanceOffset>150</recruitmentResistanceOffset>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRankNPC">
+    <defName>Lieutenant_General</defName>
+    <label>Lieutenant General</label>
+    <description>Lieutenant General</description>
+    <seniority>900</seniority>
+    <commonality>0.1</commonality>
+    <recruitmentResistanceOffset>200</recruitmentResistanceOffset>
+    <replaceOnRecruited>Consul</replaceOnRecruited>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRankNPC">
+    <defName>General</defName>
+    <label>general</label>
+    <description>general</description>
+    <seniority>1000</seniority>
+    <commonality>0.05</commonality>
+    <recruitmentResistanceOffset>200</recruitmentResistanceOffset>
+    <replaceOnRecruited>Consul</replaceOnRecruited>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="VC_BaseMilitaryRankNPC">
+    <defName>Admiral</defName>
+    <label>admiral</label>
+    <description>admiral</description>
+    <seniority>1100</seniority>
+    <commonality>0.02</commonality>
+    <recruitmentResistanceOffset>200</recruitmentResistanceOffset>
+    <replaceOnRecruited>Consul</replaceOnRecruited>
+  </RoyalTitleDef>
+</Defs>

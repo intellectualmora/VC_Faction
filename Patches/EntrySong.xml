@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+	<operations>
+	  <li Class="PatchOperationFindMod">
+		<mods><li>Core</li></mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+	  <li Class="PatchOperationReplace">
+				<xpath>/Defs/SongDef[defName="EntrySong"]</xpath>
+				<value>
+					<SongDef>
+						<defName>EntrySong</defName>
+						<playOnMap>false</playOnMap>
+						<clipPath>Songs/Entry/OpenBGM1</clipPath>
+						<volume>0.9</volume>
+					  </SongDef>
+				</value>
+			</li>
+		</operations>
+		</match>
+		</li>
+    </operations>	
+</Operation>
+</Patch>

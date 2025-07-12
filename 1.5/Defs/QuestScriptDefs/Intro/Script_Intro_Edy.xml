@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Anti-Empire intro quest. -->
+  <QuestScriptDef>
+    <defName>Intro_Edy</defName>
+    <rootMinPoints>0</rootMinPoints>
+    <expireDaysRange>4~8</expireDaysRange>
+    <defaultChallengeRating>1</defaultChallengeRating>
+    <isRootSpecial>true</isRootSpecial>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->Edy</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+    <li>questDescription->一名少女正从战火中逃来，名叫伊蒂·尼尔森。她原是加利亚民兵团的一员，在一次遭遇战中被帝国部队击溃，孤身逃出，身负重伤。\n\n帝国的追击小队正在搜捕她，她请求庇护，希望能在你的殖民地避难。\n\n伊蒂带来了一个关键情报：她得知帝国正密谋袭击一座位于边境的重要城镇，该镇目前几乎没有防御，若能提前出击，将能挫败帝国的计划，争取宝贵的战略主动权。\n\n但请注意——如果你接受她的请求，追击小队将立即袭击你的殖民地。\n\n若你愿意抗争帝国并阻止这场突袭，请接受她的请求。</li>
+    </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetWalkInSpot" />
+        <li Class="QuestNode_Set">
+          <name>raidPoints</name>
+          <value>$points</value>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_AdjustPointsForDistantFight</def>
+        </li>     
+        <!-- Get asker -->
+        <li Class="VC_Faction.QuestNode_GenerateEdyPawn">
+          <storeAs>asker</storeAs>
+        </li>
+        <!-- Spawn joiner -->
+        <li Class="QuestNode_PawnsArrive">
+          <pawns>$asker</pawns>
+          <walkInSpot>$walkInSpot</walkInSpot>
+          <joinPlayer>true</joinPlayer>
+          <customLetterText TKey="LetterLabelAskerBecameHostile">{BASETEXT}\n\nBecause you accepted [asker_nameDef], [asker_factionName] has become hostile.\n\nThe loyalty squad that is hunting [asker_objective] will arrive soon.</customLetterText>
+          <isSingleReward>true</isSingleReward>
+          <rewardDetailsHidden>true</rewardDetailsHidden>
+        </li>
+        
+        <!-- Raid -->
+        <li Class="QuestNode_Set">
+          <name>raidDelayTicks</name>
+          <value>$(roundToTicksRough(randInt(1800, 2400)))</value>
+        </li>
+        <li Class="QuestNode_Delay">
+          <delayTicks>$raidDelayTicks</delayTicks>
+          <node Class="QuestNode_SubScript">
+            <def>Util_Raid</def>
+            <prefix>raid</prefix>
+            <parms>
+              <inSignal>$inSignal</inSignal>
+              <map>$map</map>
+              <enemyFaction>VC_Empire</enemyFaction>
+              <points>$raidPoints</points>
+              <walkInSpot>$walkInSpot</walkInSpot>
+              <customLetterLabel TKey="LetterLabelLoyaltySquad">{BASELABEL}: Loyalty squad</customLetterLabel>
+              <customLetterText TKey="LetterTextLoyaltySquad">{BASETEXT}\n\nThis is the loyalty squad that was hunting [../asker_nameFull].
+              </customLetterText>
+            </parms>
+          </node>
+        </li>
+      </nodes>
+    </root>
+    
+  </QuestScriptDef>
+
+</Defs>

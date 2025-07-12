@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BaseHumanMakeableGun">
+  <defName>VC_BrownMB</defName>
+  <label>Brown M2</label>
+  <description>标准制式步枪，精度与火力兼具，是现役部队广泛装备的主战枪械。</description>
+  <graphicData>
+    <texPath>Things/Weapon/Federation/Fedration_autogun_1(Brown M2)</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>1.5</drawSize>
+  </graphicData>
+  <soundInteract>Interact_Rifle</soundInteract>
+  <recipeMaker>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+  <weaponTags>
+    <li>VC_Federation_AutoGun_Weapons</li>
+  </weaponTags>
+  <statBases>
+    <WorkToMake>67000</WorkToMake>
+    <Mass>4.15</Mass>
+    <AccuracyTouch>0.53</AccuracyTouch>
+    <AccuracyShort>0.68</AccuracyShort>
+    <AccuracyMedium>0.72</AccuracyMedium>
+    <AccuracyLong>0.67</AccuracyLong>
+    <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+    <MarketValue>480</MarketValue>
+  </statBases>
+  <costList>
+    <Steel>30</Steel>
+    <ComponentIndustrial>7</ComponentIndustrial>
+    <WoodLog>20</WoodLog>
+  </costList>
+  <verbs>
+    <li>
+      <verbClass>Verb_Shoot</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>Bullet_BrownMB</defaultProjectile>
+      <warmupTime>1.0</warmupTime>
+      <range>33.9</range>
+      <burstShotCount>4</burstShotCount>
+      <ticksBetweenBurstShots>10</ticksBetweenBurstShots> <!-- 360 rpm ≈ 10 ticks -->
+      <soundCast>Shot_Rifle</soundCast>
+      <soundCastTail>GunTail_Rifle</soundCastTail>
+      <muzzleFlashScale>6</muzzleFlashScale>
+    </li>
+  </verbs>
+  <tools>
+    <li>
+      <label>butt</label>
+      <capacities><li>Blunt</li></capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>bayonet</label>
+      <capacities><li>Blunt</li><li>Poke</li></capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+  </tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+  <defName>Bullet_BrownMB</defName>
+  <label>BrownM2子弹</label>
+  <graphicData>
+    <texPath>Things/Projectile/Bullet_Small</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+  </graphicData>
+  <projectile>
+    <damageDef>Bullet</damageDef>
+    <damageAmountBase>15</damageAmountBase>
+    <stoppingPower>0.5</stoppingPower>
+    <armorPenetrationBase>0.25</armorPenetrationBase>
+    <speed>48</speed>
+  </projectile>
+</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FactionDef ParentName="FactionBase">
+        <defName>VC_Gallia</defName>
+        <label>Gallia</label>
+        <permanentEnemyToEveryoneExcept>
+          <li>OutlanderCivil</li>
+          <li>TribeCivil</li>
+          <li>PlayerTribe</li>
+          <li>PlayerColony</li>
+          <li>VC_Nameless</li>
+          <li>Ancients</li>
+          <li>VC_Federation</li>
+          <li>Empire</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">Beggars</li>
+          <li MayRequire="Ludeon.RimWorld.Anomaly">ResearchExpedition</li>
+        </permanentEnemyToEveryoneExcept>
+        <pawnSingular>加利亚人</pawnSingular>
+        <pawnsPlural>加利亚人</pawnsPlural>
+        <categoryTag>VC_Gallia</categoryTag>
+        <description>This small, central, Europan nation is a constitutional monarchy, ruled by House Randgriz, the hereditary sovereign of Gallia. The first ruling ancestor of the house, revered as the legendary hero of the ancient War of the Valkyrur, built a castle on the site of what is now the capital city Randgriz, establishing it as the seat of Gallian rule.</description>
+        <displayInFactionSelection>true</displayInFactionSelection>
+        <fixedName>Principality of Gallia</fixedName>
+        <factionIconPath>UI/Icons/Factions/Gallia_map_marker</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <canSiege>true</canSiege>
+        <leaderTitle>King</leaderTitle>
+        <canStageAttacks>true</canStageAttacks>
+        <settlementGenerationWeight>2</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <royalFavorIconPath>UI/Icons/Factions/gallia_honor</royalFavorIconPath>
+        <royalFavorLabel>honor</royalFavorLabel>
+        <royalTitleTags>
+          <li>VC_MilitaryRank</li>
+        </royalTitleTags>
+        <fixedLeaderKinds>
+          <li>Empire_Royal_Stellarch</li>
+        </fixedLeaderKinds>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+          <li>Child</li>
+          <li>Grandchild</li>
+          <li>GreatGrandchild</li>
+          <li>NephewOrNiece</li>
+          <li>Spouse</li>
+          <li>Sibling</li>
+          <li>HalfSibling</li>
+          <li>Cousin</li>
+          <li>Parent</li>
+          <li>UncleOrAunt</li>
+        </royalTitleInheritanceRelations>
+        <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+        <factionNameMaker>VC_NamerFactionGallia</factionNameMaker>
+        <settlementNameMaker>VC_NamerSettlementGallia</settlementNameMaker>
+        <allowedCultures><li>Yggdism</li></allowedCultures>
+        <requiredMemes>
+          <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+        </requiredMemes>
+        <allowedMemes>
+          <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+        </allowedMemes>
+        <disallowedPrecepts>
+          <li>Slavery_Classic</li>
+        </disallowedPrecepts>
+          <structureMemeWeights>
+            <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+          </structureMemeWeights>
+          <xenotypeSet>
+            <xenotypeChances>
+              <Valkyria>0.0005</Valkyria>
+              <Darcsen>0.01</Darcsen>
+            </xenotypeChances>
+          </xenotypeSet>
+          <backstoryFilters>
+            <li>
+              <categories>
+                <li>ImperialCommon</li>
+              </categories>
+            </li>
+          </backstoryFilters>
+          <apparelStuffFilter>
+            <stuffCategoriesToAllow>
+              <li>Metallic</li>
+              <li>Fabric</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+              <li>DevilstrandCloth</li>
+            </disallowedThingDefs>
+          </apparelStuffFilter>
+          <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+          <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+          <colorSpectrum>
+            <li>(0.274, 0.4117, 0.549)</li>
+          </colorSpectrum>
+          <raidCommonalityFromPointsCurve>
+            <points>
+              <li>(0, 1)</li> <!--Constant 1 at all points levels-->
+            </points>
+          </raidCommonalityFromPointsCurve>
+          <raidLootMaker>VC_GalliaRaidLootMaker</raidLootMaker>
+          <maxPawnCostPerTotalPointsCurve>
+            <points>
+              <li>(500, 100)</li> <!-- Can always use relatively strong pawns, because empire doesn't really have weak ones -->
+              <li>(1000, 150)</li>
+              <li>(2000, 250)</li>
+              <li>(2001, 10000)</li>
+            </points>
+          </maxPawnCostPerTotalPointsCurve>
+          <pawnGroupMakers>
+            <li>
+              <kindDef>VC_Villagers</kindDef>
+              <commonality>100</commonality>
+              <options>
+                <VC_Farmer>3</VC_Farmer>
+                <VC_Traveler>3</VC_Traveler>
+              </options>
+            </li>
+            <li>
+              <kindDef>VC_Gallia_Militia</kindDef>
+              <commonality>100</commonality>
+              <options>
+                <VC_Militia>3</VC_Militia>
+              </options>
+            </li>
+            <li>
+              <kindDef>Trader</kindDef>
+              <traders>
+                <Empire_Common_Trader>1</Empire_Common_Trader>
+              </traders>
+              <carriers>
+                <Muffalo>6</Muffalo>
+                <Dromedary>5</Dromedary>
+                <Alpaca>2</Alpaca>
+                <Elephant>1</Elephant>
+              </carriers>
+              <guards>
+                <Villager>3</Villager>
+                <Empire_Fighter_Trooper>10</Empire_Fighter_Trooper>
+                <Empire_Fighter_Cataphract>1.5</Empire_Fighter_Cataphract>
+                <Empire_Fighter_Janissary>7</Empire_Fighter_Janissary>
+                <Empire_Fighter_Champion>10</Empire_Fighter_Champion>
+              </guards>
+            </li>
+            <!-- Traders -->
+            <li>
+              <!-- Normal fights -->
+              <kindDef>Combat</kindDef>
+              <commonality>100</commonality>
+              <options>
+                <VC_Gallia_Fighter_Scout>10</VC_Gallia_Fighter_Scout>
+                <VC_Gallia_Fighter_Elite_Scout>0.5</VC_Gallia_Fighter_Elite_Scout>
+                <VC_Gallia_Fighter_Gunner>3</VC_Gallia_Fighter_Gunner>
+                <VC_Gallia_Fighter_Elite_Gunner>0.25</VC_Gallia_Fighter_Elite_Gunner>
+                <VC_Gallia_Fighter_Melee>1</VC_Gallia_Fighter_Melee>
+                <VC_Gallia_Fighter_Elite_Melee>0.25</VC_Gallia_Fighter_Elite_Melee>
+                <VC_Gallia_Fighter_Mortarer>0.5</VC_Gallia_Fighter_Mortarer>
+                <VC_Gallia_Fighter_Elite_Mortarer>0.12</VC_Gallia_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+            <li>
+              <!-- Elic fights -->
+              <kindDef>Combat</kindDef>
+              <commonality>10</commonality>
+              <options>
+                <VC_Gallia_Fighter_Scout>8</VC_Gallia_Fighter_Scout>
+                <VC_Gallia_Fighter_Elite_Scout>1</VC_Gallia_Fighter_Elite_Scout>
+                <VC_Gallia_Fighter_Gunner>3</VC_Gallia_Fighter_Gunner>
+                <VC_Gallia_Fighter_Elite_Gunner>0.5</VC_Gallia_Fighter_Elite_Gunner>
+                <VC_Gallia_Fighter_Melee>2</VC_Gallia_Fighter_Melee>
+                <VC_Gallia_Fighter_Elite_Melee>0.5</VC_Gallia_Fighter_Elite_Melee>
+                <VC_Gallia_Fighter_Mortarer>2</VC_Gallia_Fighter_Mortarer>
+                <VC_Gallia_Fighter_Elite_Mortarer>0.5</VC_Gallia_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+            <li>
+              <!-- Base defense, mainly ranged with melee mix-ins -->
+              <kindDef>Settlement</kindDef>
+              <options>
+                <VC_Gallia_Fighter_Scout>6</VC_Gallia_Fighter_Scout>
+                <VC_Gallia_Fighter_Elite_Scout>1</VC_Gallia_Fighter_Elite_Scout>
+                <VC_Gallia_Fighter_Gunner>5</VC_Gallia_Fighter_Gunner>
+                <VC_Gallia_Fighter_Elite_Gunner>1</VC_Gallia_Fighter_Elite_Gunner>
+                <VC_Gallia_Fighter_Melee>1</VC_Gallia_Fighter_Melee>
+                <VC_Gallia_Fighter_Elite_Melee>1</VC_Gallia_Fighter_Elite_Melee>
+                <VC_Gallia_Fighter_Mortarer>1</VC_Gallia_Fighter_Mortarer>
+                <VC_Gallia_Fighter_Elite_Mortarer>0.5</VC_Gallia_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+          </pawnGroupMakers>
+          <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+          <configurationListOrderPriority>70</configurationListOrderPriority>
+          <disallowedRaidAgeRestrictions>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Children</li>
+          </disallowedRaidAgeRestrictions>
+      </FactionDef>
+    <ThingSetMakerDef>
+        <defName>VC_GalliaRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+          <fixedParams>
+            <filter>
+              <thingDefs>
+                <li>Gold</li>
+                <li>MedicineUltratech</li>
+                <li>Uranium</li>
+                <li>MealSurvivalPack</li>
+              </thingDefs>
+            </filter>
+          </fixedParams>
+        </root>
+      </ThingSetMakerDef>
+
+      
+      <RulePackDef>
+        <defName>VC_NamerFactionGallia</defName>
+        <include>
+          <li>EmpireNameUtility</li>
+        </include>
+        <rulePack>
+          <rulesStrings>
+            <li>r_name(p=2)->[nation]之[ofThing]</li>
+            <li>r_name(p=2)->[ofThing]之[nation]</li>
+            <li>r_name->草原的[nation]</li>
+            <li>r_name->山林的[nation]</li>
+            <li>r_name->自由的[nation]</li>
+            <li>r_name->坚守之[nation]</li>
+            <li>r_name->和平的[nation]</li>
+            <li>r_name->古老的[nation]</li>
+      
+            <li>nation(p=4)->公国</li>
+            <li>nation->王国</li>
+            <li>nation->自治领</li>
+            <li>nation->自由邦</li>
+            <li>nation->乡土联盟</li>
+      
+            <li>ofThing(p=4)->[WordImperial]</li>
+            <li>ofThing->自然</li>
+            <li>ofThing->家园</li>
+            <li>ofThing->先祖</li>
+            <li>ofThing->荣耀</li>
+            <li>ofThing->和平</li>
+            <li>ofThing->信仰</li>
+            <li>ofThing->土地</li>
+          </rulesStrings>
+        </rulePack>
+      </RulePackDef>
+
+  <RulePackDef>
+    <defName>VC_NamerSettlementGallia</defName>
+    <include>
+      <li>EmpireNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[townname_wordgen]</li>  
+        <li>townname_wordgen->兰德古利兹</li>
+        <li>townname_wordgen->米兰迪斯</li>
+        <li>townname_wordgen->卢米耶尔</li>
+        <li>townname_wordgen->艾尔斯塔</li>
+        <li>townname_wordgen->卡利斯托</li>
+        <li>townname_wordgen->贝罗尼亚</li>
+        <li>townname_wordgen->卡斯特利亚</li>
+        <li>townname_wordgen->兰多葛兰特</li>
+        <li>townname_wordgen->罗赛尔</li>
+        <li>townname_wordgen->维尔多娜</li>
+        <li>townname_wordgen->诺瓦兰</li>
+        <li>townname_wordgen->西雷莉亚</li>
+        <li>townname_wordgen->埃斯特尔</li>
+        <li>townname_wordgen->安德罗美达</li>
+        <li>townname_wordgen->维多利昂</li>
+        <li>townname_wordgen->阿克维拉</li>
+        <li>townname_wordgen->马提尔德</li>
+        <li>townname_wordgen->阿芙洛拉</li>
+        <li>townname_wordgen->夏利安</li>
+        <li>townname_wordgen->珀雷斯</li>
+        <li>townname_wordgen->加百列港</li>
+        <li>townname_wordgen->圣艾尔摩</li>
+        <li>townname_wordgen->白蔷薇城</li>
+        <li>townname_wordgen->银光湾</li>
+        <li>townname_wordgen->暮光镇</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+
+
+</Defs>

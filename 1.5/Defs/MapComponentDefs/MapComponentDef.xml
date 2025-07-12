@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<MapComponentDef>
+    <defName>RadioSignalMapComponent</defName>
+    <componentClass>VC_Faction.RadioSignalMapComponent</componentClass>
+  </MapComponentDef>
+</Defs>

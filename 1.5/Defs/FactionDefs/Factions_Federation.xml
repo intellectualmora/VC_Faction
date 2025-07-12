@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FactionDef ParentName="FactionBase">
+        <defName>VC_Federation</defName>
+        <label>Federation</label>
+        <permanentEnemyToEveryoneExcept>
+          <li>OutlanderCivil</li>
+          <li>TribeCivil</li>
+          <li>PlayerTribe</li>
+          <li>PlayerColony</li>
+          <li>Ancients</li>
+          <li>VC_Gallia</li>
+          <li>VC_Nameless</li>
+          <li>Empire</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">Beggars</li>
+          <li MayRequire="Ludeon.RimWorld.Anomaly">ResearchExpedition</li>
+        </permanentEnemyToEveryoneExcept>
+        <pawnSingular>Federation</pawnSingular>
+        <pawnsPlural>Federation</pawnsPlural>
+        <categoryTag>VC_Federation</categoryTag>
+        <description>The Atlantic Federation, often simply referred to as just the "Federation", is a loose alliance of democracies from the two sides of the Atlantic Ocean. It is one of two main military powers in Europa, and a participant in both EWI and EWII.</description>
+        <displayInFactionSelection>true</displayInFactionSelection>
+        <fixedName>Atlantic Federation</fixedName>
+        <factionIconPath>UI/Icons/Factions/Federation_map_marker</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <canSiege>true</canSiege>
+        <leaderTitle>President</leaderTitle>
+        <canStageAttacks>true</canStageAttacks>
+        <settlementGenerationWeight>4</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <royalFavorLabel>honor</royalFavorLabel>
+        <royalTitleTags>
+          <li>VC_MilitaryRank</li>
+        </royalTitleTags>
+        <fixedLeaderKinds>
+          <li>Empire_Royal_Stellarch</li>
+        </fixedLeaderKinds>
+        <royalFavorIconPath>UI/Icons/Factions/gallia_honor</royalFavorIconPath>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+          <li>Child</li>
+          <li>Grandchild</li>
+          <li>GreatGrandchild</li>
+          <li>NephewOrNiece</li>
+          <li>Spouse</li>
+          <li>Sibling</li>
+          <li>HalfSibling</li>
+          <li>Cousin</li>
+          <li>Parent</li>
+          <li>UncleOrAunt</li>
+        </royalTitleInheritanceRelations>
+        <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+        <factionNameMaker>VC_NamerFactionFederation</factionNameMaker>
+        <settlementNameMaker>VC_NamerSettlementFederation</settlementNameMaker>
+        <allowedCultures><li>Yggdism</li></allowedCultures>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+          </requiredMemes>
+          <allowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+          </allowedMemes>
+          <disallowedPrecepts>
+            <li>Slavery_Classic</li>
+          </disallowedPrecepts>
+          <structureMemeWeights>
+            <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+          </structureMemeWeights>
+          <xenotypeSet>
+            <xenotypeChances>
+              <Valkyria>0.0001</Valkyria>
+              <Darcsen>0.01</Darcsen>
+            </xenotypeChances>
+          </xenotypeSet>
+          <backstoryFilters>
+            <li>
+              <categories>
+                <li>ImperialCommon</li>
+              </categories>
+            </li>
+          </backstoryFilters>
+          <apparelStuffFilter>
+            <stuffCategoriesToAllow>
+              <li>Metallic</li>
+              <li>Fabric</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+              <li>DevilstrandCloth</li>
+            </disallowedThingDefs>
+          </apparelStuffFilter>
+          <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+          <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+          <colorSpectrum>
+            <li>(0.8, 0.7, 0.392)</li>
+          </colorSpectrum>
+          <raidCommonalityFromPointsCurve>
+            <points>
+              <li>(0, 1)</li> <!--Constant 1 at all points levels-->
+            </points>
+          </raidCommonalityFromPointsCurve>
+          <raidLootMaker>VC_FederationRaidLootMaker</raidLootMaker>
+          <maxPawnCostPerTotalPointsCurve>
+            <points>
+              <li>(500, 100)</li> <!-- Can always use relatively strong pawns, because empire doesn't really have weak ones -->
+              <li>(1000, 150)</li>
+              <li>(2000, 250)</li>
+              <li>(2001, 10000)</li>
+            </points>
+          </maxPawnCostPerTotalPointsCurve>
+          <pawnGroupMakers>
+            <li>
+              <kindDef>Trader</kindDef>
+              <traders>
+                <Empire_Common_Trader>1</Empire_Common_Trader>
+              </traders>
+              <carriers>
+                <Muffalo>6</Muffalo>
+                <Dromedary>5</Dromedary>
+                <Alpaca>2</Alpaca>
+                <Elephant>1</Elephant>
+              </carriers>
+              <guards>
+                <Villager>3</Villager>
+                <Empire_Fighter_Trooper>10</Empire_Fighter_Trooper>
+                <Empire_Fighter_Cataphract>1.5</Empire_Fighter_Cataphract>
+                <Empire_Fighter_Janissary>7</Empire_Fighter_Janissary>
+                <Empire_Fighter_Champion>10</Empire_Fighter_Champion>
+              </guards>
+            </li>
+            <!-- Traders -->
+            <li>
+              <!-- Normal fights -->
+              <kindDef>Combat</kindDef>
+              <commonality>100</commonality>
+              <options>
+                <VC_Federation_Fighter_Scout>10</VC_Federation_Fighter_Scout>
+                <VC_Federation_Fighter_Elite_Scout>0.5</VC_Federation_Fighter_Elite_Scout>
+                <VC_Federation_Fighter_Gunner>3</VC_Federation_Fighter_Gunner>
+                <VC_Federation_Fighter_Elite_Gunner>0.25</VC_Federation_Fighter_Elite_Gunner>
+                <VC_Federation_Fighter_Melee>1</VC_Federation_Fighter_Melee>
+                <VC_Federation_Fighter_Elite_Melee>0.25</VC_Federation_Fighter_Elite_Melee>
+                <VC_Federation_Fighter_Mortarer>0.5</VC_Federation_Fighter_Mortarer>
+                <VC_Federation_Fighter_Elite_Mortarer>0.12</VC_Federation_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+            <li>
+              <!-- Elic fights -->
+              <kindDef>Combat</kindDef>
+              <commonality>10</commonality>
+              <options>
+                <VC_Federation_Fighter_Scout>8</VC_Federation_Fighter_Scout>
+                <VC_Federation_Fighter_Elite_Scout>1</VC_Federation_Fighter_Elite_Scout>
+                <VC_Federation_Fighter_Gunner>3</VC_Federation_Fighter_Gunner>
+                <VC_Federation_Fighter_Elite_Gunner>0.5</VC_Federation_Fighter_Elite_Gunner>
+                <VC_Federation_Fighter_Melee>2</VC_Federation_Fighter_Melee>
+                <VC_Federation_Fighter_Elite_Melee>0.5</VC_Federation_Fighter_Elite_Melee>
+                <VC_Federation_Fighter_Mortarer>2</VC_Federation_Fighter_Mortarer>
+                <VC_Federation_Fighter_Elite_Mortarer>0.5</VC_Federation_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+            <li>
+              <!-- Base defense, mainly ranged with melee mix-ins -->
+              <kindDef>Settlement</kindDef>
+              <options>
+                <VC_Federation_Fighter_Scout>6</VC_Federation_Fighter_Scout>
+                <VC_Federation_Fighter_Elite_Scout>1</VC_Federation_Fighter_Elite_Scout>
+                <VC_Federation_Fighter_Gunner>5</VC_Federation_Fighter_Gunner>
+                <VC_Federation_Fighter_Elite_Gunner>1</VC_Federation_Fighter_Elite_Gunner>
+                <VC_Federation_Fighter_Melee>1</VC_Federation_Fighter_Melee>
+                <VC_Federation_Fighter_Elite_Melee>1</VC_Federation_Fighter_Elite_Melee>
+                <VC_Federation_Fighter_Mortarer>1</VC_Federation_Fighter_Mortarer>
+                <VC_Federation_Fighter_Elite_Mortarer>0.5</VC_Federation_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+          </pawnGroupMakers>
+          <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+          <configurationListOrderPriority>70</configurationListOrderPriority>
+          <disallowedRaidAgeRestrictions>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Children</li>
+          </disallowedRaidAgeRestrictions>
+      </FactionDef>
+    <ThingSetMakerDef>
+        <defName>VC_FederationRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+          <fixedParams>
+            <filter>
+              <thingDefs>
+                <li>Gold</li>
+                <li>MedicineUltratech</li>
+                <li>Uranium</li>
+                <li>MealSurvivalPack</li>
+              </thingDefs>
+            </filter>
+          </fixedParams>
+        </root>
+      </ThingSetMakerDef>
+
+      
+      <RulePackDef>
+        <defName>VC_NamerFactionFederation</defName>
+        <include>
+          <li>EmpireNameUtility</li>
+        </include>
+        <rulePack>
+          <rulesStrings>
+            <li>r_name(p=2)->[federation]之[ofThing]</li>
+            <li>r_name(p=2)->[ofThing]之[federation]</li>
+            <li>r_name->曙光之[federation]</li>
+            <li>r_name->流亡的[federation]</li>
+            <li>r_name->希望之[federation]</li>
+            <li>r_name->星辰之[federation]</li>
+            <li>r_name->自由的[federation]</li>
+            <li>r_name->[Color]之[federation]</li>
+      
+            <li>federation(p=4)->联邦</li>
+            <li>federation->联盟</li>
+            <li>federation->同盟国</li>
+            <li>federation->诸邦联合</li>
+            <li>federation->大西洋国</li>
+      
+            <li>ofThing(p=4)->[WordImperial]</li>
+            <li>ofThing->星辰</li>
+            <li>ofThing->曙光</li>
+            <li>ofThing->自由</li>
+            <li>ofThing->正义</li>
+            <li>ofThing->和平</li>
+            <li>ofThing->理想</li>
+            <li>ofThing->人民</li>
+          </rulesStrings>
+        </rulePack>
+      </RulePackDef>
+
+  <RulePackDef>
+    <defName>VC_NamerSettlementFederation</defName>
+    <include>
+      <li>EmpireNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[townname_wordgen]</li>
+  
+        <li>townname_wordgen->新卡拉斯</li>
+        <li>townname_wordgen->联邦港</li>
+        <li>townname_wordgen->格兰海文</li>
+        <li>townname_wordgen->自由星城</li>
+        <li>townname_wordgen->阿卡迪亚</li>
+        <li>townname_wordgen->星落城</li>
+        <li>townname_wordgen->雷文布鲁克</li>
+        <li>townname_wordgen->诺曼顿</li>
+        <li>townname_wordgen->卡斯特港</li>
+        <li>townname_wordgen->圣雷米</li>
+        <li>townname_wordgen->塞布里纳</li>
+        <li>townname_wordgen->维多利亚港</li>
+        <li>townname_wordgen->晨光湾</li>
+        <li>townname_wordgen->艾文戴尔</li>
+        <li>townname_wordgen->奥斯本镇</li>
+        <li>townname_wordgen->新耶路撒冷</li>
+        <li>townname_wordgen->天佑市</li>
+        <li>townname_wordgen->阿拉密达</li>
+        <li>townname_wordgen->星链城</li>
+        <li>townname_wordgen->星辉山</li>
+        <li>townname_wordgen->白鹰镇</li>
+        <li>townname_wordgen->赫尔墨斯港</li>
+        <li>townname_wordgen->哈姆雷特</li>
+        <li>townname_wordgen->高塔之城</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

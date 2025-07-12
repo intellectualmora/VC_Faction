@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================= Faction permits ============================= -->
+
+  <!-- Econ -->
+
+  <RoyalTitlePermitDef Name="VC_Empire_DropResourcesBase" Abstract="True">
+    <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+    <faction>VC_Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>30</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <royalAid>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+
+  <RoyalTitlePermitDef ParentName="VC_Empire_DropResourcesBase">
+    <defName>VC_Empire_FoodDrop</defName>
+    <label>food drop</label>
+    <description>Call for a drop of 20 packaged survival meals.</description>
+    <minTitle>First_Sergeant</minTitle>
+    <uiPosition>(0,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MealSurvivalPack>20</MealSurvivalPack>
+      </itemsToDrop>
+      <favorCost>2</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="VC_Empire_DropResourcesBase">
+    <defName>VC_Empire_SteelDrop</defName>
+    <label>steel drop</label>
+    <description>Call for a drop of 250 steel.</description>
+    <minTitle>First_Sergeant</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Steel>250</Steel>
+      </itemsToDrop>
+      <favorCost>3</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="VC_Empire_DropResourcesBase">
+    <defName>VC_Empire_RagniteDrop</defName>
+    <label>Ragnite drop</label>
+    <description>Call for a drop of 75 Ragnite.</description>
+    <minTitle>Second_Lieutenant</minTitle>
+    <prerequisite>VC_Empire_SteelDrop</prerequisite>
+    <uiPosition>(1,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Steel>75</Steel>
+      </itemsToDrop>
+      <favorCost>5</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="VC_Empire_DropResourcesBase">
+    <defName>VC_Empire_SilverDrop</defName>
+    <label>silver drop</label>
+    <description>Call for a drop of 500 silver.</description>
+    <minTitle>Second_Lieutenant</minTitle>
+    <uiPosition>(0,2)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Silver>500</Silver>
+      </itemsToDrop>
+      <favorCost>5</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="VC_Empire_DropResourcesBase">
+    <defName>VC_Empire_ShellDrop</defName>
+    <label>shell drop</label>
+    <description>Call for a drop of 5 high-explosive shell.</description>
+    <minTitle>Second_Lieutenant</minTitle>
+    <uiPosition>(0,3)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Shell_HighExplosive>5</Shell_HighExplosive>
+      </itemsToDrop>
+      <favorCost>5</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="VC_Empire_DropResourcesBase">
+    <defName>VC_Empire_MedDrop</defName>
+    <label>med drop</label>
+    <description>Call for a drop of 5 medicine.</description>
+    <minTitle>Second_Lieutenant</minTitle>
+    <uiPosition>(0,4)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MedicineIndustrial>5</MedicineIndustrial>
+      </itemsToDrop>
+      <favorCost>5</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>VC_Empire_CallMilitaryAidLight</defName>
+    <label>call light trooper squad</label>
+    <description>Call a group of 8 light troopers to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>Second_Lieutenant</minTitle>
+    <faction>VC_Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,5)</uiPosition>
+    <royalAid>
+      <favorCost>1</favorCost>
+      <pawnKindDef>VC_Empire_Fighter_Scout</pawnKindDef>
+      <pawnCount>8</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>10</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <!-- Combat -->
+
+  <RoyalTitlePermitDef>
+    <defName>VC_Empire_CallMilitaryAidMedium</defName>
+    <label>call medium trooper squad</label>
+    <description>Call a group of 8 medium troopers to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>Second_Lieutenant</minTitle>
+    <faction>VC_Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,5)</uiPosition>
+    <prerequisite>VC_Empire_CallMilitaryAidLight</prerequisite>
+    <royalAid>
+      <favorCost>1</favorCost>
+      <pawnKindDef>VC_Empire_Fighter_Gunner</pawnKindDef>
+      <pawnCount>8</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>20</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>VC_Empire_CallMilitaryAidHeavy</defName>
+    <label>call heavy trooper squad</label>
+    <description>Call a group of 8 heavy troopers to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>Second_Lieutenant</minTitle>
+    <faction>VC_Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(2,5)</uiPosition>
+    <prerequisite>VC_Empire_CallMilitaryAidMedium</prerequisite>
+    <royalAid>
+      <favorCost>2</favorCost>
+      <pawnKindDef>VC_Empire_Fighter_Mortarer</pawnKindDef>
+      <pawnCount>8</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>30</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>VC_Empire_CallMilitaryAidTank</defName>
+    <label>call tank squad</label>
+    <description>Call a group of 4 tank to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>First_Lieutenant</minTitle>
+    <faction>VC_Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,6)</uiPosition>
+    <royalAid>
+      <favorCost>3</favorCost>
+      <pawnKindDef>VC_Empire_Fighter_Mortarer</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>30</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>VC_Empire_CallMilitaryAidTankLarge</defName>
+    <label>call large tank squad</label>
+    <description>Call a group of 8 tank to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>Major</minTitle>
+    <faction>VC_Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>VC_Empire_CallMilitaryAidTank</prerequisite>
+    <uiPosition>(1,6)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>VC_Empire_Fighter_Mortarer</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>VC_Empire_CallArtilleryStrike</defName>
+    <label>call artillery strike</label>
+    <description>Call a single-impact artillery strike at a target position.</description>
+    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+    <minTitle>First_Lieutenant</minTitle>
+    <faction>VC_Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>20</cooldownDays>
+    <uiPosition>(0,7)</uiPosition>
+    <royalAid>
+      <favorCost>2</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <radius>2.9</radius>
+      <explosionRadiusRange>7.9</explosionRadiusRange>
+      <explosionCount>1</explosionCount>
+      <intervalTicks>60</intervalTicks>
+      <warmupTicks>120</warmupTicks>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>VC_Empire_CallArtillerySalvo</defName>
+    <label>call artillery salvo</label>
+    <description>Call a salvo of artillery strikes around a target position.</description>
+    <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+    <minTitle>Major</minTitle>
+    <faction>VC_Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>VC_Empire_CallArtilleryStrike</prerequisite>
+    <cooldownDays>40</cooldownDays>
+    <uiPosition>(1,7)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <radius>7.9</radius>
+      <explosionRadiusRange>5.9</explosionRadiusRange>
+      <explosionCount>6</explosionCount>
+      <intervalTicks>60</intervalTicks>
+      <warmupTicks>120</warmupTicks>
+    </royalAid>
+  </RoyalTitlePermitDef>
+</Defs>

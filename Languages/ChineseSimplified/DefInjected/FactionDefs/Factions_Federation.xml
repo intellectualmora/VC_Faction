@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VC_Federation.label>联邦</VC_Federation.label>
+  <VC_Federation.pawnSingular>联邦人</VC_Federation.pawnSingular>
+  <VC_Federation.pawnsPlural>联邦人</VC_Federation.pawnsPlural>
+  <VC_Federation.description>大西洋联邦，通常简称为“联邦”，是一个由大西洋两岸的民主国家组成的松散联盟。它是欧罗巴大陆上的两个主要军事强国之一，并参与了第一次欧罗巴战争（EWI）和第二次欧罗巴战争（EWII）。</VC_Federation.description>
+  <VC_Federation.fixedName>大西洋联邦</VC_Federation.fixedName>
+  <VC_Federation.leaderTitle>总统</VC_Federation.leaderTitle>
+</LanguageData>

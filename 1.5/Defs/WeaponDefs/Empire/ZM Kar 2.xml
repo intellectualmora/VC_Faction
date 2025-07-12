@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VC_ZMKarB</defName>
+    <label>ZM Kar 2</label>
+    <description>Crafted by the Empire's top arms maker, Zechmeister (ZM Corp), this rifle is one of the factors that enabled the Imperial armies to sweep across Europa. Substantially lighter than conventional rifles, the ZM Kar greatly improved unit mobility and won the thanks of those forced to carry them on their march. Its distinctive axe shape earned it the nickname "Francisca" among its users. - Circa 1935</description>
+    <graphicData>
+      <texPath>Things/Weapon/Imperial/Imperial_boltrifle_2(ZM kar2)</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>VC_Empire_Rifle_Weapons</li>
+    </weaponTags>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <Mass>4.85</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>10</Steel>
+      <VC_ZMKarA>5</VC_ZMKarA>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ZMKarB</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>29.9</range>
+        <burstShotCount>1</burstShotCount>
+        <!-- <ticksBetweenBurstShots>20</ticksBetweenBurstShots> -->
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.95</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.95</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ZMKarB</defName>
+    <label>ZM Kar 2 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>27</damageAmountBase>
+      <stoppingPower>2.0</stoppingPower>
+      <armorPenetrationBase>0.30</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+
+</Defs>

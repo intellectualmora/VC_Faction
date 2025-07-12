@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HairDef>
+		<label>Edy</label>
+		<styleGender>Female</styleGender>
+		<texPath>Hair/Edy</texPath>
+		<defName>Edy</defName>
+		<category>Urban</category>
+		<styleTags>
+			<li>Urban</li>
+			<li>Royal</li>
+			<li>Rural</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+<HairDef>
+    <label>Clementia</label>
+    <styleGender>Female</styleGender>
+    <texPath>Hair/Clementia</texPath>
+    <defName>Clementia</defName>
+	<category>Urban</category>
+	<styleTags>
+		<li>Urban</li>
+		<li>Royal</li>
+		<li>Rural</li>
+		<li>HairLong</li>
+	</styleTags>
+</HairDef>
+<HairDef>
+    <label>Riela</label>
+    <styleGender>Female</styleGender>
+    <texPath>Hair/Riela</texPath>
+    <defName>Riela</defName>
+	<category>Urban</category>
+	<styleTags>
+		<li>Urban</li>
+		<li>Royal</li>
+		<li>Rural</li>
+		<li>HairLong</li>
+	</styleTags>
+</HairDef>
+<HairDef>
+    <label>Selvaria</label>
+    <styleGender>Female</styleGender>
+    <texPath>Hair/Selvaria</texPath>
+    <defName>Selvaria</defName>
+	<category>Urban</category>
+	<styleTags>
+		<li>Urban</li>
+		<li>Royal</li>
+		<li>Rural</li>
+		<li>HairLong</li>
+	</styleTags>
+</HairDef>
+<HairDef>
+    <label>Imca</label>
+    <styleGender>Female</styleGender>
+    <texPath>Hair/Imca</texPath>
+    <defName>Imca</defName>
+	<category>Urban</category>
+	<styleTags>
+		<li>Urban</li>
+		<li>Royal</li>
+		<li>Rural</li>
+		<li>HairLong</li>
+	</styleTags>
+</HairDef>
+<HairDef>
+    <label>Kurt</label>
+    <styleGender>Male</styleGender>
+    <texPath>Hair/Kurt</texPath>
+    <defName>Kurt</defName>
+	<category>Urban</category>
+	<styleTags>
+		<li>Urban</li>
+		<li>Royal</li>
+		<li>Rural</li>
+		<li>HairShort</li>
+	</styleTags>
+</HairDef>
+<HairDef>
+    <label>Welkin</label>
+    <styleGender>Male</styleGender>
+    <texPath>Hair/Welkin</texPath>
+    <defName>Welkin</defName>
+	<category>Urban</category>
+	<styleTags>
+		<li>Urban</li>
+		<li>Royal</li>
+		<li>Rural</li>
+		<li>HairShort</li>
+	</styleTags>
+</HairDef>
+<HairDef>
+    <label>Alicia</label>
+    <styleGender>Female</styleGender>
+    <texPath>Hair/Alicia</texPath>
+    <defName>Alicia</defName>
+	<category>Urban</category>
+	<styleTags>
+		<li>Urban</li>
+		<li>Royal</li>
+		<li>Rural</li>
+		<li>HairLong</li>
+	</styleTags>
+</HairDef>
+</Defs>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Anti-Empire intro quest. -->
+  <QuestScriptDef>
+    <defName>VC_Gallia_EdyRescue</defName>
+    <rootMinPoints>0</rootMinPoints>
+    <autoAccept>true</autoAccept>
+    <defaultChallengeRating>1</defaultChallengeRating>
+    <isRootSpecial>true</isRootSpecial>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->求救信号</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->【紧急信号接收】\n本地频道截获一条来自身份不明女性的加密求救信号，信号中反复呼叫：“我是伊蒂·尼尔森，加利亚游击队成员，目前正被帝国残余部队围追堵截，位置坐标已上传……请求增援！他们……他们带来了坦克！”\n信号断断续续，传输背景夹杂爆炸与枪火声，情况危急。\n根据地理信息，信号源位于布鲁尔边境废弃哨站区域，帝国可能正在该地集结力量。若你选择前往营救，将面对未知规模的帝国军队与防御工事。\n但请注意：若成功救出该女子，据称她将愿意加入殖民地，为自由而战。
+        </li>
+        <li>failedLabel->任务失败</li>
+        <li>failedCause1->失败原因：全军覆没</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="VC_Faction.QuestNode_Root_RescueEdy">
+      <enemyfactionDef>VC_Empire</enemyfactionDef>
+      <hostfactionDef>VC_Gallia</hostfactionDef>
+      <questScriptDef>VC_Gallia_EdyRescue</questScriptDef>
+    </root>
+    
+  </QuestScriptDef>
+
+</Defs>

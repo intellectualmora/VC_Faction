@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<IncidentDef>
+  <defName>VC_RaidEmpireOnce</defName>
+  <label>帝国袭击</label>
+  <workerClass>VC_Faction.IncidentWorker_RaidEmpireFixed</workerClass>
+  <category>ThreatBig</category>
+  <targetTags>
+      <li>Map_PlayerHome</li>
+  </targetTags>
+  <baseChance>0</baseChance> <!-- 因为是剧情触发 -->
+  <pointsScaleable>true</pointsScaleable>
+  <tale>Raid</tale>
+  <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>
+</IncidentDef>
+</Defs>

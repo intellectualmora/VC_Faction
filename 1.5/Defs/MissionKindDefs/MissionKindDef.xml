@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <VC_Faction.MissionKindDef>
+        <defName>VC_Mission_OccupyEmpireOutpost</defName>
+        <label>来自加利亚军战地指挥部的简讯</label>
+        <faction>VC_Gallia</faction>
+        <graphicsPath>UI/Windows/Dialog_Radio/galliatribune</graphicsPath>
+        <title>【加利亚前线通讯】</title>
+        <point>1000</point>
+        <text>今日侦察团发现了活动于布鲁尔近郊废弃兵站中的帝国军，我们确信这些零星部队是上次正面作战后撤退至此的零散残军，这些残军对于我方补给线以及附近民众来说是一个重大威胁，消灭他们。\n侦察团无力进一步获悉基地内部的详细情报，但从长距照相机的摄影可以看到一些简单的防御工事和班组重火力。清剿有一定难度，各单位在采取行动前需联系战地指挥部并且务必做好充分准备。任何响应本通讯前往剿灭敌人的部队将会获得额外的补给并记军功。\n胜利条件：击退所有帝国单位。提示: 摧毁所有帝国旗帜可以使帝国士兵溃逃。\n——为了祖国，为了自由。</text>
+        <choice1>“义不容辞！”</choice1>
+        <choice2>“无能为力”</choice2>
+        <questScriptDef>OccupyEmpireOutpost</questScriptDef>
+    </VC_Faction.MissionKindDef>
+
+    <VC_Faction.MissionKindDef>
+        <defName>VC_Mission_GalliaRecruitmentCall</defName>
+        <label>来自加利亚军战地指挥部的征兵令</label>
+        <faction>VC_Gallia</faction>
+        <graphicsPath>UI/Windows/Dialog_Radio/galliatribune</graphicsPath>
+        <title>【加利亚前线通讯】</title>
+        <point>800</point>
+        <text>近日，帝国军在边境地区频繁活动，我军前线防务压力骤增。为了稳固战线，确保国土安全，加利亚军战地指挥部特此发出征兵令，号召所有愿意为祖国献身的勇士即刻应征入伍。\n新兵将被编入前线支援部队，执行巡逻、防卫及补给护送等重要任务。服役期间将由国家提供全额补给，并在服役期满后给予丰厚奖励及军功表彰。\n根据情势，征召部队将被安排至指定的战略要地，可能面临临时作战命令，需做好一切战斗准备。\n响应征兵令即表示接受加利亚军队调遣并服从指挥体系。\n——为了祖国，为了自由。</text>
+        <choice1>“为祖国献身！”</choice1>
+        <choice2>“目前无法响应”</choice2>
+        <questScriptDef>VC_Gallia_PawnLend</questScriptDef>
+    </VC_Faction.MissionKindDef>
+
+     <VC_Faction.MissionKindDef>
+    <defName>VC_Mission_EdyDistressSignal</defName>
+    <label>未知求救信号</label>
+    <faction>VC_Gallia</faction>
+    <graphicsPath>UI/Windows/Dialog_Radio/edy</graphicsPath>
+    <title>【紧急联络频道】</title>
+    <point>800</point>
+    <text>这里是伊蒂·尼尔森！\n我在执行巡逻任务时遭遇帝国军残部伏击，紧急撤退至废弃哨站暂避，通讯设备严重受损，仅能短暂发出求救信号！\n附近敌情不明，弹药补给即将耗尽，我需要支援部队迅速赶来支援！\n如果有人能收到这个频道，请立刻前往我所在位置，我会用信号弹引导你们。\n这不是演习，我真的需要你们的帮助！\n——伊蒂，完毕。</text>
+    <choice1>“别怕，我们来了！”</choice1>
+    <choice2>“无法前往，祝你平安”</choice2>
+    <questScriptDef>VC_Gallia_EdyRescue</questScriptDef>
+    </VC_Faction.MissionKindDef>
+</Defs>

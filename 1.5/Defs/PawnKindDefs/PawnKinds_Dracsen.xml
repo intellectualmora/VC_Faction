@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="DarcsenBase">
+    <race>Human</race>
+    <combatPower>35</combatPower>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Darcsen>999</Darcsen>
+      </xenotypeChances>
+    </xenotypeSet>
+    <chemicalAddictionChance>0.08</chemicalAddictionChance>
+    <apparelMoney>0~500</apparelMoney>
+    <apparelRequired>
+      <li>VC_DarcsenCape</li>
+      <li>VC_Civilian_Farmer_upper</li>
+      <li>VC_Civilian_Farmer_Pants</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>VC_Villager</li>
+    </apparelTags>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>0</weaponMoney>
+    <techHediffsMoney>0</techHediffsMoney>
+    <biocodeWeaponChance>0</biocodeWeaponChance>
+    <combatEnhancingDrugsChance>0.5</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+    <initialWillRange>0</initialWillRange>
+    <initialResistanceRange>0</initialResistanceRange>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>VC_Darcsen</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="DarcsenBase">
+    <defName>Darcsen_Basic</defName>
+    <label>Darcsen_Basic</label>
+    <apparelMoney>0~100</apparelMoney>
+  </PawnKindDef>
+
+</Defs>

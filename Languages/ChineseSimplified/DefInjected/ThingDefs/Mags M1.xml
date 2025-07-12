@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Mags M1 bullet -->
+  <Bullet_MagsA.label>Mags机枪M1型子弹</Bullet_MagsA.label>
+  
+  <!-- EN: Mags M1 -->
+  <VC_MagsA.label>Mags机枪M1型</VC_MagsA.label>
+  <!-- EN: EW1 saw a variety of firearms developed to suit a broad spectrum of needs. Among them, the machine gun's stopping power made it exceptionally popular, among arms masters, both within Gallia and abroad. Though models of all shapes and sizes saw use in combat, the Mags machine gun was especially prized on the front lines for its portability. Excelling in rapid-fire speed and ease, it exhibited unparalleled performance in the close quarters of trench and urban operations. - Circa 1935 -->
+  <VC_MagsA.description>在EW1里各国见证了为满足广泛需求而开发的各种枪械。在这些武器当中，机枪的压制能力使得它在加利亚格外受欢迎。尽管有各种型号的机枪可以在战斗中使用，但Mags机枪因其便携性在前线尤其受到青睐。它拥有较快的射速且非常轻便，在近距离堑壕战和城市作战中表现出了无与伦比的性能。——大约1935年</VC_MagsA.description>
+  <!-- EN: grip -->
+  <VC_MagsA.tools.grip.label>握把</VC_MagsA.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_MagsA.tools.barrel.label>枪管</VC_MagsA.tools.barrel.label>
+  <!-- EN: Mags M1 -->
+  <VC_MagsA.verbs.Verb_Shoot.label>Mags机枪M1型</VC_MagsA.verbs.Verb_Shoot.label>
+  
+</LanguageData>

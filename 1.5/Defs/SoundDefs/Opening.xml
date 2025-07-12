@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<SoundDef>
+		<defName>VC_Opening</defName>
+		<context>MapOnly</context>
+        <maxVoices>1</maxVoices>  
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+                <onCamera>True</onCamera>      
+				<grains>
+					<li Class="AudioGrain_Clip">
+                        <clipPath>Sounds/opening</clipPath>
+                      </li>
+				</grains>
+				<sustainLoop>False</sustainLoop>
+                <volumeRange>30~30</volumeRange>
+			</li>
+		</subSounds>
+        
+	</SoundDef>
+    </Defs>

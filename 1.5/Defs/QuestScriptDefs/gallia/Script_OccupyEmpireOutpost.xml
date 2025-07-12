@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Anti-Empire intro quest. -->
+  <QuestScriptDef>
+    <defName>OccupyEmpireOutpost</defName>
+    <rootMinPoints>0</rootMinPoints>
+    <autoAccept>true</autoAccept>
+    <defaultChallengeRating>1</defaultChallengeRating>
+    <isRootSpecial>true</isRootSpecial>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->占领帝国据点</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->【加利亚中央指挥部通告】\n鉴于东部战线帝国军残部占据布鲁尔边境一带废弃哨站，严重威胁我方边境补给线与民众安全，现征召精锐部队前往清剿并占领该战略要点。\n敌军守备力量未知，但可确认据点已完成基本防御布设，且可能配备重火力武装。战斗预计激烈，请务必做好充分准备。凡成功完成任务者，加利亚政府将统计战功、提供物资等丰厚奖励。\n——为了祖国，为了自由。\n胜利条件：1. 击退所有帝国单位（包括部队以及无人自动单位）。提示: 摧毁所有帝国旗帜可以使帝国士兵溃逃。
+        </li>
+        <li>failedLabel->任务失败</li>
+        <li>failedCause1->失败原因：全军覆没</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="VC_Faction.QuestNode_Root_OccupyOutpost">
+      <enemyfactionDef>VC_Empire</enemyfactionDef>
+      <hostfactionDef>VC_Gallia</hostfactionDef>
+      <questScriptDef>OccupyEmpireOutpost</questScriptDef>
+    </root>
+    
+  </QuestScriptDef>
+
+</Defs>

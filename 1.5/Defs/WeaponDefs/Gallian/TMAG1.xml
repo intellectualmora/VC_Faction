@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BaseHumanMakeableGun">
+  <defName>VC_TMAGA</defName>
+  <label>TMAG1</label>
+  <description>标准制式步枪，精度与火力兼具，是现役部队广泛装备的主战枪械。</description>
+  <graphicData>
+    <texPath>Things/Weapon/Gallian/Gallia_autogun_1(TMAG1)</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>1.5</drawSize>
+  </graphicData>
+  <soundInteract>Interact_Rifle</soundInteract>
+  <recipeMaker>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+  <weaponTags>
+    <li>VC_Gallia_AutoGun_Weapons</li>
+  </weaponTags>
+  <statBases>
+    <WorkToMake>66700</WorkToMake>
+    <Mass>2.80</Mass>
+    <AccuracyTouch>0.60</AccuracyTouch>
+    <AccuracyShort>0.70</AccuracyShort>
+    <AccuracyMedium>0.70</AccuracyMedium>
+    <AccuracyLong>0.55</AccuracyLong>
+    <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+    <MarketValue>420</MarketValue>
+  </statBases>
+  <costList>
+    <Steel>40</Steel>
+    <ComponentIndustrial>5</ComponentIndustrial>
+    <WoodLog>30</WoodLog>
+  </costList>
+  <verbs>
+    <li>
+      <verbClass>Verb_Shoot</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>Bullet_TMAGA</defaultProjectile>
+      <warmupTime>1.0</warmupTime>
+      <range>30.9</range>
+      <burstShotCount>6</burstShotCount>
+      <ticksBetweenBurstShots>10</ticksBetweenBurstShots> <!-- 360 rpm ≈ 10 ticks -->
+      <soundCast>Shot_Rifle</soundCast>
+      <soundCastTail>GunTail_Rifle</soundCastTail>
+      <muzzleFlashScale>6</muzzleFlashScale>
+    </li>
+  </verbs>
+  <tools>
+    <li>
+      <label>butt</label>
+      <capacities><li>Blunt</li></capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>bayonet</label>
+      <capacities><li>Blunt</li><li>Poke</li></capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+  </tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+  <defName>Bullet_TMAGA</defName>
+  <label>TMAG1子弹</label>
+  <graphicData>
+    <texPath>Things/Projectile/Bullet_Small</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+  </graphicData>
+  <projectile>
+    <damageDef>Bullet</damageDef>
+    <damageAmountBase>9</damageAmountBase>
+    <stoppingPower>0.5</stoppingPower>
+    <armorPenetrationBase>0.16</armorPenetrationBase>
+    <speed>48</speed>
+  </projectile>
+</ThingDef>
+
+
+</Defs>

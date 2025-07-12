@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Gallian-1 bullet -->
+  <Bullet_GallianA.label>加利安-1步枪弹</Bullet_GallianA.label>
+  
+  <!-- EN: Gallian-1 -->
+  <VC_GallianA.label>加利安-1步枪</VC_GallianA.label>
+  <!-- EN: A standard rifle developed by Gallia's only arms manufacturer, the National Arsenal. Created during EW1, it was issued to Gallian soldiers and saw use in combat before the war's end. By minimizing changes made to the action of existing models, developers were able to save time in realizing their design while also allowing for a wider range of uses through further customization. Its name came from its status as the first domestically designed rifle in the nation's history. - Circa 1935 -->
+  <VC_GallianA.description>由加利亚唯一的武器制造商，国家军火库开发的标准步枪。在EW1期间设计，它被分发给加利安士兵，并在战争结束前使用。通过对现有设计的轻微改进，为开发人员节省了大量时间，同时该枪还允许进行定制进一步延伸其适用范围。它的名字为了纪念它作为加利亚历史上第一款国产步枪。——大约1935年</VC_GallianA.description>
+  <!-- EN: stock -->
+  <VC_GallianA.tools.stock.label>枪托</VC_GallianA.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_GallianA.tools.barrel.label>枪管</VC_GallianA.tools.barrel.label>
+  <!-- EN: Gallian-1 -->
+  <VC_GallianA.verbs.Verb_Shoot.label>加利安-1步枪</VC_GallianA.verbs.Verb_Shoot.label>
+  
+</LanguageData>

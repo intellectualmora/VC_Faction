@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VC_Empire.label>帝国</VC_Empire.label>
+  <VC_Empire.pawnSingular>帝国人</VC_Empire.pawnSingular>
+  <VC_Empire.pawnsPlural>帝国人</VC_Empire.pawnsPlural>
+  <VC_Empire.description>一个由多个国家组成的联盟，在东欧皇帝的统治下联合，被称为“帝国”。当发现拉格奈特可以作为有用的能源时，工业革命随之发生，东欧的国家作为机械技术的先驱崛起。已经通过皇室婚姻紧密相连的这些国家，现在正式结成了国际联盟。尽管在技术上不是一个专制政权，并且拥有议会，皇帝在联盟内享有无限的权力。帝国保留了中世纪时期的习俗和做法，其人民以保守著称，包括对达尔克斯人种族的强烈仇恨。达尔克斯人通常被强制送入劳动营，为帝国提供劳力和材料。帝国联盟的文化依然深深植根于中世纪时代。这种影响可以在士兵们穿戴的盔甲以及每个士兵向国王宣誓效忠的誓言中看到。</VC_Empire.description>
+  <VC_Empire.fixedName>东欧帝国联盟</VC_Empire.fixedName>
+  <VC_Empire.leaderTitle>皇帝</VC_Empire.leaderTitle>
+</LanguageData>

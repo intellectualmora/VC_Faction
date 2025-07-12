@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BaseHumanMakeableGun">
+  <defName>VC_BragiC</defName>
+  <label>Bragi-3</label>
+  <description>Bragi-3</description>
+  <graphicData>
+    <texPath>Things/Weapon/Federation/Fedration_LMG(Bragi-3)</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>2</drawSize>
+  </graphicData>
+  <soundInteract>Interact_Rifle</soundInteract>
+  <recipeMaker>
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+  <weaponTags>
+    <li>VC_Federation_LMG_Weapons</li>
+  </weaponTags>
+  <statBases>
+    <WorkToMake>58400</WorkToMake>
+    <Mass>5.50</Mass>
+    <AccuracyTouch>0.45</AccuracyTouch>
+    <AccuracyShort>0.50</AccuracyShort>
+    <AccuracyMedium>0.35</AccuracyMedium>
+    <AccuracyLong>0.40</AccuracyLong>
+    <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+    <MarketValue>480</MarketValue>
+  </statBases>
+  <costList>
+    <Steel>85</Steel>
+    <ComponentIndustrial>6</ComponentIndustrial>
+  </costList>
+  <verbs>
+    <li>
+      <verbClass>Verb_Shoot</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>Bullet_BragiC</defaultProjectile>
+      <warmupTime>1.0</warmupTime>
+      <range>24</range>
+      <burstShotCount>15</burstShotCount>
+      <ticksBetweenBurstShots>5</ticksBetweenBurstShots> <!-- 射速约 740 rpm ≈ 5 ticks 间隔 -->
+      <soundCast>Shot_AutoRifle</soundCast>
+      <soundCastTail>GunTail_Rifle</soundCastTail>
+      <muzzleFlashScale>6</muzzleFlashScale>
+    </li>
+  </verbs>
+  <tools>
+    <li>
+      <label>stock</label>
+      <capacities><li>Blunt</li></capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>barrel</label>
+      <capacities><li>Blunt</li><li>Poke</li></capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+  </tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+  <defName>Bullet_BragiC</defName>
+  <label>Bragi3子弹</label>
+  <graphicData>
+    <texPath>Things/Projectile/Bullet_Small</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+  </graphicData>
+  <projectile>
+    <damageDef>Bullet</damageDef>
+    <damageAmountBase>11</damageAmountBase>
+    <stoppingPower>1.6</stoppingPower>
+    <armorPenetrationBase>0.31</armorPenetrationBase>
+    <speed>48</speed>
+  </projectile>
+</ThingDef>
+
+</Defs>

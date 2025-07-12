@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VC_Gallia.label>加利亚</VC_Gallia.label>
+  <VC_Gallia.pawnSingular>加利亚人</VC_Gallia.pawnSingular>
+  <VC_Gallia.pawnsPlural>加利亚人</VC_Gallia.pawnsPlural>
+  <VC_Gallia.description>这个位于欧罗巴中部的小国是一个宪政君主制国家，由兰德格里兹家族统治，这个家族是加利亚的世袭君主。家族的第一任统治祖先，被尊敬为古代女武神战争的传奇英雄，在现在的首都兰德格里兹所在的地方建造了一座城堡，确立了加利亚的统治中心。</VC_Gallia.description>
+  <VC_Gallia.fixedName>加利亚公国</VC_Gallia.fixedName>
+  <VC_Gallia.leaderTitle>国王</VC_Gallia.leaderTitle>
+
+</LanguageData>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="ValkyriaBase">
+    <race>Human</race>
+    <combatPower>85</combatPower>
+    <fixedGender>Female</fixedGender>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Valkyria>999</Valkyria>
+      </xenotypeChances>
+    </xenotypeSet>
+    <defaultFactionType>VC_Empire</defaultFactionType>
+    <chemicalAddictionChance>0.08</chemicalAddictionChance>
+    <apparelMoney>0~100</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_CollarShirt</li>
+      <li>Apparel_Pants</li>
+    </apparelRequired>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>0</weaponMoney>
+    <techHediffsMoney>0</techHediffsMoney>
+    <biocodeWeaponChance>0</biocodeWeaponChance>
+    <combatEnhancingDrugsChance>0.5</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+    <initialWillRange>0</initialWillRange>
+    <initialResistanceRange>0</initialResistanceRange>
+    <requiredWorkTags>
+      <li>Firefighting</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </requiredWorkTags>
+    <disallowedTraits>
+      <li>Wimp</li>
+    </disallowedTraits>
+    <disallowedTraitsWithDegree>
+      <PsychicSensitivity>-1</PsychicSensitivity>
+      <PsychicSensitivity>-2</PsychicSensitivity>
+    </disallowedTraitsWithDegree>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>VC_Valkyria</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ValkyriaBase">
+    <defName>Valkyria_Basic</defName>
+    <label>Valkyria_Basic</label>
+    <apparelMoney>0~1000</apparelMoney>
+    <techHediffsTags Inherit="True" />
+    <forcedTraits Inherit="True" />
+    <apparelRequired Inherit="True"/>
+    <requiredWorkTags Inherit="True"/>
+    <defaultFactionType Inherit="True"/>
+    <apparelAllowHeadgearChance Inherit="True"/>
+    <maxGenerationAge>30</maxGenerationAge>
+    <minGenerationAge>14</minGenerationAge>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="ValkyriaBase">
+    <defName>Valkyria</defName>
+    <label>Valkyria</label>
+    <apparelMoney>0~1000</apparelMoney>
+    <techHediffsTags Inherit="True" />
+    <forcedTraits Inherit="True" />
+    <apparelRequired Inherit="True"/>
+    <requiredWorkTags Inherit="True"/>
+    <defaultFactionType Inherit="True"/>
+    <apparelAllowHeadgearChance Inherit="True"/>
+    <maxGenerationAge>30</maxGenerationAge>
+    <minGenerationAge>14</minGenerationAge>
+  </PawnKindDef>
+
+</Defs>

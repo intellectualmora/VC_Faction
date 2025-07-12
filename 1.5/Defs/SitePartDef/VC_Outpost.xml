@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SitePartDef Name="VC_OutpostBase" Abstract="True">
+    <label>{FACTION_name}的军事据点</label>
+    <description>{FACTION_name}的军事据点</description>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/Outpost</expandingIconTexture>
+    <approachOrderString>Investigate {0}</approachOrderString>
+    <approachingReportString>Investigate {0}</approachingReportString>
+    <requiresFaction>true</requiresFaction>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <showFactionInInspectString>true</showFactionInInspectString>
+    <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <considerEnteringAsAttack>false</considerEnteringAsAttack>
+    <tags>
+      <li>VC_EmpireSettlement</li>
+    </tags>
+
+  </SitePartDef>
+
+  <SitePartDef ParentName="VC_OutpostBase">
+    <defName>VC_EmpireSettlement</defName>
+    <workerClass>VC_Faction.SitePartWorker_EmpireSettlement</workerClass>
+    <selectionWeight>4</selectionWeight>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>VC_EmpireSettlement</defName>
+    <linkWithSite>VC_EmpireSettlement</linkWithSite>
+    <order>450</order>
+    <genStep Class="VC_Faction.GenStep_EmpireSettlement">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+      <clearBuildingFaction>true</clearBuildingFaction>
+    </genStep>
+  </GenStepDef>
+</Defs>

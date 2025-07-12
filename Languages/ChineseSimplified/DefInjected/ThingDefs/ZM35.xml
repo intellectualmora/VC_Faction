@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ZM35 bullet -->
+  <Bullet_ZMB.label>ZM35左轮手枪子弹</Bullet_ZMB.label>
+  
+  <!-- EN: ZM35 -->
+  <VC_ZMB.label>ZM35左轮手枪</VC_ZMB.label>
+  <!-- EN: Standard-issue revolver for Imperial officers.  Unlike other pistols in use by the military at the time, the ZM34 is a revolver.  The Imperial Emperor, Maxmillian, personally owned a ZM34. - Circa 1935 -->
+  <VC_ZMB.description>帝国军官的标配手枪。与当时军方使用的其他手枪不同，ZM34是一款左轮手枪。帝国皇帝马克西姆就有一把ZM34。——大约1935年</VC_ZMB.description>
+  <!-- EN: grip -->
+  <VC_ZMB.tools.grip.label>握把</VC_ZMB.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_ZMB.tools.barrel.label>枪管</VC_ZMB.tools.barrel.label>
+  <!-- EN: ZM35 -->
+  <VC_ZMB.verbs.Verb_Shoot.label>ZM35左轮手枪</VC_ZMB.verbs.Verb_Shoot.label>
+  
+</LanguageData>

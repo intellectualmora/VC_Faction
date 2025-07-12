@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <VC_Faction.RoleScriptDef>
+        <defName>Welkin</defName>
+        <label>维尔金</label>
+        <portraitPathDictionary>
+            <li>
+            <key>Bruhl</key>
+            <value>UI/Pawn/Welkin/Portrait/welkin</value>
+            </li>
+        </portraitPathDictionary>
+        <contentDictionary>
+            <li>
+            <key>Bruhl</key>
+            <value>呼……总算赶走他们了。布鲁尔村这次，真的是托了你的福。谢谢你。\n对了，我还没正式自我介绍。加利亚义勇军第七小队队长，维尔金·巩特。嗯……有点不像军人，对吧？\n总之，谢谢你能挺身而出。从今往后，第七小队会记住你的名字。如果你愿意，我们也欢迎你一同并肩作战。</value>
+            </li>
+        </contentDictionary>
+        <choice1Dictionary>
+            <li>
+            <key>Bruhl</key>
+            <value>同维尔金队长握手</value>
+            </li>
+        </choice1Dictionary>
+        <choice2Dictionary>
+        </choice2Dictionary>
+
+        <outSignal1Dictionary>
+            <li>
+            <key>Bruhl</key>
+            <value>MissionSuccessed</value>
+            </li>
+        </outSignal1Dictionary>
+        
+        <outSignal2Dictionary>
+        </outSignal2Dictionary>
+    </VC_Faction.RoleScriptDef>
+</Defs>

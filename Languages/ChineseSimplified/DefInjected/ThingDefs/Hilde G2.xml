@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Hilde G2 bullet -->
+  <Bullet_HildeB.label>希尔德G2冲锋枪子弹</Bullet_HildeB.label>
+  
+  <!-- EN: Hilde G2 -->
+  <VC_HildeB.label>希尔德G2冲锋枪</VC_HildeB.label>
+  <!-- EN: As an attempt to improve and provide an alternative to the ZM MP design, the Hilde submachineguns were late-war SMGs that saw little action during EW2. Ditched after the war, the GRA would use these in the Gallian civil war. - Circa 1937 -->
+  <VC_HildeB.description>作为ZM-MP冲锋枪的改进替代方案，希尔德冲锋枪在战争后期出现，在EW2期间很少被使用。GRA也在战后抛弃了该设计，但是在加利亚内战中又重新使用了这些武器。——大约1937年</VC_HildeB.description>
+  <!-- EN: grip -->
+  <VC_HildeB.tools.grip.label>握把</VC_HildeB.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_HildeB.tools.barrel.label>枪托</VC_HildeB.tools.barrel.label>
+  <!-- EN: Hilde G2 -->
+  <VC_HildeB.verbs.Verb_Shoot.label>希尔德G2冲锋枪</VC_HildeB.verbs.Verb_Shoot.label>
+  
+</LanguageData>

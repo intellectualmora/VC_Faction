@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ZM MG 3 -->
+  <VC_ZMMGC.label>ZM-MG机枪3型</VC_ZMMGC.label>
+  <!-- EN: Modern, general-purpose machine gun designed by Zechmeister. Has a high firerate for unparalleled suppressive fire. - Circa 1935 -->
+  <VC_ZMMGC.description>泽斯特设计的现代通用机枪。具有无与伦比的压制火力和极快的射速。</VC_ZMMGC.description>
+  <!-- EN: grip -->
+  <VC_ZMMGC.tools.grip.label>握把</VC_ZMMGC.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_ZMMGC.tools.barrel.label>枪管</VC_ZMMGC.tools.barrel.label>
+  <!-- EN: ZM MG 3 -->
+  <VC_ZMMGC.verbs.Verb_Shoot.label>ZM-MG机枪3型</VC_ZMMGC.verbs.Verb_Shoot.label>
+  
+</LanguageData>

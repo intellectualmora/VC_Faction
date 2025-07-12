@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef ParentName="GiveQuestBase">
+    <defName>GiveQuest_Intro_Bruhl</defName>
+    <label>The Bruhl</label>
+    <questScriptDef>Intro_Bruhl</questScriptDef>
+    <baseChance>0</baseChance> <!-- given by a special storyteller comp -->
+  </IncidentDef>
+
+
+</Defs>

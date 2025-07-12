@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef Name="VC_BaseMeleeWeapon" Abstract="True" ParentName="BaseWeapon">
+        <comps Inherit="True">
+          <li>
+            <compClass>CompQuality</compClass>
+          </li>
+        </comps>
+        <smeltable>false</smeltable>
+        <soundInteract>Interact_BladelinkMonoSword</soundInteract>
+        <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
+        <burnableByRecipe>true</burnableByRecipe>
+        <notifyMapRemoved>true</notifyMapRemoved>
+        <thingCategories>
+          <li>WeaponsMelee</li>
+        </thingCategories>
+        <weaponClasses>
+          <li>Melee</li>
+        </weaponClasses>
+        <tradeTags>
+          <li>WeaponMelee</li>
+        </tradeTags>
+    </ThingDef>
+
+
+  <ThingDef ParentName="VC_BaseMeleeWeapon">
+    <defName>Empire_Sword</defName>
+    <label>Empire Sword</label>
+    <description>Test.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Weapon/Empire_sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>false</destroyOnDrop>
+    <statBases>
+      <MarketValue>550</MarketValue>
+      <Mass>10</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <weaponTags>
+      <li>VC_Empire_Melee_Weapons</li>
+    </weaponTags>
+    <verbs>
+    </verbs>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="VC_BaseMeleeWeapon">
+    <defName>Gallia_Sword</defName>
+    <label>Gallia Sword</label>
+    <description>Test.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Weapon/Gallia_sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>false</destroyOnDrop>
+    <statBases>
+      <MarketValue>550</MarketValue>
+      <Mass>10</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <weaponTags>
+      <li>VC_Gallia_Melee_Weapons</li>
+      <li>VC_Federation_Melee_Weapons</li>
+    </weaponTags>
+    <verbs>
+    </verbs>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="VC_BaseMeleeWeapon">
+    <defName>Nameless_Sword</defName>
+    <label>Nameless Sword</label>
+    <description>Test.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Weapon/Nameless_sword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>false</destroyOnDrop>
+    <statBases>
+      <MarketValue>550</MarketValue>
+      <Mass>10</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <weaponTags>
+      <li>VC_Nameless_Melee_Weapons</li>
+    </weaponTags>
+    <verbs>
+    </verbs>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+  
+</Defs>

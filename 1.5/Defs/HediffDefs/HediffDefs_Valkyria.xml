@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<HediffDef ParentName="RoleStatBuff">
+    <defName>ValkyriaAwaken</defName>
+    <label>Valkyria Awaken</label>
+    <description>Harness and release the energy present in highly refined Ragnite within your body to gain incredible strength, rapid healing, and extraordinary endurance.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeHitChance>8</MeleeHitChance>
+          <MeleeDodgeChance>8</MeleeDodgeChance>
+        </statOffsets>
+        <painFactor>0.1</painFactor>
+        <statFactors>
+          <IncomingDamageFactor>0.04</IncomingDamageFactor>
+        </statFactors>
+        <regeneration>500</regeneration>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="Valkyria.HediffCompProperties_Valkyria">
+        <songDef>AwakeningofValkyrie</songDef>
+        <overlightRadius>0.4</overlightRadius>
+        <glowRadius>5</glowRadius>
+        <glowColor>(109,255,255)</glowColor>
+        <compGlowerClass>Valkyria.CompGlower_Valkyria</compGlowerClass>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef ParentName="RoleStatBuff">
+    <defName>Ragnaid_Healing_Field</defName>
+    <label>Ragnaid Healing Field</label>
+    <description>This healing field is generated using Ragnite, a powerful blue mineral known for its energy properties, including its use in medicine and technology. When activated, the Ragnite Healing Field emits a soothing glow, gradually restoring the health of all friendly units within its radius, making it a crucial strategic tool for sustaining your troops during intense combat scenarios.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>1</ImmunityGainSpeed>
+          <InjuryHealingFactor>5</InjuryHealingFactor>
+        </statOffsets>
+        <painFactor>0.75</painFactor>
+        <regeneration>2</regeneration>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>False</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+</Defs>

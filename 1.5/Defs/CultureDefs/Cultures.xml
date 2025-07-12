@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>VC_NamerPersonYggdism</defName>
+    <include>
+      <li>EmpireNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
+        <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
+        <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>VC_NamerPersonYggdismFemale</defName>
+    <include>
+      <li>EmpireNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
+        <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
+        <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <CultureDef>
+    <defName>Yggdism</defName>
+    <label>尤古德教</label>
+    <description>A techno-feudal culture centered on the planet Sophiamunda.</description>
+    <pawnNameMaker>VC_NamerPersonYggdism</pawnNameMaker>
+    <pawnNameMakerFemale>VC_NamerPersonYggdismFemale</pawnNameMakerFemale>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoSophian</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeitySophian</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerSophian</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Sophian</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalSophian</festivalNameMaker>
+    <preferredWeaponClasses>
+      <noble>Ultratech</noble>
+      <despised>Neolithic</despised>
+    </preferredWeaponClasses>
+    <allowedPlaceTags>
+      <li>OriginTechnoFeudal</li>
+    </allowedPlaceTags>
+    <iconPath>UI/Icons/Factions/Yggdism</iconPath>
+    <styleItemTags>
+      <li>
+        <tag>Urban</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>Rural</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>BeardUrban</tag>
+        <baseWeight>0.15</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>BeardRural</tag>
+        <baseWeight>0.15</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>MoustacheOnly</tag>
+        <baseWeight>0.1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+</Defs>

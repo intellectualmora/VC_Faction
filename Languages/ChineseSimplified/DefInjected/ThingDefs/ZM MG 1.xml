@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ZM MG bullet -->
+  <Bullet_ZMMG.label>ZM-MG机枪1型子弹</Bullet_ZMMG.label>
+  
+  <!-- EN: ZM MG 1 -->
+  <VC_ZMMGA.label>ZM-MG机枪1型</VC_ZMMGA.label>
+  <!-- EN: Modern, general-purpose machine gun designed by Zechmeister. Has a high firerate for unparalleled suppressive fire. - Circa 1935 -->
+  <VC_ZMMGA.description>泽斯特设计的现代通用机枪。具有无与伦比的压制火力和极快的射速。</VC_ZMMGA.description>
+  <!-- EN: grip -->
+  <VC_ZMMGA.tools.grip.label>握把</VC_ZMMGA.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_ZMMGA.tools.barrel.label>枪管</VC_ZMMGA.tools.barrel.label>
+  <!-- EN: ZM MG 1 -->
+  <VC_ZMMGA.verbs.Verb_Shoot.label>ZM-MG机枪1型</VC_ZMMGA.verbs.Verb_Shoot.label>
+  
+</LanguageData>

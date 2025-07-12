@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FactionDef ParentName="FactionBase">
+        <defName>VC_Empire</defName>
+        <label>Empire</label>
+        <permanentEnemy>true</permanentEnemy>
+        <pawnSingular>Imperial</pawnSingular>
+        <pawnsPlural>Imperial</pawnsPlural>
+        <categoryTag>VC_Empire</categoryTag>
+        <description>A conglomerate of nations united under the rule of the East Europan Emperor, commonly referred to as "The Empire." The Industrial Revolution that occurred when ragnite was discovered as a useful energy source saw the nations of eastern Europa, pioneers in machine technology, rise to power. Already tightly bound by a network of marriages amongst their royalty, these nations now joined hands in a formal international alliance. While not technically an autocracy and possessing a parliament[1], the emperor enjoys limitless authority within the alliance. The Empire retains customs and practices held over from medieval times, and its people are known to harbor conservative views including a strong hatred for the Darcsen race, who are often put into forced labor camps to provide labour and materials for the Empire. The culture of the Imperial Alliance still has strong roots in medieval times. This influence can be seen in the armor that the soldiers wear, and in the vows of fealty that each soldier makes to the king.</description>
+        <displayInFactionSelection>true</displayInFactionSelection>
+        <fixedName>East Europan Imperial Alliance</fixedName>
+        <factionIconPath>UI/Icons/Factions/Empire_map_marker</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <canSiege>true</canSiege>
+        <leaderTitle>Emperor</leaderTitle>
+        <canStageAttacks>true</canStageAttacks>
+        <settlementGenerationWeight>5</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <royalFavorLabel>honor</royalFavorLabel>
+        <royalFavorIconPath>UI/Icons/Factions/gallia_honor</royalFavorIconPath>
+        <royalTitleTags>
+          <li>VC_MilitaryRank</li>
+        </royalTitleTags>
+        <fixedLeaderKinds>
+          <li>Empire_Royal_Stellarch</li>
+        </fixedLeaderKinds>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+          <li>Child</li>
+          <li>Grandchild</li>
+          <li>GreatGrandchild</li>
+          <li>NephewOrNiece</li>
+          <li>Spouse</li>
+          <li>Sibling</li>
+          <li>HalfSibling</li>
+          <li>Cousin</li>
+          <li>Parent</li>
+          <li>UncleOrAunt</li>
+        </royalTitleInheritanceRelations>
+        <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+        <factionNameMaker>VC_NamerFactionEmpire</factionNameMaker>
+        <settlementNameMaker>VC_NamerSettlementEmpire</settlementNameMaker>
+        <allowedCultures><li>Yggdism</li></allowedCultures>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+          </requiredMemes>
+          <allowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+          </allowedMemes>
+          <disallowedPrecepts>
+            <li>Slavery_Classic</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+          </disallowedPrecepts>
+          <structureMemeWeights>
+            <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+          </structureMemeWeights>
+          <xenotypeSet>
+            <xenotypeChances>
+              <Valkyria>0.0001</Valkyria>
+              <Darcsen>0.01</Darcsen>
+            </xenotypeChances>
+          </xenotypeSet>
+          <backstoryFilters>
+            <li>
+              <categories>
+                <li>ImperialCommon</li>
+              </categories>
+            </li>
+          </backstoryFilters>
+          <apparelStuffFilter>
+            <stuffCategoriesToAllow>
+              <li>Metallic</li>
+              <li>Fabric</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+              <li>DevilstrandCloth</li>
+            </disallowedThingDefs>
+          </apparelStuffFilter>
+          <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+          <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+          <colorSpectrum>
+            <li>(0.85, 0.85, 0.75)</li>
+          </colorSpectrum>
+          <raidCommonalityFromPointsCurve>
+            <points>
+              <li>(0, 1)</li> <!--Constant 1 at all points levels-->
+            </points>
+          </raidCommonalityFromPointsCurve>
+          <raidLootMaker>VC_EmpireRaidLootMaker</raidLootMaker>
+          <maxPawnCostPerTotalPointsCurve>
+            <points>
+              <li>(500, 100)</li> <!-- Can always use relatively strong pawns, because empire doesn't really have weak ones -->
+              <li>(1000, 150)</li>
+              <li>(2000, 250)</li>
+              <li>(2001, 10000)</li>
+            </points>
+          </maxPawnCostPerTotalPointsCurve>
+          <pawnGroupMakers>
+            <li>
+              <!-- Normal fights -->
+              <kindDef>VC_Empire_Troopers</kindDef>
+              <commonality>100</commonality>
+              <options>
+                <VC_Empire_Fighter_Scout>4</VC_Empire_Fighter_Scout>
+                <VC_Empire_Fighter_Elite_Scout>1</VC_Empire_Fighter_Elite_Scout>
+              </options>
+            </li>
+            <li>
+              <!-- Normal fights -->
+              <kindDef>Combat</kindDef>
+              <commonality>100</commonality>
+              <options>
+                <VC_Empire_Fighter_Scout>10</VC_Empire_Fighter_Scout>
+                <VC_Empire_Fighter_Elite_Scout>0.5</VC_Empire_Fighter_Elite_Scout>
+                <VC_Empire_Fighter_Gunner>3</VC_Empire_Fighter_Gunner>
+                <VC_Empire_Fighter_Elite_Gunner>0.25</VC_Empire_Fighter_Elite_Gunner>
+                <VC_Empire_Fighter_Melee>1</VC_Empire_Fighter_Melee>
+                <VC_Empire_Fighter_Elite_Melee>0.25</VC_Empire_Fighter_Elite_Melee>
+                <VC_Empire_Fighter_Mortarer>0.5</VC_Empire_Fighter_Mortarer>
+                <VC_Empire_Fighter_Elite_Mortarer>0.12</VC_Empire_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+            <li>
+              <!-- Elic fights -->
+              <kindDef>Combat</kindDef>
+              <commonality>10</commonality>
+              <options>
+                <VC_Raven_Fighter_Scout>8</VC_Raven_Fighter_Scout>
+                <VC_Raven_Fighter_Elite_Scout>1</VC_Raven_Fighter_Elite_Scout>
+                <VC_Raven_Fighter_Gunner>3</VC_Raven_Fighter_Gunner>
+                <VC_Raven_Fighter_Elite_Gunner>0.5</VC_Raven_Fighter_Elite_Gunner>
+                <VC_Raven_Fighter_Melee>2</VC_Raven_Fighter_Melee>
+                <VC_Raven_Fighter_Elite_Melee>0.5</VC_Raven_Fighter_Elite_Melee>
+                <VC_Raven_Fighter_Mortarer>2</VC_Raven_Fighter_Mortarer>
+                <VC_Raven_Fighter_Elite_Mortarer>0.5</VC_Raven_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+            <li>
+              <!-- Base defense, mainly ranged with melee mix-ins -->
+              <kindDef>Settlement</kindDef>
+              <options>
+                <VC_Empire_Fighter_Scout>6</VC_Empire_Fighter_Scout>
+                <VC_Empire_Fighter_Elite_Scout>1</VC_Empire_Fighter_Elite_Scout>
+                <VC_Empire_Fighter_Gunner>5</VC_Empire_Fighter_Gunner>
+                <VC_Empire_Fighter_Elite_Gunner>1</VC_Empire_Fighter_Elite_Gunner>
+                <VC_Empire_Fighter_Melee>1</VC_Empire_Fighter_Melee>
+                <VC_Empire_Fighter_Elite_Melee>1</VC_Empire_Fighter_Elite_Melee>
+                <VC_Empire_Fighter_Mortarer>1</VC_Empire_Fighter_Mortarer>
+                <VC_Empire_Fighter_Elite_Mortarer>0.5</VC_Empire_Fighter_Elite_Mortarer>
+              </options>
+            </li>
+          </pawnGroupMakers>
+          <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+          <configurationListOrderPriority>70</configurationListOrderPriority>
+          <disallowedRaidAgeRestrictions>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Children</li>
+          </disallowedRaidAgeRestrictions>
+      </FactionDef>
+    <ThingSetMakerDef>
+        <defName>VC_EmpireRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+          <fixedParams>
+            <filter>
+              <thingDefs>
+                <li>Gold</li>
+                <li>MedicineUltratech</li>
+                <li>Uranium</li>
+                <li>MealSurvivalPack</li>
+              </thingDefs>
+            </filter>
+          </fixedParams>
+        </root>
+      </ThingSetMakerDef>
+
+      
+      <RulePackDef>
+        <defName>VC_NamerFactionEmpire</defName>
+        <include>
+          <li>EmpireNameUtility</li>
+        </include>
+        <rulePack>
+          <rulesStrings>
+            <li>r_name(p=2)->[empire]之[ofThing]</li>
+            <li>r_name(p=2)->[ofThing]之[empire]</li>
+            <li>r_name->铁血的[empire]</li>
+            <li>r_name->钢铁之[empire]</li>
+            <li>r_name->征服的[empire]</li>
+            <li>r_name->陨落之[empire]</li>
+            <li>r_name->帝都的[empire]</li>
+            <li>r_name->[Color]之[empire]</li>
+      
+            <li>empire(p=4)->帝国</li>
+            <li>empire->帝制同盟</li>
+            <li>empire->圣权联合</li>
+            <li>empire->皇权联邦</li>
+            <li>empire->铁血邦联</li>
+      
+            <li>ofThing(p=4)->[WordImperial]</li>
+            <li>ofThing->皇权</li>
+            <li>ofThing->神明</li>
+            <li>ofThing->秩序</li>
+            <li>ofThing->征服</li>
+            <li>ofThing->辉光</li>
+            <li>ofThing->火焰</li>
+            <li>ofThing->忠诚</li>
+          </rulesStrings>
+        </rulePack>
+      </RulePackDef>
+
+      <RulePackDef>
+        <defName>VC_NamerSettlementEmpire</defName>
+        <include>
+          <li>EmpireNameUtility</li>
+        </include>
+        <rulePack>
+          <rulesStrings>
+            <li>r_name->[townname_wordgen]</li>
+            <li>townname_wordgen->吉尔兰达尤</li>
+            <li>townname_wordgen->巴托米斯</li>
+            <li>townname_wordgen->瓦瑟尔德</li>
+            <li>townname_wordgen->克洛森</li>
+            <li>townname_wordgen->尼姆罗斯</li>
+            <li>townname_wordgen->丹达留斯</li>
+            <li>townname_wordgen->克罗伊茨费尔德</li>
+            <li>townname_wordgen->瓦尔克拉</li>
+            <li>townname_wordgen->奥贝塔尔</li>
+            <li>townname_wordgen->施塔尔施塔特</li>
+            <li>townname_wordgen->海斯布鲁克</li>
+            <li>townname_wordgen->格瓦诺</li>
+            <li>townname_wordgen->杜兰达尔</li>
+            <li>townname_wordgen->弗里斯顿</li>
+            <li>townname_wordgen->雷文霍姆</li>
+            <li>townname_wordgen->布鲁塔尔</li>
+            <li>townname_wordgen->艾森贝格</li>
+            <li>townname_wordgen->莫尔希特</li>
+            <li>townname_wordgen->卡普雷兹</li>
+            <li>townname_wordgen->诺伊兰德</li>
+            <li>townname_wordgen->西格瓦尔德</li>
+            <li>townname_wordgen->格拉乌施塔特</li>
+            <li>townname_wordgen->萨特拉尼亚</li>
+            <li>townname_wordgen->洛塔尔海姆</li>
+            <li>townname_wordgen->布伦希尔特</li>
+            <li>townname_wordgen->哈肯贝格</li>
+            <li>townname_wordgen->索菲安娜</li>
+            <li>townname_wordgen->卡米乌斯</li>
+            <li>townname_wordgen->艾尔里希</li>
+          </rulesStrings>
+        </rulePack>
+      </RulePackDef>
+
+
+
+
+</Defs>

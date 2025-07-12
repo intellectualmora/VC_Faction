@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SitePartDef Name="VC_RescueEdyBase" Abstract="True">
+    <label>废弃哨站</label>
+    <description>废弃哨站</description>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/Outpost</expandingIconTexture>
+    <approachOrderString>Investigate {0}</approachOrderString>
+    <approachingReportString>Investigate {0}</approachingReportString>
+    <requiresFaction>true</requiresFaction>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    <showFactionInInspectString>true</showFactionInInspectString>
+    <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <considerEnteringAsAttack>false</considerEnteringAsAttack>
+    <tags>
+      <li>VC_RescueEdy</li>
+    </tags>
+
+  </SitePartDef>
+
+  <SitePartDef ParentName="VC_RescueEdyBase">
+    <defName>VC_RescueEdy</defName>
+    <workerClass>VC_Faction.SitePartWorker_RescueEdy</workerClass>
+    <selectionWeight>4</selectionWeight>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>VC_RescueEdy</defName>
+    <linkWithSite>VC_RescueEdy</linkWithSite>
+    <order>450</order>
+    <genStep Class="VC_Faction.Genstep_ResueEdy">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+      <clearBuildingFaction>true</clearBuildingFaction>
+    </genStep>
+  </GenStepDef>
+
+    <GenStepDef>
+    <defName>VC_BurntPatches</defName>
+    <linkWithSite>VC_RescueEdy</linkWithSite>
+    <order>950</order>
+    <genStep Class="GenStep_BurntPatches" />
+  </GenStepDef>
+
+
+</Defs>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: SB9-2 Rocket -->
+  <Bullet_SB9B.label>SB9-2火箭弹</Bullet_SB9B.label>
+  
+  <!-- EN: SB9-2 -->
+  <VC_SB9B.label>SB9-2火箭筒</VC_SB9B.label>
+  <!-- EN: An anti-tank lance produced by the United States of Vinland's Federal Alchemic Company. Based on an less advanced model, the M2EQ, the SB9 features enhanced accuracy. Adapted for use by a single version thanks to its magazine. - Circa 1935 -->
+  <VC_SB9B.description>由联邦文兰德炼金术公司生产的反坦克武器。SB9的设计基于过时的M2EQ火箭筒，具有更高的精度。由于它的型号繁杂，被调整为使用同一个口径。——大约1935年</VC_SB9B.description>
+  <!-- EN: stock -->
+  <VC_SB9B.tools.stock.label>枪托</VC_SB9B.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_SB9B.tools.barrel.label>炮管</VC_SB9B.tools.barrel.label>
+  <!-- EN: SB9-2 -->
+  <VC_SB9B.verbs.Verb_Shoot.label>SB9-2火箭筒</VC_SB9B.verbs.Verb_Shoot.label>
+  
+</LanguageData>

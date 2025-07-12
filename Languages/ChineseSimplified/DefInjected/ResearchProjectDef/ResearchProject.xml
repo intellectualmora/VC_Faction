@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VC_Ragnite_Tab.label>拉格奈特工程学</VC_Ragnite_Tab.label>
+  <RagniteExploration.label>拉格奈特勘探</RagniteExploration.label>
+  <RagniteExploration.description>拉格奈特勘探</RagniteExploration.description>
+  <RadioCracking.label>电报破译</RadioCracking.label>
+  <RadioCracking.description>电报破译</RadioCracking.description>
+  <ValkyriaComplexExploration.label>瓦尔基里遗迹探测</ValkyriaComplexExploration.label>
+  <ValkyriaComplexExploration.description>瓦尔基里遗迹探测</ValkyriaComplexExploration.description>
+  <RagniteRefining.label>拉格奈特萃取</RagniteRefining.label>
+  <RagniteRefining.description>拉格奈特萃取</RagniteRefining.description>
+  <RagniteEnrichment.label>拉格奈特精炼</RagniteEnrichment.label>
+  <RagniteEnrichment.description>拉格奈特精炼</RagniteEnrichment.description>
+  <RagniteMedicine.label>拉格奈特药物</RagniteMedicine.label>
+  <RagniteMedicine.description>拉格奈特药物</RagniteMedicine.description>
+  <RagniteArmour.label>拉格奈特装甲</RagniteArmour.label>
+  <RagniteArmour.description>拉格奈特装甲</RagniteArmour.description>
+  <RagniteWeapon.label>拉格奈特武器</RagniteWeapon.label>
+  <RagniteWeapon.description>拉格奈特武器</RagniteWeapon.description>
+  <UltraRagniteWeapon.label>极致拉格奈特武器</UltraRagniteWeapon.label>
+  <UltraRagniteWeapon.description>极致拉格奈特武器</UltraRagniteWeapon.description>
+  <RagniteEngine.label>拉格奈特引擎</RagniteEngine.label>
+  <RagniteEngine.description>拉格奈特引擎</RagniteEngine.description>
+  <AdvancedRagniteEngine.label>高级拉格奈特引擎</AdvancedRagniteEngine.label>
+  <AdvancedRagniteEngine.description>高级拉格奈特引擎</AdvancedRagniteEngine.description>
+  
+</LanguageData>

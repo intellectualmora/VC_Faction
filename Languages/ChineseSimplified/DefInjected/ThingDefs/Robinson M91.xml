@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Robinson M91 bullet -->
+  <Bullet_RobinsonA.label>罗宾逊M91冲锋枪子弹</Bullet_RobinsonA.label>
+  
+  <!-- EN: Robinson M91 -->
+  <VC_RobinsonA.label>罗宾逊M91冲锋枪</VC_RobinsonA.label>
+  <!-- EN: Produced by the Walt Ordnance Co. in the United States of Vinland, machine guns in EW1 were too bulky and heavy to be portable. After the war, engineers confronted the idea of machine guns for foot soldiers, and so the Robinson was created as the world's first true submachine gun. - Circa 1935 -->
+  <VC_RobinsonA.description>EW1中，由联邦文兰的沃尔特兵器公司生产的机枪体积太大，重量太重，不适合携带。战争结束后，工程师们冒出了步兵便携机枪的想法，于是罗宾逊被设计成了世界上第一把真正的冲锋枪。——大约1935年</VC_RobinsonA.description>
+  <!-- EN: grip -->
+  <VC_RobinsonA.tools.grip.label>握把</VC_RobinsonA.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_RobinsonA.tools.barrel.label>枪管</VC_RobinsonA.tools.barrel.label>
+  <!-- EN: Robinson M91 -->
+  <VC_RobinsonA.verbs.Verb_Shoot.label>罗宾逊M91冲锋枪</VC_RobinsonA.verbs.Verb_Shoot.label>
+  
+</LanguageData>

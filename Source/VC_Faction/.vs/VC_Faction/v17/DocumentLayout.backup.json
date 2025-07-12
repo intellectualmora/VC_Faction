@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\vc_faction\\source\\vc_faction\\def\\missionkinddef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:def\\missionkinddef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\building_turretgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\building_turretgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\compproperties_abilityeffect_deploymortar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\compproperties_abilityeffect_deploymortar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\compapparelability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\medal\\compapparelability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\verb_launchprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\verb_launchprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\command_verbtarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\command_verbtarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\verb_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\verb_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\compproperties_mannable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\compproperties_mannable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\lordtoil_waitfortalk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:lordjob\\lordtoil_waitfortalk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\lordjob_manturrets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:lordjob\\lordjob_manturrets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\compmannable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\compmannable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\jobgiver_manturretsnearself.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:lordjob\\jobgiver_manturretsnearself.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\lordtoil_manclosestturrets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:lordjob\\lordtoil_manclosestturrets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\defofs\\dutydefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:defofs\\dutydefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\jobgiver_manturrets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:lordjob\\jobgiver_manturrets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\defofs\\jobdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:defofs\\jobdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\jobdriver_manturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:lordjob\\jobdriver_manturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\valkyria\\compglower_valkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:valkyria\\compglower_valkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\valkyria\\compproperties_abilityvalkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:valkyria\\compproperties_abilityvalkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\valkyria\\compabilityeffect_valkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:valkyria\\compabilityeffect_valkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\valkyria\\ability_valkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:valkyria\\ability_valkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\valkyria\\ability_valkyriacannon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:valkyria\\ability_valkyriacannon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\workbench\\compabilityeffect_playsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\workbench\\compabilityeffect_playsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MissionKindDef.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\def\\MissionKindDef.cs",
+              "RelativeDocumentMoniker": "def\\MissionKindDef.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\def\\MissionKindDef.cs",
+              "RelativeToolTip": "def\\MissionKindDef.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:04:10.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompApparelAbility.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\CompApparelAbility.cs",
+              "RelativeDocumentMoniker": "thing\\medal\\CompApparelAbility.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\CompApparelAbility.cs",
+              "RelativeToolTip": "thing\\medal\\CompApparelAbility.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:15:28.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompProperties_AbilityEffect_DeployMortar.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
+              "RelativeDocumentMoniker": "thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
+              "RelativeToolTip": "thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T17:49:54.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Command_VerbTarget.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Command_VerbTarget.cs",
+              "RelativeDocumentMoniker": "thing\\portablemortar\\Command_VerbTarget.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Command_VerbTarget.cs",
+              "RelativeToolTip": "thing\\portablemortar\\Command_VerbTarget.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwFUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:38:35.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Verb_Shoot.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Verb_Shoot.cs",
+              "RelativeDocumentMoniker": "thing\\portablemortar\\Verb_Shoot.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Verb_Shoot.cs",
+              "RelativeToolTip": "thing\\portablemortar\\Verb_Shoot.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:14:47.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Verb_LaunchProjectile.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Verb_LaunchProjectile.cs",
+              "RelativeDocumentMoniker": "thing\\portablemortar\\Verb_LaunchProjectile.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Verb_LaunchProjectile.cs",
+              "RelativeToolTip": "thing\\portablemortar\\Verb_LaunchProjectile.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:08:39.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Building_TurretGun.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Building_TurretGun.cs",
+              "RelativeDocumentMoniker": "thing\\portablemortar\\Building_TurretGun.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Building_TurretGun.cs",
+              "RelativeToolTip": "thing\\portablemortar\\Building_TurretGun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T05:58:07.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LordToil_WaitForTalk.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\LordToil_WaitForTalk.cs",
+              "RelativeDocumentMoniker": "lordjob\\LordToil_WaitForTalk.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\LordToil_WaitForTalk.cs",
+              "RelativeToolTip": "lordjob\\LordToil_WaitForTalk.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:34:32.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CompProperties_Mannable.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompProperties_Mannable.cs",
+              "RelativeDocumentMoniker": "thing\\portablemortar\\CompProperties_Mannable.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompProperties_Mannable.cs",
+              "RelativeToolTip": "thing\\portablemortar\\CompProperties_Mannable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:32:52.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompMannable.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompMannable.cs",
+              "RelativeDocumentMoniker": "thing\\portablemortar\\CompMannable.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompMannable.cs",
+              "RelativeToolTip": "thing\\portablemortar\\CompMannable.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvyAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:30:13.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JobGiver_ManTurretsNearSelf.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\JobGiver_ManTurretsNearSelf.cs",
+              "RelativeDocumentMoniker": "lordjob\\JobGiver_ManTurretsNearSelf.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\JobGiver_ManTurretsNearSelf.cs",
+              "RelativeToolTip": "lordjob\\JobGiver_ManTurretsNearSelf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:16:51.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DutyDefOf.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\defofs\\DutyDefOf.cs",
+              "RelativeDocumentMoniker": "defofs\\DutyDefOf.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\defofs\\DutyDefOf.cs",
+              "RelativeToolTip": "defofs\\DutyDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:13:27.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LordToil_ManClosestTurrets.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\LordToil_ManClosestTurrets.cs",
+              "RelativeDocumentMoniker": "lordjob\\LordToil_ManClosestTurrets.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\LordToil_ManClosestTurrets.cs",
+              "RelativeToolTip": "lordjob\\LordToil_ManClosestTurrets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:12:41.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LordJob_ManTurrets.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\LordJob_ManTurrets.cs",
+              "RelativeDocumentMoniker": "lordjob\\LordJob_ManTurrets.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\LordJob_ManTurrets.cs",
+              "RelativeToolTip": "lordjob\\LordJob_ManTurrets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:11:56.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JobGiver_ManTurrets.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\JobGiver_ManTurrets.cs",
+              "RelativeDocumentMoniker": "lordjob\\JobGiver_ManTurrets.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\JobGiver_ManTurrets.cs",
+              "RelativeToolTip": "lordjob\\JobGiver_ManTurrets.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:56:29.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JobDefOf.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\defofs\\JobDefOf.cs",
+              "RelativeDocumentMoniker": "defofs\\JobDefOf.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\defofs\\JobDefOf.cs",
+              "RelativeToolTip": "defofs\\JobDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:09:00.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JobDriver_ManTurret.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\JobDriver_ManTurret.cs",
+              "RelativeDocumentMoniker": "lordjob\\JobDriver_ManTurret.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\lordjob\\JobDriver_ManTurret.cs",
+              "RelativeToolTip": "lordjob\\JobDriver_ManTurret.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:50:16.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CompProperties_AbilityValkyria.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\CompProperties_AbilityValkyria.cs",
+              "RelativeDocumentMoniker": "Valkyria\\CompProperties_AbilityValkyria.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\CompProperties_AbilityValkyria.cs",
+              "RelativeToolTip": "Valkyria\\CompProperties_AbilityValkyria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:11:25.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CompGlower_Valkyria.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\CompGlower_Valkyria.cs",
+              "RelativeDocumentMoniker": "Valkyria\\CompGlower_Valkyria.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\CompGlower_Valkyria.cs",
+              "RelativeToolTip": "Valkyria\\CompGlower_Valkyria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:11:23.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CompAbilityEffect_Valkyria.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\CompAbilityEffect_Valkyria.cs",
+              "RelativeDocumentMoniker": "Valkyria\\CompAbilityEffect_Valkyria.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\CompAbilityEffect_Valkyria.cs",
+              "RelativeToolTip": "Valkyria\\CompAbilityEffect_Valkyria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:11:19.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Ability_Valkyria.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\Ability_Valkyria.cs",
+              "RelativeDocumentMoniker": "Valkyria\\Ability_Valkyria.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\Ability_Valkyria.cs",
+              "RelativeToolTip": "Valkyria\\Ability_Valkyria.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:11:17.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Ability_ValkyriaCannon.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\Ability_ValkyriaCannon.cs",
+              "RelativeDocumentMoniker": "Valkyria\\Ability_ValkyriaCannon.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\Ability_ValkyriaCannon.cs",
+              "RelativeToolTip": "Valkyria\\Ability_ValkyriaCannon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:10:41.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CompAbilityEffect_PlaySound.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\workbench\\CompAbilityEffect_PlaySound.cs",
+              "RelativeDocumentMoniker": "thing\\workbench\\CompAbilityEffect_PlaySound.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\workbench\\CompAbilityEffect_PlaySound.cs",
+              "RelativeToolTip": "thing\\workbench\\CompAbilityEffect_PlaySound.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAA0wFYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T09:41:56.451Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

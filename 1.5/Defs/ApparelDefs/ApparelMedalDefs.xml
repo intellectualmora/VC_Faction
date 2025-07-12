@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef Name="MedalNoQualityBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <selectable>True</selectable>
+    <pathCost>0</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <Beauty>0</Beauty>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_a</defName>
+    <label>公国勋章</label>
+    <description>是对被认可为加利亚公国作出特别功劳的人所授予的勋章。不仅在军队中，在各种行业的功绩也会发放。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_a</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <MoveSpeed>+0.1</MoveSpeed>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_Retreat</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_b</defName>
+    <label>法乌赞解放从军勋章</label>
+    <description>是对参与法乌维解放战的军人所授予的勋章。更多的是作为纪念意义，法乌赞是设计的原型。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_b</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_Evade_Boost</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_c</defName>
+    <label>纳加尔会战从军章</label>
+    <description>是对参与纳加尔会战的军人所授予的勋章。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_c</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_All_Units_Evade</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_d</defName>
+    <label>殊勋青铜枪盾勋章</label>
+    <description>是对歼敌总数超过250的军事功绩所授予的荣誉勋章。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_d</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_Aim_Boost</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_e</defName>
+    <label>殊勋黄金枪盾勋章</label>
+    <description>是对歼敌总数超过1000的军事功绩所授予的勋章。殊勋枪盾勋章中的最高位勋章。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_e</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_All_Units_Aim</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_f</defName>
+    <label>公国名誉勋章</label>
+    <description>是对公国国难拯救做出贡献的人所授予的勋章。过去曾经授勋的仅救国英雄已故的玛尔特将军及其他3人。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_f</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_March_Boost</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_g</defName>
+    <label>加利亚战线记录完成纪念徽章</label>
+    <description>为《加利亚战线记录》完成而制作的奖章。是只颁发给有关人员的珍稀价值较高的一枚。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_g</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_All_Units_March</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_h</defName>
+    <label>圣盾荣耀勋章</label>
+    <description>授予在战斗中以坚不可摧的防御，保护同袍、坚守阵地的士兵。无论敌军如何猛烈进攻，此勋章的获得者皆如同圣盾般守护着战线，以不屈的意志筑起不倒的防线。这是献给真正的守护者的至高荣耀。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_h</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_Defense_Boost</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_i</defName>
+    <label>装甲精英勋章</label>
+    <description>授予在装甲战斗中展现卓越指挥与战果的战车部队成员。此勋章象征着陆地钢铁洪流的力量，是对那些突破敌军防线、以无可阻挡之势主宰战场的坦克兵们最高的褒奖。唯有最勇猛与精准的装甲部队，才能赢得此等荣耀。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_i</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_All_Units_Defend</abilityDef>
+      </li>
+    </comps>
+
+  </ThingDef>
+  <ThingDef ParentName="MedalNoQualityBase">
+    <defName>Gallia_Medal_j</defName>
+    <label>加利亚英勇之心勋章</label>
+    <description>这枚勋章象征着对国家的热爱与无畏牺牲的精神，只有在最危急时刻仍坚持战斗的战士，才有资格佩戴此章。</description>
+    <graphicData>
+      <texPath>Things/Medals/Medal_j</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.01</Mass>
+      <EquipDelay>0.2</EquipDelay>
+    </statBases>
+    
+    <equippedStatOffsets>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    
+    <apparel>
+      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MedalLayer</li>
+      </layers>
+    </apparel>
+
+    <comps Inherit="True">
+      <li Class="VC_Faction.CompProperties_ApparelAbility">
+        <abilityDef>VC_First_Aid</abilityDef>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

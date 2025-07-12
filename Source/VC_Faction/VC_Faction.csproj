@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9361546F-0CF6-4B72-9C85-14B107BBCCD5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VC_Faction</RootNamespace>
+    <AssemblyName>VC_Faction</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\1.5\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="defofs\DutyDefOf.cs" />
+    <Compile Include="defofs\MapGeneratorDefOf.cs" />
+    <Compile Include="defofs\RecipeDefOf.cs" />
+    <Compile Include="defofs\PawnGroupKindDefOf.cs" />
+    <Compile Include="defofs\JobDefOf.cs" />
+    <Compile Include="def\RoleScriptDef.cs" />
+    <Compile Include="def\MissionKindDef.cs" />
+    <Compile Include="genstep\Genstep_ResueEdy.cs" />
+    <Compile Include="genstep\GenStep_Relic_Floor0.cs" />
+    <Compile Include="genstep\GenStep_Relic_Underground0.cs" />
+    <Compile Include="genstep\Genstep_Jail.cs" />
+    <Compile Include="genstep\GenStep_EmpireSettlement.cs" />
+    <Compile Include="genstep\GenStep_Bruhl.cs" />
+    <Compile Include="genstep\GenStep_EmpireRefinery.cs" />
+    <Compile Include="Incident\IncidentWorker_RaidEmpireFixed.cs" />
+    <Compile Include="lordjob\JobGiver_ManTurretsNearSelf.cs" />
+    <Compile Include="lordjob\JobGiver_ManTurrets.cs" />
+    <Compile Include="lordjob\JobDriver_ManTurret.cs" />
+    <Compile Include="lordjob\JobDriver_FillRagniteReactorBulk.cs" />
+    <Compile Include="lordjob\JobDriver_TakeLiquidRagniteOutOfReactor.cs" />
+    <Compile Include="lordjob\LordJob_ManTurrets.cs" />
+    <Compile Include="lordjob\LordToil_ManClosestTurrets.cs" />
+    <Compile Include="lordjob\WorkGiver_TakeLiquidRagniteOutOfReactor.cs" />
+    <Compile Include="lordjob\WorkGiver_FillRagniteReactor.cs" />
+    <Compile Include="lordjob\JobDriver_FillRagniteReactor.cs" />
+    <Compile Include="lordjob\JobDriver_UseRadio.cs" />
+    <Compile Include="lordjob\LordJob_DefendFleeWithSignal.cs" />
+    <Compile Include="lordjob\LordJob_WaitForTalk.cs" />
+    <Compile Include="lordjob\JobDriver_TalkWithPawn.cs" />
+    <Compile Include="lordjob\LordToil_WaitForTalk.cs" />
+    <Compile Include="patches\VC_MyMod_DefInject.cs" />
+    <Compile Include="patches\Patch_GenDate.cs" />
+    <Compile Include="pawn\QuestNode_GenerateEdyPawn.cs" />
+    <Compile Include="quest\MainQuest\Bruhl\QuestPart_AskWelkin.cs" />
+    <Compile Include="quest\MainQuest\Edy\QuestNode_Root_RescueEdy.cs" />
+    <Compile Include="quest\SideQuest\Gallia\QuestNode_Root_OccupyOutpost.cs" />
+    <Compile Include="site\SideQuest\Gallia\SitePartWorker_RescueEdy.cs" />
+    <Compile Include="site\SideQuest\Gallia\SitePartWorker_EmpireSettlement.cs" />
+    <Compile Include="sound\AdvantageTransition.cs" />
+    <Compile Include="thing\flag\CompGiveThoughtToAllSameFactionPawnsOnDestroy.cs" />
+    <Compile Include="thing\flag\CompProperties_GiveThoughtToAllSameFactionPawnsOnDestroy.cs" />
+    <Compile Include="thing\medal\CompAbilityEffect_AllGiveHediff.cs" />
+    <Compile Include="thing\medal\CompAbilityEffect_WithFixedDest.cs" />
+    <Compile Include="thing\medal\CompAbilityEffect_Retreat.cs" />
+    <Compile Include="thing\medal\CompProperties_ApparelAbility.cs" />
+    <Compile Include="thing\medal\CompApparelAbility.cs" />
+    <Compile Include="thing\medal\CompProperties_AbilityAllGiveHediff.cs" />
+    <Compile Include="thing\medal\CompProperties_Retreat.cs" />
+    <Compile Include="thing\portablemortar\CompProperties_AbilityEffect_DeployMortar.cs" />
+    <Compile Include="thing\portablemortar\Command_VerbTarget.cs" />
+    <Compile Include="thing\portablemortar\CompProperties_Mannable.cs" />
+    <Compile Include="thing\portablemortar\CompMannable.cs" />
+    <Compile Include="thing\portablemortar\Building_TurretGun.cs" />
+    <Compile Include="thing\portablemortar\Verb_Shoot.cs" />
+    <Compile Include="thing\portablemortar\Verb_LaunchProjectile.cs" />
+    <Compile Include="thing\projectile\VC_Projectile_Explosive.cs" />
+    <Compile Include="thing\radio\ICommunicable.cs" />
+    <Compile Include="thing\radio\MissionSignal.cs" />
+    <Compile Include="thing\radio\IncidentWorker_MissionSignalReceived.cs" />
+    <Compile Include="thing\radio\RadioSignalMapComponent.cs" />
+    <Compile Include="thing\radio\RadioSignal.cs" />
+    <Compile Include="thing\radio\RadioSignalManager.cs" />
+    <Compile Include="thing\radio\Building_Radio.cs" />
+    <Compile Include="thing\ragniteReactor\Building_RagniteReactor.cs" />
+    <Compile Include="thing\stair\Building_Stair_Up.cs" />
+    <Compile Include="thing\stair\Building_Stair_Down.cs" />
+    <Compile Include="thing\var\CompAbilityEffect_PlaySound.cs" />
+    <Compile Include="lordjob\LordJob_DefendNeverFlee.cs" />
+    <Compile Include="patches\HarmonyInit.cs" />
+    <Compile Include="patches\Patch_SettleCommand.cs" />
+    <Compile Include="patches\Patch_SortWornApparelIntoDrawOrder.cs" />
+    <Compile Include="pawn\PawnCustomize.cs" />
+    <Compile Include="quest\MainQuest\Bruhl\QuestNode_Root_Bruhl.cs" />
+    <Compile Include="site\MainQuest\Bruhl\SitePartWorker_Bruhl_Empire_Troopers.cs" />
+    <Compile Include="sound\CompAbilityEffect_GiveSong.cs" />
+    <Compile Include="sound\BossAttackTransition.cs" />
+    <Compile Include="thing\ragnaidfield\CompRagnaidField.cs" />
+    <Compile Include="thing\ragnaidfield\FleckDefOf.cs" />
+    <Compile Include="defofs\ThingDefOf.cs" />
+    <Compile Include="defofs\PawnKindDefOf.cs" />
+    <Compile Include="quest\BestowingCeremony\QuestNode_Root_BestowingCeremony.cs" />
+    <Compile Include="thing\ragnaidfield\CompProperties_RagnaidField.cs" />
+    <Compile Include="thing\ragnaidfield\Verb_DeployRagnaidField.cs" />
+    <Compile Include="scene\VC_ScenPart_GameStartDialog.cs" />
+    <Compile Include="sound\RavenAttackTransition.cs" />
+    <Compile Include="defofs\FactionDefOf.cs" />
+    <Compile Include="sound\EmpireAttackTransition.cs" />
+    <Compile Include="thing\var\CompProperties_PlaySound.cs" />
+    <Compile Include="sound\CompProperties_AbilitySong.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="thing\flag\ThoughtWorker_FlagInspiration.cs" />
+    <Compile Include="thing\workbench\CompAbilityEffect_PlaySound.cs" />
+    <Compile Include="utility\VC_PawnUtility.cs" />
+    <Compile Include="Valkyria\Ability_Valkyria.cs" />
+    <Compile Include="Valkyria\Ability_ValkyriaCannon.cs" />
+    <Compile Include="Valkyria\CompAbilityEffect_Valkyria.cs" />
+    <Compile Include="Valkyria\CompGlower_Valkyria.cs" />
+    <Compile Include="Valkyria\CompProperties_AbilityValkyria.cs" />
+    <Compile Include="Valkyria\Gene_Valkyria.cs" />
+    <Compile Include="Valkyria\GenStep_AncientComplex_Valkyria.cs" />
+    <Compile Include="Valkyria\HediffCompProperties_Valkyria.cs" />
+    <Compile Include="Valkyria\HediffComp_Valkyria.cs" />
+    <Compile Include="Valkyria\LayoutWorkerComplex_Valkyria.cs" />
+    <Compile Include="Valkyria\Patch_SymbolResolver_AncientShrine.cs" />
+    <Compile Include="Valkyria\QuestNode_Root_Loot_AncientComplex_Valkyria.cs" />
+    <Compile Include="Valkyria\SymbolResolver_AncientComplex_Valkyria.cs" />
+    <Compile Include="Valkyria\ValkyriaKindDefOf.cs" />
+    <Compile Include="Valkyria\ValkyriaLayoutDefOf.cs" />
+    <Compile Include="Valkyria\ValkyriaQuestScriptDefOf.cs" />
+    <Compile Include="Valkyria\ValkyriaSitePartDefOf.cs" />
+    <Compile Include="Valkyria\ValkyriaThingDefOf.cs" />
+    <Compile Include="windows\Dialog_Talk.cs" />
+    <Compile Include="windows\RadioWindowDrawing.cs" />
+    <Compile Include="windows\TalkWindowDrawing.cs" />
+    <Compile Include="windows\Dialog_Radio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="hediff\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

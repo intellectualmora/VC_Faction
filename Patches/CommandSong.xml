@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+	<operations>
+	  <li Class="PatchOperationFindMod">
+		<mods><li>Ideology</li></mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+	  <li Class="PatchOperationAdd">
+				<xpath>/Defs/AbilityDef[defName="CombatCommand"]/comps</xpath>
+				<value>
+					<li Class="VC_Faction.CompProperties_AbilitySong">
+						<compClass>VC_Faction.CompAbilityEffect_GiveSong</compClass>
+						<songDef>CombatCommand</songDef>
+					  </li>
+				</value>
+			</li>
+		</operations>
+		</match>
+		</li>
+    </operations>	
+</Operation>
+</Patch>

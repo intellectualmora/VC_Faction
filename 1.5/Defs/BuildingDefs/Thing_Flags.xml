@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DesignatorDropdownGroupDef>
+    <defName>VC_BannerBase</defName>
+  </DesignatorDropdownGroupDef>
+
+  <ThingDef Abstract="True" Name="VC_FlagBuildingBase" ParentName="BuildingBase">
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <constructEffect>ConstructMetal</constructEffect>
+    <category>Building</category>
+    <altitudeLayer>Blueprint</altitudeLayer>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <designationCategory>Furniture</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <researchPrerequisites>
+      <li>CarpetMaking</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+
+
+  <ThingDef Abstract="True" Name="VC_FlagBase" ParentName="VC_FlagBuildingBase">
+    <designatorDropdown>VC_BannerBase</designatorDropdown>
+    <thingClass>Building</thingClass>
+    <costList>
+      <Steel>55</Steel>
+      <Cloth>5</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0.2</Flammability>
+      <Mass>7.5</Mass>
+      <Beauty>25</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <building>
+    <ai_combatDangerous>true</ai_combatDangerous>
+    </building>
+    <comps>
+      <li>
+        <compClass>CompGatherSpot</compClass>
+      </li>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+      <li>PlaceWorker_RitualFocus</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  <ThingDef ParentName="VC_FlagBase">
+    <defName>VC_Gallia_Flag</defName>
+    <description>这面旗帜代表着中立小国加利亚的独立与希望。在拉古奈特资源的争夺战中，加利亚人民团结一致，誓死守护这片故土。无论战火多么猛烈，这面蓝白相间的旗帜始终高扬，象征着他们对自由与和平的坚定信念。</description>
+    <label>加利亚国旗</label>
+    <graphicData>
+      <texPath>Things/Buildings/Flags/Flag/Gallia_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <comps Inherit = "True">
+      <li Class="VC_Faction.CompProperties_GiveThoughtToAllSameFactionPawnsOnDestroy">
+        <thought1>FlagDestroyedSad</thought1>
+        <thought2>FlagDestroyedHappy</thought2>
+        <factionDef>VC_Gallia</factionDef>
+        <message>加利亚国旗被毁</message>
+      </li>
+    </comps>
+    <uiIconPath>Things/Buildings/Flags/Flag/Gallia_Flag_Icon</uiIconPath>
+  </ThingDef>
+    
+  <ThingDef ParentName="VC_FlagBase">
+    <defName>VC_Federation_Flag</defName>
+    <description>这面旗帜象征着大西洋联邦的团结与自由。面对帝国的扩张威胁，来自不同国度的人民在这面蓝白相间的旗帜下集结，誓言捍卫彼此的信念与家园。它不仅代表着反抗侵略的决心，也昭示着联邦对和平与繁荣未来的不懈追求。</description>
+    <label>联邦国旗</label>
+    <comps Inherit = "True">
+      <li Class="VC_Faction.CompProperties_GiveThoughtToAllSameFactionPawnsOnDestroy">
+        <thought1>FlagDestroyedSad</thought1>
+        <thought2>FlagDestroyedHappy</thought2>
+        <factionDef>VC_Federation</factionDef>
+        <message>联邦国旗被毁</message>
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>Things/Buildings/Flags/Flag/Federation_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Buildings/Flags/Flag/Federation_Flag_Icon</uiIconPath>
+  </ThingDef>
+
+    
+  <ThingDef ParentName="VC_FlagBase">
+    <defName>VC_Empire_Flag</defName>
+    <description>这面旗帜代表着东欧帝国联盟的荣耀与统治。为了帝国的伟大复兴，帝国军民众志成城，以无上的忠诚与铁血意志征服广阔的土地。无论战火如何蔓延，这面深红与黑金交织的旗帜始终高悬，昭示着帝国不可动摇的权威与不灭的使命。</description>
+    <label>帝国国旗</label>
+    <graphicData>
+      <texPath>Things/Buildings/Flags/Flag/Empire_Flag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <comps Inherit = "True">
+      <li Class="VC_Faction.CompProperties_GiveThoughtToAllSameFactionPawnsOnDestroy">
+        <thought1>FlagDestroyedSad</thought1>
+        <thought2>FlagDestroyedHappy</thought2>
+        <factionDef>VC_Empire</factionDef>
+        <message>帝国国旗被毁</message>
+      </li>
+    </comps>
+    <uiIconPath>Things/Buildings/Flags/Flag/Empire_Flag_Icon</uiIconPath>
+  </ThingDef>
+
+
+</Defs>

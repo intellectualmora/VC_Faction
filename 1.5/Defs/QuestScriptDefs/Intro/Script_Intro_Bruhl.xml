@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Anti-Empire intro quest. -->
+  <QuestScriptDef>
+    <defName>Intro_Bruhl</defName>
+    <rootMinPoints>0</rootMinPoints>
+    <expireDaysRange>4~8</expireDaysRange>
+    <defaultChallengeRating>1</defaultChallengeRating>
+    <isRootSpecial>true</isRootSpecial>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->布鲁尔镇保卫战</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->维尔金·巩特，一位加利亚义勇军的小队长，从附近发来求援。帝国军准备突袭了边境小镇布鲁尔。他正在组织一场自卫反击战，需要你的协助。\n你的任务是击败所有帝国士兵, 并保护维尔金和艾莉西亚。请注意——敌人中包括多名帝国侦察兵，甚至可能出现帝国精英侦察兵。维尔金或艾莉西亚死亡会导致任务失败，务必小心行动。</li>
+        <li>failedLabel->任务失败</li>
+        <li>failedCause1->失败原因：维尔金死亡</li>
+        <li>failedCause2->失败原因：艾莉西亚死亡</li>
+        <li>failedCause3->失败原因：未能拯救布鲁尔镇</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="VC_Faction.QuestNode_Root_Bruhl">
+    </root>
+    
+  </QuestScriptDef>
+
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AbilityDef ParentName="RoleAuraBuffBase">
+        <defName>Openfire</defName>
+        <label>Open Fire</label>
+        <description>Test.</description>
+        <iconPath>UI/Abilities/Openfire</iconPath>
+        <warmupMoteSocialSymbol>UI/Abilities/Openfire</warmupMoteSocialSymbol>
+        <statBases>
+          <Ability_Duration>210</Ability_Duration>
+          <Ability_EffectRadius>0</Ability_EffectRadius>
+        </statBases>
+        <writeCombatLog>True</writeCombatLog>
+        <showPsycastEffects>False</showPsycastEffects>
+        <cooldownTicksRange>648000</cooldownTicksRange> <!-- 2 to 4 seconds -->
+        <comps>
+          <li Class="VC_Faction.CompProperties_PlaySound">
+						<compClass>VC_Faction.CompAbilityEffect_PlaySound</compClass>
+						<songDef>Openfire</songDef>
+					</li>
+        </comps>
+        <verbProperties>
+          <range>0</range>
+         </verbProperties>
+      </AbilityDef>
+       
+</Defs>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <RecipeDef>
+    <defName>FillRagniteReactor</defName>
+    <label>精炼拉格奈特</label>
+    <description>精炼拉格奈特</description>
+    <jobString>精炼拉格奈特</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ragnite</li>
+          </thingDefs>
+        </filter>
+        <count>0.8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Ragnite</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VC_LiquidRagnite>1</VC_LiquidRagnite>
+    </products>
+   </RecipeDef>
+
+   <RecipeDef>
+    <defName>FillRagniteReactorBulk</defName>
+    <label>精炼拉格奈特x4</label>
+    <description>精炼拉格奈特x4</description>
+    <jobString>精炼拉格奈特x4</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ragnite</li>
+          </thingDefs>
+        </filter>
+        <count>3.2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Ragnite</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VC_LiquidRagnite>4</VC_LiquidRagnite>
+    </products>
+   </RecipeDef>
+</Defs>

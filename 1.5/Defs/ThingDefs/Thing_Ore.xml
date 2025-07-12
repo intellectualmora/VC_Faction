@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="RockBase">
+    <defName>MineableRagnite</defName>
+    <label>拉格奈特矿石</label>
+    <description>拉格奈特矿石是一种散发蓝色微光的神秘矿物，蕴含强大能量。它未经提炼时呈现晶体状，外表如同冻结的光芒，常被用于能源、武器与医疗领域，是加利亚国家的战略资源核心。</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(42, 137, 183)</color>
+      <colorTwo>(136, 252, 254)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Ragnite</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.10</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>4~12</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Ragnite</defName>
+    <label>拉格奈特</label>
+    <description>拉格奈特（Ragnite）是一种用途广泛的矿物，可用于反坦克武器、燃料以及医疗用途。加利亚（Gallia）以其丰富的拉格奈特矿藏而闻名。经过充分提炼的拉格奈特会发出类似阳光的光芒，而未经提炼的拉格奈特矿石则呈现蓝色光辉。</description>
+    <graphicData>
+      <texPath>Things/Ore/Ragnite</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>(0.6,0.6)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.5</Mass>
+      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.85</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <smallVolume>true</smallVolume>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>70</deepCountPerPortion>
+    <deepLumpSizeRange>2~10</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <possessionCount>40</possessionCount>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <color>(90, 217, 230)</color>
+      <commonality>0.05</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statOffsets>
+        <Beauty>6</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints>
+        <Flammability>0.4</Flammability>
+        <Beauty>2</Beauty>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>1000</allowedArchonexusCount>
+  </ThingDef>
+</Defs>

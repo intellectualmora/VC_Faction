@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+  <RuleDef>
+    <defName>AncientComplex_Valkyria</defName>
+    <symbol>ancientValkyriaComplex</symbol>
+    <resolvers>
+      <li Class="Valkyria.SymbolResolver_AncientComplex_Valkyria">
+        <minRectSize>(18, 18)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+
+  <RuleDef>
+    <defName>AncientShrineB</defName>
+    <symbol>ancientShrineB</symbol>
+    <resolvers>
+      <li Class="SymbolResolver_AncientShrine">
+        <minRectSize>(50, 50)</minRectSize>
+        <techprintChance>0.033</techprintChance>
+        <bladelinkChance>0.02</bladelinkChance>
+        <psychicChance>0.02</psychicChance>
+      </li>
+    </resolvers>
+  </RuleDef>
+
+</Defs>

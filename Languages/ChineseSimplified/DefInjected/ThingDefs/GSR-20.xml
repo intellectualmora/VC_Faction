@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: GSR-20 bullet -->
+  <Bullet_GSRC.label>GSR-20狙击步枪弹</Bullet_GSRC.label>
+  
+  <!-- EN: GSR-20 -->
+  <VC_GSRC.label>GSR-20狙击步枪</VC_GSRC.label>
+  <!-- EN: The GSR sniper rifle has its origins in a rifle made for use on horseback, built with all the know-how amassed during the Gallian-S's development. Its defining feature is a variable zoom sniper scope. Built in an era of semi-automatic hand guns, the fully manual bolt action GSR was half obsolete by the time it hit the production lines, but its exceptional firing accuracy and brilliantly-made safety saw it continue to see use until the very end of EW1. -Circa 1935 -->
+  <VC_GSRC.description>GSR狙击步枪源于马背上骑兵所使用的骑枪，它同时也使用了加利安-S型步枪开发期间积累的所有技术。它的战场职能是可变变焦狙击监视。然而作为一款栓动狙击步枪的GSR在半自动步枪时代方才投产，在投入生产线时它就已经过时了一半，但其卓越的射击精度和出色的可靠性能让它一直使用到EW1的末尾。大约在1935年</VC_GSRC.description>
+  <!-- EN: stock -->
+  <VC_GSRC.tools.stock.label>枪托</VC_GSRC.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_GSRC.tools.barrel.label>枪管</VC_GSRC.tools.barrel.label>
+  <!-- EN: GSR-20 -->
+  <VC_GSRC.verbs.Verb_Shoot.label>GSR-20狙击步枪</VC_GSRC.verbs.Verb_Shoot.label>
+  
+</LanguageData>

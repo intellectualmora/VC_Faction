@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <RelicSignalReceiver.label>遗迹信号接收器</RelicSignalReceiver.label>
+  <RelicSignalReceiver.description>一个能够接收到神秘遗迹坐标的装置，在破解后报废。</RelicSignalReceiver.description>
+  <MechanoidTransponder.comps.CompUseableDatacore.useLabel>解码信号接收器</MechanoidTransponder.comps.CompUseableDatacore.useLabel>
+  <RelicSignalReceiver.comps.CompInspectString.inspectString>可以在研究台进行解密。</RelicSignalReceiver.comps.CompInspectString.inspectString>
+  <VC_Ragnaid.label>拉格奈德</VC_Ragnaid.label>
+  <VC_Ragnaid.description>“拉格奈德”是指由精炼的拉格奈特制成的战场急救设备。</VC_Ragnaid.description>
+  <VC_B-type_grenade.label>B型手榴弹M1</VC_B-type_grenade.label>
+  <VC_B-type_grenade.description>B型手榴弹M1</VC_B-type_grenade.description>
+  <VC_Type_F1_Grenade.label>F1型手榴弹</VC_Type_F1_Grenade.label>
+  <VC_Type_F1_Grenade.description>F1型手榴弹</VC_Type_F1_Grenade.description>
+  <VC_VB_WF.label>WF型手榴弹</VC_VB_WF.label>
+  <VC_VB_WF.description>WF型手榴弹</VC_VB_WF.description>
+  <VC_RagnaidProjector.label>拉格奈德立场</VC_RagnaidProjector.label>
+  <VC_RagnaidProjector.description>拉格奈德立场</VC_RagnaidProjector.description>
+</LanguageData>

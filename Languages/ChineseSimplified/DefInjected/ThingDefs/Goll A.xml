@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Goll A bullet -->
+  <Bullet_GollA.label>Goll A手枪弹</Bullet_GollA.label>
+  
+  <!-- EN: Goll A -->
+  <VC_GollA.label>Goll A手枪</VC_GollA.label>
+  <!-- EN: Civilian pistol that was used by the GRA in the Gallian civil war. A more traditional design, although it is weaker than the Viper in terms of stopping power. - Circa 1937 -->
+  <VC_GollA.description>加利亚内战时期GRA使用的民用手枪，使用传统设计，抑制力比蝰蛇手枪弱。</VC_GollA.description>
+  <!-- EN: grip -->
+  <VC_GollA.tools.grip.label>握把</VC_GollA.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_GollA.tools.barrel.label>枪管</VC_GollA.tools.barrel.label>
+  <!-- EN: Goll A -->
+  <VC_GollA.verbs.Verb_Shoot.label>Goll A手枪</VC_GollA.verbs.Verb_Shoot.label>
+  
+</LanguageData>

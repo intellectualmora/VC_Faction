@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef  Abstract="True" Name="VC_Suit" ParentName="VC_Apparel">
+	  <generateAllowChance>0</generateAllowChance>
+	  <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases><!--基础数据-->
+      <WorkToMake>3000</WorkToMake><!--工作量-->
+      <MaxHitPoints>100</MaxHitPoints><!--最大耐久-->
+      <SellPriceFactor>0.1</SellPriceFactor><!--交易价格系数-->
+      <Flammability>0.6</Flammability>
+      <Beauty>-3</Beauty>
+      <Mass>2</Mass>
+      <ArmorRating_Sharp>0.05</ArmorRating_Sharp><!--锐器抗性-->
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt><!--钝器抗性-->
+      <ArmorRating_Heat>0.05</ArmorRating_Heat><!--能量抗性-->
+      <Insulation_Cold>4</Insulation_Cold><!--防寒-->
+      <Insulation_Heat>3</Insulation_Heat><!--耐热--> 
+	  <EquipDelay>1</EquipDelay><!--穿备速度-->
+  </statBases>
+	<tickerType>Never</tickerType>
+  </ThingDef>
+
+  <ThingDef  Abstract="True" Name="VC_Pants" ParentName="VC_Apparel">
+	  <generateAllowChance>0</generateAllowChance>  
+	  <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases><!--基础数据-->
+      <WorkToMake>4500</WorkToMake><!--工作量-->
+      <MaxHitPoints>100</MaxHitPoints><!--最大耐久-->
+      <SellPriceFactor>0.1</SellPriceFactor><!--交易价格系数-->
+      <Flammability>0.6</Flammability>
+      <Beauty>-3</Beauty>
+      <Mass>2</Mass>
+      <ArmorRating_Sharp>0.05</ArmorRating_Sharp><!--锐器抗性-->
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt><!--钝器抗性-->
+      <ArmorRating_Heat>0.05</ArmorRating_Heat><!--能量抗性-->
+      <Insulation_Cold>1.5</Insulation_Cold><!--防寒-->
+      <Insulation_Heat>1.4</Insulation_Heat><!--耐热--> 
+	  <EquipDelay>2</EquipDelay><!--穿备速度-->
+  </statBases>
+	<tickerType>Never</tickerType>
+  </ThingDef>
+
+  <ThingDef ParentName="VC_Suit">
+    <defName>VC_Civilian_Farmer_upper</defName>
+    <description>农民衬衫</description>
+    <label>农民衬衫</label>
+	  <generateAllowChance>0</generateAllowChance>
+  	  <graphicData>
+        <texPath>Apparel/Civilian_Farmer_upper/Civilian_Farmer_upper</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Torso</li><!--躯干-->
+        <li>Shoulders</li><!--肩膀-->
+        <li>Arms</li><!--手臂-->
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_Farmer_upper/Civilian_Farmer_upper</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li><!--外套-->
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="VC_Pants">
+    <defName>VC_Civilian_Farmer_Pants</defName>
+    <description>农民裤子</description>
+    <label>农民裤子</label>
+    <generateAllowChance>0</generateAllowChance>
+      <graphicData>
+        <texPath>Apparel/Civilian_Farmer_Pants/Civilian_Farmer_Pants</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Legs</li><!--腿-->
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_Farmer_Pants/Civilian_Farmer_Pants</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li>
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+<tickerType>Never</tickerType>
+</ThingDef>
+
+  <ThingDef ParentName="VC_Suit">
+    <defName>VC_Civilian_Traveler_upper</defName>
+    <description>旅行者衬衫</description>
+    <label>旅行者衬衫</label>
+	  <generateAllowChance>0</generateAllowChance>
+  	  <graphicData>
+        <texPath>Apparel/Civilian_Traveler_upper/Civilian_Traveler_upper</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Torso</li><!--躯干-->
+        <li>Shoulders</li><!--肩膀-->
+        <li>Arms</li><!--手臂-->
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_Traveler_upper/Civilian_Traveler_upper</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li><!--外套-->
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="VC_Pants">
+    <defName>VC_Civilian_Traveler_Pants</defName>
+    <description>旅行者裤子</description>
+    <label>旅行者裤子</label>
+    <generateAllowChance>0</generateAllowChance>
+      <graphicData>
+        <texPath>Apparel/Civilian_Traveler_Pants/Civilian_Traveler_Pants</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Legs</li><!--腿-->
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_Traveler_Pants/Civilian_Traveler_Pants</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li>
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+<tickerType>Never</tickerType>
+</ThingDef>
+
+  <ThingDef ParentName="VC_Suit">
+    <defName>VC_DarcsenCape</defName>
+    <label>达鲁库斯披风</label>
+    <description>达鲁库斯披风</description>
+    <graphicData>
+      <texPath>Apparel/DarcsenCape/DarcsenCape</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories Inherit="False">
+      <li>Leathery</li>
+      <li>Fabric</li>
+    </stuffCategories>
+    <apparel>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/DarcsenCape/DarcsenCape</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <canBeGeneratedToSatisfyWarmth>true</canBeGeneratedToSatisfyWarmth>
+      <defaultOutfitTags>
+        <li>VC_Darcsen</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="VC_Suit">
+    <defName>VC_Militia_Cape</defName>
+    <label>民兵披风</label>
+    <description>民兵披风</description>
+    <graphicData>
+      <texPath>Apparel/Militia_Cape/Militia_Cape</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories Inherit="False">
+      <li>Leathery</li>
+      <li>Fabric</li>
+    </stuffCategories>
+    <apparel>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Militia_Cape/Militia_Cape</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <canBeGeneratedToSatisfyWarmth>true</canBeGeneratedToSatisfyWarmth>
+      <defaultOutfitTags>
+        <li>VC_Militia</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="VC_Suit">
+    <defName>VC_Civilian_Coat</defName>
+    <description>市民外套</description>
+    <label>市民外套</label>
+	  <generateAllowChance>0</generateAllowChance>
+  	  <graphicData>
+        <texPath>Apparel/Civilian_Coat/Civilian_Coat</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Torso</li><!--躯干-->
+        <li>Shoulders</li><!--肩膀-->
+        <li>Arms</li><!--手臂-->
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_Coat/Civilian_Coat</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>Shell</li>
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="VC_Suit">
+    <defName>VC_Civilian_scholar_upper</defName>
+    <description>学者服饰</description>
+    <label>学者服饰</label>
+	  <generateAllowChance>0</generateAllowChance>
+  	  <graphicData>
+        <texPath>Apparel/Civilian_scholar_upper/Civilian_scholar_upper</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Torso</li><!--躯干-->
+        <li>Shoulders</li><!--肩膀-->
+        <li>Arms</li><!--手臂-->
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_scholar_upper/Civilian_scholar_upper</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li>
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+    <ThingDef ParentName="VC_Suit">
+    <defName>VC_Civilian_jumpsuit</defName>
+    <description>工作服</description>
+    <label>工作服</label>
+	  <generateAllowChance>0</generateAllowChance>
+  	  <graphicData>
+        <texPath>Apparel/Civilian_jumpsuit/Civilian_jumpsuit</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Torso</li><!--躯干-->
+        <li>Shoulders</li><!--肩膀-->
+        <li>Arms</li><!--手臂-->
+          <li>Legs</li><!--腿-->
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_jumpsuit/Civilian_jumpsuit</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li>
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="VC_Pants">
+    <defName>VC_Civilian_scholar_pants</defName>
+    <description>学者裤子</description>
+    <label>学者裤子</label>
+    <generateAllowChance>0</generateAllowChance>
+      <graphicData>
+        <texPath>Apparel/Civilian_scholar_pants/Civilian_scholar_pants</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Legs</li><!--腿-->
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_scholar_pants/Civilian_scholar_pants</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li>
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+<tickerType>Never</tickerType>
+</ThingDef>
+
+  <ThingDef ParentName="VC_Pants">
+    <defName>VC_Civilian_Hunter_pants</defName>
+    <description>猎人裤子</description>
+    <label>猎人裤子</label>
+    <generateAllowChance>0</generateAllowChance>
+      <graphicData>
+        <texPath>Apparel/Civilian_Hunter_pants/Civilian_Hunter_pants</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Legs</li><!--腿-->
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_Hunter_pants/Civilian_Hunter_pants</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li>
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+<tickerType>Never</tickerType>
+</ThingDef>
+
+  <ThingDef ParentName="VC_Suit">
+    <defName>VC_Civilian_Hunter_upper</defName>
+    <description>猎人服饰</description>
+    <label>猎人服饰</label>
+	  <generateAllowChance>0</generateAllowChance>
+  	  <graphicData>
+        <texPath>Apparel/Civilian_Hunter_upper/Civilian_Hunter_upper</texPath><!--数据路径-->
+        <graphicClass>Graphic_Single</graphicClass><!--图形类别-->
+        <drawSize>2</drawSize><!--图形大小-->
+		  <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  </graphicData>
+    <apparel><!--服装-->
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <bodyPartGroups><!--覆盖部分-->
+        <li>Torso</li><!--躯干-->
+        <li>Shoulders</li><!--肩膀-->
+        <li>Arms</li><!--手臂-->
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Civilian_Hunter_upper/Civilian_Hunter_upper</wornGraphicPath><!--图像路径-->
+      <layers><!--图层-->
+        <li>OnSkin</li>
+      </layers>
+      <tags><!--标签-->
+        <li>VC_Villager</li>
+      </tags>
+      <defaultOutfitTags><!--默认服装标签-->
+        <li>VC_Villager</li>
+        <li>Villager</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+</Defs>

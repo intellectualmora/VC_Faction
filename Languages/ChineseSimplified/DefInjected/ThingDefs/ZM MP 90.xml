@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ZM MP 90 bullet -->
+  <Bullet_ZMMPAR.label>ZM-MP90突击步枪子弹</Bullet_ZMMPAR.label>
+  
+  <!-- EN: ZM MP 90 -->
+  <VC_ZMMPAR.label>ZM-MP90突击步枪</VC_ZMMPAR.label>
+  <!-- EN: During the war, an experimental version of the ZM MP was given to several elite units. The ZM MP 90 was revealed after EW2 to the public as the world's first assault rifle. -->
+  <VC_ZMMPAR.description>在战争期间，ZM-MP的一款实验版本配备给了几个精英部队。ZM-mp90突击步枪是在EW2之后向公众透露的，这是世界上第一款突击步枪。</VC_ZMMPAR.description>
+  <!-- EN: stock -->
+  <VC_ZMMPAR.tools.stock.label>枪托</VC_ZMMPAR.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_ZMMPAR.tools.barrel.label>枪管</VC_ZMMPAR.tools.barrel.label>
+  <!-- EN: ZM MP 90 -->
+  <VC_ZMMPAR.verbs.Verb_Shoot.label>ZM-MP90突击步枪</VC_ZMMPAR.verbs.Verb_Shoot.label>
+  
+</LanguageData>

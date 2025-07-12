@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VC_Nameless_Uniform.label>无名制服</VC_Nameless_Uniform.label>
+  <VC_Nameless_Uniform.description>无名制服设计简洁实用，同时具备一定的战斗防护功能。制服整体为深色调，主要由黑色和红色构成，给人一种低调而专业的感觉。上衣为紧身军服风格，采用高领设计，领口有金属扣子装饰，体现出军人特有的严谨和纪律性。肩部和袖子处有加厚的防护层，用以抵御轻度的外伤。胸前则有一个带拉链的口袋，用于携带小型战斗装备或通讯装置。</VC_Nameless_Uniform.description>
+  <VC_Nameless_Pants.label>无名军裤</VC_Nameless_Pants.label>
+  <VC_Nameless_Pants.description>腰带和裤子上的多功能口袋为制服增添了实用性，方便携带弹药、工具和急救用品。制服整体剪裁合身，既不会妨碍战斗时的灵活性，又能提供必要的保护。鞋子为高筒军靴，采用坚固的皮革制成，能够在各种复杂地形上提供良好的保护和支撑。</VC_Nameless_Pants.description>
+  <VC_Nameless_Combat_Uniform.label>无名战斗服</VC_Nameless_Combat_Uniform.label>
+  <VC_Nameless_Combat_Uniform.description>战斗服整体以暗红和深灰为主色调，象征着无名部队在战争中的隐秘性和坚韧不拔的精神。上衣采用紧身设计，贴合身体线条，以确保战士在战斗中能够灵活行动。高领设计加上金属拉链，不仅增强了颈部的保护，也为整个造型增添了一份冷酷的气息。肩膀和胸前位置有明显的防护装甲，这些装甲由轻质但坚固的材料制成，能够有效抵御子弹和爆炸碎片的伤害。胸前还设有多个战术口袋，用于存放弹药、手雷或其他战斗必需品，方便战斗时快速取用。袖口和肘部也进行了特别加固，以减少近身搏斗中的受伤风险。</VC_Nameless_Combat_Uniform.description>
+  <VC_Nameless_FlakPants.label>无名防弹裤</VC_Nameless_FlakPants.label>
+  <VC_Nameless_FlakPants.description>防弹裤采用耐磨材料制成，裤脚设计为可调节的束脚式样，以适应不同的战斗靴。裤子上的口袋布局合理，能够容纳多种工具和战斗用品。腰部配有加固的战术腰带，帮助均匀分配装备的重量，减轻长时间作战带来的负担。战斗靴为高筒设计，采用坚固的皮革与防水材料制成，能够在各种复杂地形中提供出色的抓地力和保护性能。</VC_Nameless_FlakPants.description>
+  <VC_Raven_Combat_Uniform.label>渡鸦战斗服</VC_Raven_Combat_Uniform.label>
+  <VC_Raven_Combat_Uniform.description>渡鸦战斗服</VC_Raven_Combat_Uniform.description>
+  <VC_Raven_FlakPants.label>渡鸦防弹裤</VC_Raven_FlakPants.label>
+  <VC_Raven_FlakPants.description>渡鸦防弹裤</VC_Raven_FlakPants.description>
+  <VC_Raven_Helmet.label>渡鸦头盔</VC_Raven_Helmet.label>
+  <VC_Raven_Helmet.description>渡鸦头盔</VC_Raven_Helmet.description>
+</LanguageData>

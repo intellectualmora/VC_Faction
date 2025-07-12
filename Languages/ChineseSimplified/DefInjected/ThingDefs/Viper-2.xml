@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Viper-2 bullet -->
+  <Bullet_ViperB.label>蝰蛇手枪2型子弹</Bullet_ViperB.label>
+  
+  <!-- EN: Viper-2 -->
+  <VC_ViperB.label>蝰蛇手枪2型</VC_ViperB.label>
+  <!-- EN: Although only given to some engineers and officers, the Gallian Viper pistols were compact, small-caliber firearms ideal for those who played a support role. Rare during EW2, but used a fair amount during the Gallian civil war. - Circa 1937 -->
+  <VC_ViperB.description>加利安蝰蛇手枪是一款小巧的小口径手枪，虽然只有部分工程兵和军官配备。这把枪非常适合辅助人员用来自卫。在EW2期间这把枪数量稀少，但在加利亚内战期间被大量使用。——大约1937年</VC_ViperB.description>
+  <!-- EN: grip -->
+  <VC_ViperB.tools.grip.label>握把</VC_ViperB.tools.grip.label>
+  <!-- EN: barrel -->
+  <VC_ViperB.tools.barrel.label>枪管</VC_ViperB.tools.barrel.label>
+  <!-- EN: Viper-2 -->
+  <VC_ViperB.verbs.Verb_Shoot.label>蝰蛇手枪2型</VC_ViperB.verbs.Verb_Shoot.label>
+  
+</LanguageData>

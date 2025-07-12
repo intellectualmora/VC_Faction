@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VC_LenfieldB</defName>
+    <label>Lenfield M2</label>
+    <description>A standard-issue rifle developed by Edinburgh's Wester Kelvin Company. A storied model of rifle, initially issued over 40 years ago. Its design has gone through multiple changes and multiple offshoot models since. It remains a favourite of Edinburgh's military and citizenry alike. - Circa 1935</description>
+    <graphicData>
+      <texPath>Things/Weapon/Federation/Fedration_boltrifle_2(Lenfield M2)</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+    </graphicData>
+    <weaponTags>
+      <li>VC_Federation_Rifle_Weapons</li>
+    </weaponTags>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>4.25</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+      <MarketValue>480</MarketValue>
+    </statBases>
+    <costList>
+      <VC_LenfieldA>1</VC_LenfieldA>
+      <Steel>10</Steel>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_LenfieldB</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <!-- <ticksBetweenBurstShots>20</ticksBetweenBurstShots> -->
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.3</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6.8</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_LenfieldB</defName>
+    <label>Lenfield M2 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.34</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+
+</Defs>

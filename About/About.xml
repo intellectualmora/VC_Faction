@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>战场女武神派系</name>
+  <author>Chemora</author>
+  <packageId>Chemora.VCFaction</packageId>
+  <modDependencies>
+    <li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+    <li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+    <li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+    <li>
+			<packageId>Ludeon.RimWorld.Anomaly</packageId>
+			<displayName>Anomaly</displayName>
+		</li>
+    <li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+    <li>
+			<packageId>ABC.abcBody2</packageId>
+			<displayName>ABC Body 2</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3342198659</steamWorkshopUrl>
+		</li>
+    <li>
+			<packageId>AlexisPopcorn.VAC.base</packageId>
+			<displayName>Voice Acted Colonists</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3306119571</steamWorkshopUrl>
+		</li>
+    <li>
+			<packageId>Nals.FacialAnimation</packageId>
+			<displayName>[NL] Facial Animation - WIP</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1635901197</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>stm.ShellaBackgrounds</packageId>
+			<displayName>Shella Backgrounds</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2853407446</steamWorkshopUrl>
+		</li>
+    </modDependencies>
+    <incompatibleWith>
+    <li>chemora.vw</li>
+    <li>Chemora.Valkyria</li>
+    <li>CETeam.CombatExtended</li>
+    </incompatibleWith>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>stm.ShellaBackgrounds</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>brrainz.harmony</li>
+		<li>AlexisPopcorn.VAC.base</li>
+		<li>stm.ShellaBackgrounds</li>
+		<li>Nals.FacialAnimation</li>
+		<li>ABC.abcBody2</li>
+  </loadAfter>
+  <description>
+  ****************战场女武神派系模组********************
+  本模组仅供测试！
+
+ </description>
+</ModMetaData>

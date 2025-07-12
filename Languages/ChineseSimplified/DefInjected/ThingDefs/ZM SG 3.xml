@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ZM SG 3 bullet -->
+  <Bullet_ZMSGC.label>ZM-SG步枪3型子弹</Bullet_ZMSGC.label>
+  
+  <!-- EN: ZM SG 3 -->
+  <VC_ZMSGC.label>ZM-SG步枪3型</VC_ZMSGC.label>
+  <!-- EN: The ZM SG was based on an infantry gun carried by many of the Empire's soldiers during EW1, particularly noted for its firing accuracy. The SG also featured a Rudolf Co. variable small arms scope. Lauded for its accuracy and uncommonly shock-resistant barrel, it first saw use with the Empire's mountain ranger units. Though the ZM SG's design allowed for a bayonet to be affixed under the muzzle, there are very few instances of it being used during the Second Europan War. - Circa 1935 -->
+  <VC_ZMSGC.description>ZM-SG步枪是基于EW1期间许多帝国士兵携带的步兵武器而设计，特别以其射击精度而著称。SG还配备了鲁道夫公司(RudolfCo.)的可变焦小型武器瞄准镜。由于其准确性和不寻常的避震枪管，它首先被帝国的山地突击部队使用。虽然ZM-SG的设计允许士兵在枪口下安装刺刀，但在第二次欧洲战争中使用它的例子很少。——大约1935年</VC_ZMSGC.description>
+  <!-- EN: stock -->
+  <VC_ZMSGC.tools.stock.label>枪托</VC_ZMSGC.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_ZMSGC.tools.barrel.label>枪管</VC_ZMSGC.tools.barrel.label>
+  <!-- EN: ZM SG 3 -->
+  <VC_ZMSGC.verbs.Verb_Shoot.label>ZM-SG步枪3型</VC_ZMSGC.verbs.Verb_Shoot.label>
+  
+</LanguageData>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AbilityDef>
+        <defName>ValkyriaCannon</defName>
+        <label>Final Flame</label>
+        <abilityClass>Valkyria.Ability_ValkyriaCannon</abilityClass>
+        <description>Launch a large bolt of energy which generates a high-temperature explosion.</description>
+        <iconPath>UI/Abilities/ValkyriaCannon</iconPath>
+        <writeCombatLog>True</writeCombatLog>
+        <showPsycastEffects>False</showPsycastEffects>
+        <cooldownTicksRange>240</cooldownTicksRange> <!-- 2 to 4 seconds -->
+        <verbProperties>
+          <verbClass>Verb_AbilityShoot</verbClass>
+          <defaultProjectile>Bullet_ValkyriaSpear</defaultProjectile>
+          <range>24.9</range>
+          <minRange>4.9</minRange>
+          <warmupTime>4.5</warmupTime>
+          <muzzleFlashScale>9</muzzleFlashScale>
+          <burstShotCount>1</burstShotCount>
+          <accuracyTouch>1</accuracyTouch>
+          <accuracyShort>1</accuracyShort>
+          <accuracyMedium>1</accuracyMedium>
+          <accuracyLong>1</accuracyLong>
+          <beamTargetsGround>true</beamTargetsGround>
+          <soundAiming>HellsphereCannon_Aiming</soundAiming>
+          <ai_IsWeapon>false</ai_IsWeapon>
+          <ai_ProjectileLaunchingIgnoresMeleeThreats>true</ai_ProjectileLaunchingIgnoresMeleeThreats>
+          <aimingLineMote>Mote_ValkyriaCannon_Aim</aimingLineMote>
+          <aimingChargeMote>Mote_HellsphereCannon_Charge</aimingChargeMote>
+          <aimingChargeMoteOffset>1.07</aimingChargeMoteOffset>
+          <aimingLineMoteFixedLength>15.9</aimingLineMoteFixedLength>
+          <aimingTargetMote>Mote_FleshmelterBolt_Target</aimingTargetMote> 
+          
+          <targetParams>
+            <canTargetLocations>true</canTargetLocations>
+            <canTargetSelf>true</canTargetSelf>
+            <canTargetPawns>true</canTargetPawns>
+            <canTargetBuildings>true</canTargetBuildings>
+            <canTargetPlants>true</canTargetPlants>
+          </targetParams>
+        </verbProperties>
+      </AbilityDef>
+
+      <AbilityDef ParentName="RoleAuraBuffBase">
+        <defName>Valkyria</defName>
+        <label>Power of the Valkyrur</label>
+        <abilityClass>Valkyria.Ability_Valkyria</abilityClass>
+        <description>The female Valkyria warrior awakens the power of Valkyrur, greatly enhancing various physical abilities, and gains powerful self-healing capabilities. The awaken state will last for 4 hours.</description>
+        <iconPath>UI/Abilities/Valkyria</iconPath>
+        <warmupMoteSocialSymbol>UI/Abilities/Valkyria</warmupMoteSocialSymbol>
+        <statBases>
+          <Ability_Duration>210</Ability_Duration>
+          <Ability_EffectRadius>0</Ability_EffectRadius>
+        </statBases>
+        <verbProperties>
+         <range>0</range>
+        </verbProperties>
+        <comps>
+          <li Class="Valkyria.CompProperties_AbilityValkyria">
+            <compClass>Valkyria.CompAbilityEffect_Valkyria</compClass>
+            <hediffDef>ValkyriaAwaken</hediffDef>
+            <onlyApplyToSelf>True</onlyApplyToSelf>
+            <replaceExisting>true</replaceExisting>
+          </li>
+        </comps>
+      </AbilityDef>
+
+  <!-- Bases -->
+</Defs>

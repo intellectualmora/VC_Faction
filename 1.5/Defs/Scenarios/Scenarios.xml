@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>VC_Squad_422</defName>
+    <label>Squad 422</label>
+    <description>It is a penal military unit composed of deserters, criminals and military offenders whose real names are erased from the records and referred to instead by numbers (hence their nickname). Some, on the other hand, were recruited into the Squad after being guaranteed a generous compensation. Despite being used by the Gallian military to take on the dirty work and most dangerous missions that neither the Regular Army nor Militia will do, the 422nd is nevertheless up to the task, exemplified by their motto, "Altaha Abilia".</description>
+    <scenario>
+      <summary>Three Squad 422 soldiers.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>VC_Nameless</factionDef>
+      </playerFaction>
+      <standardAnomalyPlaystyleOnly>true</standardAnomalyPlaystyleOnly>
+
+      <parts>
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>2000</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>60</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>VC_GallianA</thingDef>
+          <count>2</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>VC_RobinsonA</thingDef>
+          <count>1</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>800</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>StartingThing_Defined</def>
+          <thingDef>WoodLog</thingDef>
+          <count>250</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>StylingStation</thingDef>
+          <stuff>Steel</stuff>
+          <count>1</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Dye</thingDef>
+          <count>10</count>
+        </li>
+        <!-- <li Class="ScenPart_CreateIncident">
+          <def>CreateIncident</def>
+          <incident>RefugeePodCrash_Ghoul</incident>
+          <minDays>12</minDays>
+          <maxDays>15</maxDays>
+        </li> -->
+        <!-- Game start dialog -->
+        <li Class="VC_Faction.VC_ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>In the shadow of war, there exists a little-known unit, referred to as the "Nameless"—Squad 422. Composed of soldiers burdened by past crimes, punished, or cast aside, this squad has no glory, no medals, not even true names. Their existence is a secret that neither the Imperial Army nor the Federation can acknowledge, and their missions are always fraught with extreme danger and the stench of death. \n As the commander of Squad 422, you must lead these soldiers into the unknown, facing dangers and an uncertain fate. In this battle where there is no honor, only survival, you are the only ones who can prevent this catastrophe. Every decision, every fight, will determine the future of Squad 422—and the fate of the entire continent.</text>
+          <closeSound>VC_Opening</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

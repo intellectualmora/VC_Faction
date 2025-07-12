@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="GeneHairColorBase">
+    <defName>Hair_Blueviolet</defName>
+    <label>blueviolet hair</label>
+    <hairColorOverride>(86, 101, 126)</hairColorOverride>
+    <selectionWeight>0.05</selectionWeight>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <randomBrightnessFactor>0</randomBrightnessFactor>
+  </GeneDef>
+</Defs>

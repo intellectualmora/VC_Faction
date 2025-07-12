@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ZM Kar 3 bullet -->
+  <Bullet_ZMKarC.label>ZM卡尔步枪3型子弹</Bullet_ZMKarC.label>
+  
+  <!-- EN: ZM Kar 3 -->
+  <VC_ZMKarC.label>ZM卡尔步枪3型</VC_ZMKarC.label>
+  <!-- EN: Crafted by the Empire's top arms maker, Zechmeister (ZM Corp), this rifle is one of the factors that enabled the Imperial armies to sweep across Europa. Substantially lighter than conventional rifles, the ZM Kar greatly improved unit mobility and won the thanks of those forced to carry them on their march. Its distinctive axe shape earned it the nickname "Francisca" among its users. - Circa 1935 -->
+  <VC_ZMKarC.description>这款步枪由帝国的顶级武器制造商Zechmeister (ZM Corp)制作，是帝国军队横扫欧罗巴的原因之一。ZM卡尔步枪比传统步枪轻很多，极大地提高了部队的机动性，并赢得了那些被迫携带它们行军的士兵的感谢。它独特的斧形让它在用户中赢得了“法兰西斯卡”的绰号。——大约1935年</VC_ZMKarC.description>
+  <!-- EN: stock -->
+  <VC_ZMKarC.tools.stock.label>枪托</VC_ZMKarC.tools.stock.label>
+  <!-- EN: barrel -->
+  <VC_ZMKarC.tools.barrel.label>枪管</VC_ZMKarC.tools.barrel.label>
+  <!-- EN: ZM Kar 3 -->
+  <VC_ZMKarC.verbs.Verb_Shoot.label>ZM卡尔步枪3型</VC_ZMKarC.verbs.Verb_Shoot.label>
+  
+</LanguageData>

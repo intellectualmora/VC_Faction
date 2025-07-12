@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Imperial infantry outfit -->
+  <VC_InfI.label>帝国步兵装备</VC_InfI.label>
+  <!-- EN: standard issue Imperial outfit, consisting of a brown outfit with a large armour vest on the front, a small backpack, armour plating on the arms, metal kneecaps, a tactial harness and black boots. -->
+  <VC_InfI.description>标准的皇家步兵装备，包括一套棕色的服装，前面有一件大号防弹背心，后面有一个小型背包，四肢包括装甲护臂和金属护膝，其他的还有战术背带和黑色的靴子。</VC_InfI.description>
+  
+</LanguageData>

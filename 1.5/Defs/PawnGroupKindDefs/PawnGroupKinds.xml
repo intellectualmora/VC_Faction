@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <PawnGroupKindDef>
+    <defName>VC_Empire_Troopers</defName>
+    <workerClass>PawnGroupKindWorker_Normal</workerClass>
+  </PawnGroupKindDef>
+  <PawnGroupKindDef>
+    <defName>VC_Villagers</defName>
+    <workerClass>PawnGroupKindWorker_Normal</workerClass>
+  </PawnGroupKindDef>
+  <PawnGroupKindDef>
+    <defName>VC_Gallia_Militia</defName>
+    <workerClass>PawnGroupKindWorker_Normal</workerClass>
+  </PawnGroupKindDef>
+
+</Defs>
