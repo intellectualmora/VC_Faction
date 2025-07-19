@@ -231,9 +231,9 @@ namespace VC_Faction
             }
         }
 
-        public override bool ClaimableBy(Faction by, StringBuilder reason = null)
+        public override AcceptanceReport ClaimableBy(Faction by)
         {
-            if (!base.ClaimableBy(by, reason))
+            if (!base.ClaimableBy(by))
             {
                 return false;
             }
@@ -295,7 +295,7 @@ namespace VC_Faction
             }
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             if (CanExtractShell && MannedByColonist)

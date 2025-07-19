@@ -69,8 +69,10 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\Source\VC_Faction\bin\
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\Source\VC_Faction\bin\Debug\Assembly-CSharp.pdb
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\1.5\Assemblies\VC_Faction.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\1.5\Assemblies\VC_Faction.pdb
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\1.6\Assemblies\VC_Faction.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\1.6\Assemblies\VC_Faction.pdb
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\Source\VC_Faction\obj\Debug\VC_Faction.csproj.AssemblyReference.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\Source\VC_Faction\obj\Debug\VC_Faction.csproj.CoreCompileInputs.cache
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\Source\VC_Faction\obj\Debug\VC_Faction.csproj.Up2Date
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\Source\VC_Faction\obj\Debug\VC_Faction.csproj.CopyComplete
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\Source\VC_Faction\obj\Debug\VC_Faction.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\VC_Faction\Source\VC_Faction\obj\Debug\VC_Faction.pdb

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8972880-b78b-4c5d-becb-62db76c01ca7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/AbilityDefs/AbilityDefs_ATR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/AbilityDefs/AbilityDefs_Orders.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/AbilityDefs/AbilityDefs_Portablemortar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/AbilityDefs/AbilityDefs_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/AbilityDefs/AbilityDefs_Var.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ApparelDefs/ApparelDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ApparelDefs/ApparelHarnessDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ApparelDefs/ApparelMedalDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ApparelDefs/ApparelUniformsDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ApparelLayerDefs/ApparelLayerDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BackstoryDefs/Adult.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BackstoryDefs/Child.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BuildingDefs/Thing_Flags.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BuildingDefs/Thing_Portablemortar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BuildingDefs/Thing_Radio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BuildingDefs/Thing_RagniteGenerator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BuildingDefs/Thing_RagniteLight.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BuildingDefs/Thing_RagniteReactor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BuildingDefs/Thing_Stair.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/BuildingDefs/Thing_Workbench.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/CultureDefs/Cultures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/DutyDefs/DutyDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/Effects/Mote_Visual_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/FactionDefs/Factions_Empire.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/FactionDefs/Factions_Federation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/FactionDefs/Factions_Gallia.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/FactionDefs/Factions_Player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/FleckDefs/FleckDef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/GeneDefs/GeneDefs_Darcsen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/GeneDefs/GeneDefs_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/GeneDefs/XenotypeDefs_Darcsen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/GeneDefs/XenotypeDefs_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/HairDefs/Hairdefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/HediffDefs/HediffDefs_Medal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/HediffDefs/HediffDefs_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/IncidentCategoryDefs/IncidentCategoryDef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/IncidentDefs/Incidents_Empire_ScoutWait.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/IncidentDefs/Incidents_Map_Special.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/IncidentDefs/Incidents_MissionSignalReceive.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/IncidentDefs/Incidents_World_Quests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/JobDefs/JobDef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/LayoutDefs/Layouts_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/MapComponentDefs/MapComponentDef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/MapGeneratorDefs/VC_Relic_Underground0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/Misc/Music_Sequences.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/MissionKindDefs/MissionKindDef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/PawnGroupKindDefs/PawnGroupKinds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/PawnKindDefs/PawnKinds_Dracsen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/PawnKindDefs/PawnKinds_Empire.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/PawnKindDefs/PawnKinds_Federation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/PawnKindDefs/PawnKinds_Gallia.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/PawnKindDefs/PawnKinds_Nameless.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/PawnKindDefs/PawnKinds_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/PawnKindDefs/PawnKinds_Villager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/QuestScriptDefs/Intro/Script_Intro_Bruhl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/QuestScriptDefs/Intro/Script_Intro_Edy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/QuestScriptDefs/Script_Loot_AncientComplex_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/QuestScriptDefs/gallia/Script_OccupyEmpireOutpost.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/QuestScriptDefs/gallia/Script_PawnLend.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/QuestScriptDefs/gallia/Script_RescueEdy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/RecipeDefs/RecipeDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ResearchProjectDef/ResearchProject.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/RoleScriptDefs/RoleScriptDef.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/RoyalTitleDefs/MilitaryPermits_VC_Empire.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/RoyalTitleDefs/MilitaryPermits_VC_Federation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/RoyalTitleDefs/MilitaryPermits_VC_Gallia.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/RoyalTitleDefs/MilitaryRank_VC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/RuleDefs/Rules_AncientComplex_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/Scenarios/Scenarios.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SitePartDef/AncientComplex_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SitePartDef/VC_Bruhl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SitePartDef/VC_Outpost.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SitePartDef/VC_RescueEdy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SongDefs/Songs_Battle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SongDefs/Songs_CombatCommand.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SongDefs/Songs_Relax.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SoundDefs/Imca.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SoundDefs/Kurt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SoundDefs/Opening.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/SoundDefs/Riela.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/StoryTellerDefs/Storytellers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ThingDefs/Thing_Ore.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ThingDefs/Thing_Special.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/ThoughDefs/ThoughDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/TraitDefs/Traits_Singular.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/VoicePackDefs/Imca.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/VoicePackDefs/Kurt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/VoicePackDefs/Riela.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/VB PL-1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM 08.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM AG 1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM KS-4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM Kar 1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM Kar 2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM MG 34.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM MP 1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM SG 1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Empire/ZM STG1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Bragi 3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Brown M2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Goll 9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Johnason M21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Lenfield M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Lenfield M2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Robinson M91.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/SB9-A.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Stewart89.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Federation/Wasp 1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/GA 9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/GSR-1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/Gallian MK2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/Gallian-1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/Gallian-2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/Hurricane.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/Lancaar M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/Mags 1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/TMAG1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/Gallian/VanFouzen 12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/WeaponDefs_Melee.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/WeaponDefs_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/WeaponDefs_Var.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/list/冲锋手枪(完成).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/list/半自动(完成).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/list/步枪(完成).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/list/突击步枪(完成).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/list/筒子.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/list/自动手枪(完成).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/list/轻机枪(完成).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WeaponDefs/list/霰弹枪.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.5/Defs/WorkGiverDefs/WorkGiver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/About/About.xml" beforeDir="false" afterPath="$PROJECT_DIR$/About/About.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Languages/ChineseSimplified/DefInjected/QuestScriptDefs/Script_Loot_AncientComplex_Valkyria.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/.vs/VC_Faction/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/.vs/VC_Faction/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/.vs/VC_Faction/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/.vs/VC_Faction/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/.vs/VC_Faction/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/.vs/VC_Faction/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/.vs/VC_Faction/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/.vs/VC_Faction/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/VC_Faction.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/VC_Faction.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/Ability_Valkyria.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/Ability_Valkyria.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/Ability_ValkyriaCannon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/Ability_ValkyriaCannon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/GenStep_AncientComplex_Valkyria.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/LayoutWorkerComplex_Valkyria.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/Patch_SymbolResolver_AncientShrine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/QuestNode_Root_Loot_AncientComplex_Valkyria.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/SymbolResolver_AncientComplex_Valkyria.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/ValkyriaLayoutDefOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/ValkyriaQuestScriptDefOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/Valkyria/ValkyriaSitePartDefOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/lordjob/WorkGiver_FillRagniteReactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/lordjob/WorkGiver_FillRagniteReactor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/obj/Debug/VC_Faction.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/quest/MainQuest/Bruhl/QuestNode_Root_Bruhl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/quest/MainQuest/Bruhl/QuestNode_Root_Bruhl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/quest/MainQuest/Edy/QuestNode_Root_RescueEdy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/quest/MainQuest/Edy/QuestNode_Root_RescueEdy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/quest/SideQuest/Gallia/QuestNode_Root_OccupyOutpost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/quest/SideQuest/Gallia/QuestNode_Root_OccupyOutpost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/thing/portablemortar/Building_TurretGun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/thing/portablemortar/Building_TurretGun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/thing/portablemortar/Verb_LaunchProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/thing/portablemortar/Verb_LaunchProjectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/thing/projectile/VC_Projectile_Explosive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/thing/projectile/VC_Projectile_Explosive.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/thing/ragnaidfield/CompRagnaidField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/thing/ragnaidfield/CompRagnaidField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/thing/ragniteReactor/Building_RagniteReactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/thing/ragniteReactor/Building_RagniteReactor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VC_Faction/thing/workbench/CompAbilityEffect_PlaySound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VC_Faction/thing/workbench/CompAbilityEffect_PlaySound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/Apparel/Federation_Helmet/Federation_Helmet_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/Textures/Apparel/Federation_Helmet/Federation_Helmet_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/Apparel/Federation_Helmet/Federation_Helmet_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/Textures/Apparel/Federation_Helmet/Federation_Helmet_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/Apparel/Federation_Helmet/Federation_Helmet_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/Textures/Apparel/Federation_Helmet/Federation_Helmet_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/Apparel/Gallia_Helmet/Gallia_Helmet_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/Textures/Apparel/Gallia_Helmet/Gallia_Helmet_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/Apparel/Gallia_Helmet/Gallia_Helmet_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/Textures/Apparel/Gallia_Helmet/Gallia_Helmet_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/Apparel/Gallia_Helmet/Gallia_Helmet_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/Textures/Apparel/Gallia_Helmet/Gallia_Helmet_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/Apparel/Gallia_armyhat/Gallia_armyhat_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/Textures/Apparel/Gallia_armyhat/Gallia_armyhat_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Textures/Apparel/Gallia_armyhat/Gallia_armyhat_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/Textures/Apparel/Gallia_armyhat/Gallia_armyhat_north.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2w9J39xv8EjbrObtdLOQ5FwJUhP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8972880-b78b-4c5d-becb-62db76c01ca7" name="Default Changelist" comment="" />
+      <created>1745447654521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745447654521</updated>
+      <workItem from="1745447656366" duration="653000" />
+      <workItem from="1745455248631" duration="606000" />
+      <workItem from="1745479750450" duration="1219000" />
+      <workItem from="1745582133675" duration="67000" />
+      <workItem from="1745732751857" duration="3370000" />
+      <workItem from="1745740228286" duration="1729000" />
+      <workItem from="1746506609166" duration="1030000" />
+      <workItem from="1746516909721" duration="246000" />
+      <workItem from="1746602038822" duration="5000" />
+      <workItem from="1752308854778" duration="468000" />
+      <workItem from="1752908376608" duration="4000" />
+      <workItem from="1752908670868" duration="22000" />
+      <workItem from="1752908698827" duration="75000" />
+      <workItem from="1752909765511" duration="97000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

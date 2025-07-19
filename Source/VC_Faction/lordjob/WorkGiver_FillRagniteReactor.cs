@@ -82,7 +82,7 @@ namespace VC_Faction
             Pawn pawn2 = (Pawn)null;
             if (corpse != null)
                 pawn2 = corpse.InnerPawn;
-            return this.def.fixedBillGiverDefs != null && this.def.fixedBillGiverDefs.Contains(thing.def) || pawn1 != null && (this.def.billGiversAllHumanlikes && pawn1.RaceProps.Humanlike || this.def.billGiversAllMechanoids && pawn1.RaceProps.IsMechanoid || this.def.billGiversAllAnimals && pawn1.IsNonMutantAnimal) || corpse != null && pawn2 != null && (this.def.billGiversAllHumanlikesCorpses && pawn2.RaceProps.Humanlike || this.def.billGiversAllMechanoidsCorpses && pawn2.RaceProps.IsMechanoid || this.def.billGiversAllAnimalsCorpses && pawn2.IsNonMutantAnimal);
+            return this.def.fixedBillGiverDefs != null && this.def.fixedBillGiverDefs.Contains(thing.def) || pawn1 != null && (this.def.billGiversAllHumanlikes && pawn1.RaceProps.Humanlike || this.def.billGiversAllMechanoids && pawn1.RaceProps.IsMechanoid || this.def.billGiversAllAnimals) || corpse != null && pawn2 != null && (this.def.billGiversAllHumanlikesCorpses && pawn2.RaceProps.Humanlike || this.def.billGiversAllMechanoidsCorpses && pawn2.RaceProps.IsMechanoid || this.def.billGiversAllAnimalsCorpses);
         }
         public override Job JobOnThing(Pawn pawn, Thing thing, bool forced = false)
         {

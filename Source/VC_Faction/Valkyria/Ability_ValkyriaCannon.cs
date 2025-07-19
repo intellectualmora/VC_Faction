@@ -30,17 +30,17 @@ namespace Valkyria
         {
 
         }
-        public override bool CanCast
+        public override AcceptanceReport CanCast
         {
             get
             {
-                bool canCast = base.CanCast;
+                AcceptanceReport canCast = base.CanCast;
                 foreach (var hediff in pawn.health.hediffSet.hediffs)
                 {
                     if (canCast && hediff.def.defName == "ValkyriaAwaken")
-                        return true;
+                        return (AcceptanceReport) true;
                 }
-                return false;
+                return (AcceptanceReport) false;
             }
         }
         

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\vc_faction\\source\\vc_faction\\def\\missionkinddef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:def\\missionkinddef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\building_turretgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\building_turretgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\compproperties_abilityeffect_deploymortar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\compproperties_abilityeffect_deploymortar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\vc_faction\\source\\vc_faction\\def\\missionkinddef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:def\\missionkinddef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\compapparelability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,32 +98,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MissionKindDef.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\def\\MissionKindDef.cs",
               "RelativeDocumentMoniker": "def\\MissionKindDef.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\def\\MissionKindDef.cs",
               "RelativeToolTip": "def\\MissionKindDef.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvxgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T07:04:10.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CompProperties_AbilityEffect_DeployMortar.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
               "RelativeDocumentMoniker": "thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
               "RelativeToolTip": "thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T17:49:54.023Z"
+              "WhenOpened": "2025-05-27T17:49:54.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -163,15 +164,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Building_TurretGun.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Building_TurretGun.cs",
               "RelativeDocumentMoniker": "thing\\portablemortar\\Building_TurretGun.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Building_TurretGun.cs",
               "RelativeToolTip": "thing\\portablemortar\\Building_TurretGun.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvy0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T05:58:07.268Z"
+              "WhenOpened": "2025-05-27T05:58:07.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

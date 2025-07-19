@@ -19,7 +19,7 @@ namespace VC_Faction
             Scribe_Values.Look<int>(ref this.ticksToDetonation, "ticksToDetonation");
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             if (this.exposeCount <= 0)

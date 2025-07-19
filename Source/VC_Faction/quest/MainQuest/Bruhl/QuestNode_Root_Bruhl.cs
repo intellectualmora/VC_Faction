@@ -35,7 +35,7 @@ namespace VC_Faction
             float num = slate.Get<float>("points");
             if ((double)num < 100.0)
                 num = 100f;
-            int tile;
+            PlanetTile tile;
             this.TryFindSiteTile(out tile);
             Faction faction1 = Find.FactionManager.FirstFactionOfDef(FactionDefOf.VC_Gallia);
             slate.Set<Faction>("faction", faction1);
@@ -104,6 +104,6 @@ namespace VC_Faction
 
         }
 
-        private bool TryFindSiteTile(out int tile) => TileFinder.TryFindNewSiteTile(out tile, 3, 9);
+        private bool TryFindSiteTile(out PlanetTile tile) => TileFinder.TryFindNewSiteTile(out tile, 3, 9);
     }
 }

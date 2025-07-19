@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<WorkGiverDef>
+    <defName>FillRagniteReactor</defName>
+    <label>fill ragnite reactor</label>
+    <giverClass>VC_Faction.WorkGiver_FillRagniteReactor</giverClass>
+    <workType>Hauling</workType>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+    <priorityInType>19</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>true</canBeDoneByMechs>
+    <fixedBillGiverDefs>
+      <li>VC_RagniteReactor</li>
+    </fixedBillGiverDefs>
+    <directOrderable>true</directOrderable>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>FillRagniteReactorHulk</defName>
+    <label>fill ragnite reactor</label>
+    <giverClass>VC_Faction.WorkGiver_FillRagniteReactor</giverClass>
+    <workType>Hauling</workType>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+    <priorityInType>19</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>true</canBeDoneByMechs>
+    <fixedBillGiverDefs>
+      <li>VC_RagniteReactor</li>
+    </fixedBillGiverDefs>
+    <directOrderable>true</directOrderable>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>TakeLiquidRagniteOutOfReactor</defName>
+    <label>take Liquid Ragnite out of fermenting barrels</label>
+    <giverClass>VC_Faction.WorkGiver_TakeLiquidRagniteOutOfReactor</giverClass>
+    <workType>Hauling</workType>
+    <verb>take liquid ragnite</verb>
+    <gerund>taking liquid ragnite from</gerund>
+    <priorityInType>20</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <canBeDoneByMechs>true</canBeDoneByMechs>
+  </WorkGiverDef>
+  
+</Defs>

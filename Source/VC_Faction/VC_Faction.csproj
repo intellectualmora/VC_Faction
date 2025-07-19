@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\1.5\Assemblies\</OutputPath>
+    <OutputPath>..\..\1.6\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -177,17 +177,9 @@
     <Compile Include="Valkyria\CompGlower_Valkyria.cs" />
     <Compile Include="Valkyria\CompProperties_AbilityValkyria.cs" />
     <Compile Include="Valkyria\Gene_Valkyria.cs" />
-    <Compile Include="Valkyria\GenStep_AncientComplex_Valkyria.cs" />
     <Compile Include="Valkyria\HediffCompProperties_Valkyria.cs" />
     <Compile Include="Valkyria\HediffComp_Valkyria.cs" />
-    <Compile Include="Valkyria\LayoutWorkerComplex_Valkyria.cs" />
-    <Compile Include="Valkyria\Patch_SymbolResolver_AncientShrine.cs" />
-    <Compile Include="Valkyria\QuestNode_Root_Loot_AncientComplex_Valkyria.cs" />
-    <Compile Include="Valkyria\SymbolResolver_AncientComplex_Valkyria.cs" />
     <Compile Include="Valkyria\ValkyriaKindDefOf.cs" />
-    <Compile Include="Valkyria\ValkyriaLayoutDefOf.cs" />
-    <Compile Include="Valkyria\ValkyriaQuestScriptDefOf.cs" />
-    <Compile Include="Valkyria\ValkyriaSitePartDefOf.cs" />
     <Compile Include="Valkyria\ValkyriaThingDefOf.cs" />
     <Compile Include="windows\Dialog_Talk.cs" />
     <Compile Include="windows\RadioWindowDrawing.cs" />

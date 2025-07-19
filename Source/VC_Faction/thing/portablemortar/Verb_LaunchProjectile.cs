@@ -167,7 +167,7 @@ namespace VC_Faction
             if (this.verbProps.canGoWild && !Rand.Chance(shotReport.AimOnTargetChance_IgnoringPosture))
             {
                 bool flyOverhead = projectile2?.def?.projectile != null && projectile2.def.projectile.flyOverhead;
-                resultingLine.ChangeDestToMissWild_NewTemp(shotReport.AimOnTargetChance_StandardTarget, flyOverhead, this.caster.Map);
+                resultingLine.ChangeDestToMissWild(shotReport.AimOnTargetChance_StandardTarget, flyOverhead, this.caster.Map);
                 this.ThrowDebugText("ToWild" + (this.canHitNonTargetPawnsNow ? "\nchntp" : ""));
                 this.ThrowDebugText("Wild\nDest", resultingLine.Dest);
                 ProjectileHitFlags hitFlags = ProjectileHitFlags.NonTargetWorld;

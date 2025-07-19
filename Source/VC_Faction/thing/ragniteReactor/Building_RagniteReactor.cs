@@ -63,7 +63,7 @@ namespace VC_Faction
             Scribe_Values.Look<float>(ref this.progressInt, "progress");
         }
 
-        public override void Tick()
+        protected override void Tick()
         {
             base.Tick();
             if (this.Empty)

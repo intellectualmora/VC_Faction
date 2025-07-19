@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\compproperties_abilityeffect_deploymortar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\compproperties_abilityeffect_deploymortar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\vc_faction\\source\\vc_faction\\def\\missionkinddef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:def\\missionkinddef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\building_turretgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\building_turretgun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\compproperties_abilityeffect_deploymortar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\portablemortar\\compproperties_abilityeffect_deploymortar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\compapparelability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:valkyria\\ability_valkyria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\valkyria\\ability_valkyriacannon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:valkyria\\ability_valkyriacannon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\workbench\\compabilityeffect_playsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9361546F-0CF6-4B72-9C85-14B107BBCCD5}|VC_Faction.csproj|solutionrelative:thing\\workbench\\compabilityeffect_playsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -102,44 +98,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MissionKindDef.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\def\\MissionKindDef.cs",
               "RelativeDocumentMoniker": "def\\MissionKindDef.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\def\\MissionKindDef.cs",
               "RelativeToolTip": "def\\MissionKindDef.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvxsAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T07:04:10.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CompApparelAbility.cs",
-              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\CompApparelAbility.cs",
-              "RelativeDocumentMoniker": "thing\\medal\\CompApparelAbility.cs",
-              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\CompApparelAbility.cs",
-              "RelativeToolTip": "thing\\medal\\CompApparelAbility.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:15:28.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CompProperties_AbilityEffect_DeployMortar.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
               "RelativeDocumentMoniker": "thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
               "RelativeToolTip": "thing\\portablemortar\\CompProperties_AbilityEffect_DeployMortar.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T17:49:54.023Z"
+              "WhenOpened": "2025-05-27T17:49:54.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -179,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Building_TurretGun.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\portablemortar\\Building_TurretGun.cs",
               "RelativeDocumentMoniker": "thing\\portablemortar\\Building_TurretGun.cs",
@@ -200,6 +185,18 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T04:34:32.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompApparelAbility.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\CompApparelAbility.cs",
+              "RelativeDocumentMoniker": "thing\\medal\\CompApparelAbility.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\medal\\CompApparelAbility.cs",
+              "RelativeToolTip": "thing\\medal\\CompApparelAbility.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T18:15:28.657Z"
             },
             {
               "$type": "Document",
@@ -360,18 +357,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Ability_ValkyriaCannon.cs",
-              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\Ability_ValkyriaCannon.cs",
-              "RelativeDocumentMoniker": "Valkyria\\Ability_ValkyriaCannon.cs",
-              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\Valkyria\\Ability_ValkyriaCannon.cs",
-              "RelativeToolTip": "Valkyria\\Ability_ValkyriaCannon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T11:10:41.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "CompAbilityEffect_PlaySound.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\VC_Faction\\Source\\VC_Faction\\thing\\workbench\\CompAbilityEffect_PlaySound.cs",
               "RelativeDocumentMoniker": "thing\\workbench\\CompAbilityEffect_PlaySound.cs",

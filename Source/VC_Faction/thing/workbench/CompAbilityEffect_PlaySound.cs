@@ -21,6 +21,7 @@ namespace VC_Faction
     IHaulEnroute,
     ILoadReferenceable
     {
+
         public override void ExposeData()
         {
             base.ExposeData();
@@ -123,6 +124,8 @@ namespace VC_Faction
         public string GroupingLabel => this.def.building.groupingLabel;
 
         public int GroupingOrder => this.def.building.groupingOrder;
+
+        public bool HaulDestinationEnabled => true;
 
         public bool Accepts(Thing t) => this.GetStoreSettings().AllowedToAccept(t);
 

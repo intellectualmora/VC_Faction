@@ -30,19 +30,19 @@ namespace Valkyria
         {
 
         }
-        public override bool CanCast
+        public override AcceptanceReport CanCast
         {
             get
             {
-                bool canCast = base.CanCast;
+                AcceptanceReport canCast = base.CanCast;
                 foreach (var thing in pawn.equipment.AllEquipmentListForReading)
                 {
                     if (canCast && thing.def.defName.Contains("Spear_Valkyria") && pawn.gender == Gender.Female)
                     {
-                        return true;
+                        return (AcceptanceReport)true;
                     }
                 }
-                return false;
+                return (AcceptanceReport) false;
             }
         }
 

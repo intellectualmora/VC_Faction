@@ -37,7 +37,7 @@ namespace VC_Faction
             base.PostPostMake();
         }
 
-        public override void PostDeSpawn(Map map) => this.sustainer?.End();
+        public override void PostDeSpawn(Map map,DestroyMode mode = DestroyMode.Vanish) => this.sustainer?.End();
 
 
         public override void CompTick()
